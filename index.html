@@ -33,7 +33,6 @@
             padding-bottom: 60px;
         }
 
-        /* Sticky Top Navigation / Dashboard */
         .app-header {
             position: sticky;
             top: 0;
@@ -76,7 +75,6 @@
             gap: 8px;
         }
 
-        /* Hotel Stats Cards */
         .hotel-stats {
             display: flex;
             gap: 12px;
@@ -98,7 +96,6 @@
         .stat-arr { color: var(--impact-low); }
         .stat-dep { color: var(--impact-med); }
 
-        /* Vertical Timeline (Today) */
         .timeline { display: flex; flex-direction: column; gap: 16px; position: relative; }
         
         .event-card {
@@ -121,7 +118,6 @@
         .phase-time { font-family: monospace; font-size: 0.9rem; }
         .impact-indicator { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
 
-        /* Full Calendar Section */
         .calendar-controls { margin: 30px 0 10px; text-align: center; }
         .btn-toggle {
             background: var(--bg-surface-elevated); color: var(--text-primary); border: 1px solid var(--border-subtle);
@@ -188,8 +184,7 @@
             <p>No major events downtown today.</p>
         </div>
 
-        <div id="timeline" class="timeline hidden">
-            </div>
+        <div id="timeline" class="timeline hidden"></div>
 
         <div class="calendar-controls">
             <button class="btn-toggle" onclick="toggleCalendar()" id="calendar-btn">
@@ -198,8 +193,7 @@
             </button>
         </div>
 
-        <div id="full-calendar" class="full-calendar-container hidden">
-            </div>
+        <div id="full-calendar" class="full-calendar-container hidden"></div>
     </div>
 
     <script>
@@ -218,8 +212,9 @@
         }
 
         function parseTimeToHours(timeStr) {
+            if (!timeStr || timeStr.includes("TBA")) return 999; // TBA always at the bottom
             const match = timeStr.match(/(\d+):(\d+)\s*(AM|PM)/i);
-            if (!match) return 0;
+            if (!match) return 999;
             let hours = parseInt(match[1]);
             const mins = parseInt(match[2]);
             const period = match[3].toUpperCase();
@@ -294,6 +289,14 @@
                     event.sortTime = parseTimeToHours(event.time);
                     event.dateObj = eventDate;
                     
+                    // Pre-calculate max impact for sorting
+                    event.maxImpact = 1;
+                    if (event.impact_timeline && !event.impact_timeline.error) {
+                        const arr = event.impact_timeline.arrival_rush ? event.impact_timeline.arrival_rush.impact : 0;
+                        const dep = event.impact_timeline.departure_rush ? event.impact_timeline.departure_rush.impact : 0;
+                        event.maxImpact = Math.max(arr, dep);
+                    }
+                    
                     if (eventDate.toDateString() === todayString) {
                         eventsToday.push(event);
                     } else if (eventDate > todayMidnight) {
@@ -301,7 +304,7 @@
                     }
                 });
 
-                // Inject Hotel Traffic as Synthesized Events for Today
+                // Inject Hotel Traffic Today
                 if (hotelData[todayIsoStr]) {
                     const arrCount = parseInt(hotelData[todayIsoStr].arrivals) || 0;
                     const depCount = parseInt(hotelData[todayIsoStr].departures) || 0;
@@ -314,9 +317,8 @@
                             time: "6:00 AM - 1:00 PM",
                             date: todayString,
                             sortTime: 6.0,
-                            impact_timeline: {
-                                departure_rush: { window: "6:00 AM - 1:00 PM", impact: depImpact }
-                            }
+                            maxImpact: depImpact,
+                            impact_timeline: { departure_rush: { window: "6:00 AM - 1:00 PM", impact: depImpact } }
                         });
                     }
 
@@ -328,14 +330,16 @@
                             time: "3:00 PM - 8:30 PM",
                             date: todayString,
                             sortTime: 16.0,
-                            impact_timeline: {
-                                arrival_rush: { window: "3:00 PM - 8:30 PM", impact: arrImpact }
-                            }
+                            maxImpact: arrImpact,
+                            impact_timeline: { arrival_rush: { window: "3:00 PM - 8:30 PM", impact: arrImpact } }
                         });
                     }
                 }
 
-                eventsToday.sort((a, b) => a.sortTime - b.sortTime);
+                // SORTING TODAY: Impact (high to low) then Chronological (early to late)
+                eventsToday.sort((a, b) => b.maxImpact - a.maxImpact || a.sortTime - b.sortTime);
+                
+                // Sorting Future: Chronological primarily
                 eventsFuture.sort((a, b) => {
                     if (a.dateObj.getTime() !== b.dateObj.getTime()) return a.dateObj - b.dateObj;
                     return a.sortTime - b.sortTime;
@@ -349,7 +353,6 @@
                     eventsToday.forEach(event => {
                         let phasesHTML = '';
                         if (event.impact_timeline && !event.impact_timeline.error) {
-                            // Dynamically label the phases so hotel events look natural
                             const phaseData = [
                                 { key: 'arrival_rush', name: event.venue.includes('Trilogy') ? 'Expected Arrival Rush' : 'Arrival Rush' },
                                 { key: 'departure_rush', name: event.venue.includes('Trilogy') ? 'Expected Departure Rush' : 'Departure Rush' }
@@ -421,12 +424,7 @@
                         currentDateHeader = dateStr;
                     }
 
-                    let maxImpact = 1;
-                    if (event.impact_timeline && !event.impact_timeline.error) {
-                        if (event.impact_timeline.departure_rush) maxImpact = Math.max(maxImpact, event.impact_timeline.departure_rush.impact);
-                        if (event.impact_timeline.arrival_rush) maxImpact = Math.max(maxImpact, event.impact_timeline.arrival_rush.impact);
-                    }
-                    const theme = getImpactTheme(maxImpact);
+                    const theme = getImpactTheme(event.maxImpact);
 
                     const card = document.createElement('div');
                     card.className = 'event-card';
@@ -439,7 +437,7 @@
                                     ${event.venue}
                                 </p>
                                 <div class="calendar-impact-pill" style="background: ${theme.bg}; color: ${theme.color};">
-                                    Peak Impact: ${maxImpact}/10
+                                    Peak Impact: ${event.maxImpact}/10
                                 </div>
                             </div>
                             <div class="event-time-main">${event.time}</div>
