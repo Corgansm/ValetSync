@@ -201,44 +201,50 @@ def scrape_big_spring_park(browser):
             print("Note: Time.ly loaded, but no events triggered.")
         
         soup = BeautifulSoup(page.content(), 'html.parser')
-        
-        # Target the exact angular class block provided
         event_cards = soup.select('.timely-tile-event, .timely-event') 
-        print(f"Debug: Found {len(event_cards)} potential cards in Time.ly")
         
+        current_year = datetime.now().year
+
         for card in event_cards:
-            # 1. Grab Title (Targeting the first span to avoid the venue string)
             title_elem = card.select_one('.timely-title-text span')
             title = title_elem.text.strip() if title_elem else card.get('aria-label', '')
             
-            # 2. Grab Venue
             venue_elem = card.select_one('.timely-tile-event-venue')
             raw_venue = venue_elem.text.strip() if venue_elem else ""
             
             if 'big spring' in title.lower() or 'big spring' in raw_venue.lower():
-                # 3. Grab combined Date and Time
                 time_dt_elem = card.select_one('.timely-tile-event-time')
                 raw_time_str = time_dt_elem.text.strip() if time_dt_elem else ""
                 
-                # Split "Mon, Feb 23 @ 5:30pm" into distinct variables
+                # Default values
+                date_part = ""
+                time_part = "Time TBA"
+
                 if '@' in raw_time_str:
-                    date_part = raw_time_str.split('@')[0].strip()
-                    time_part = raw_time_str.split('@')[1].strip()
+                    # Example: "Mon, Feb 23 @ 5:30pm"
+                    parts = raw_time_str.split('@')
+                    raw_date = parts[0].strip() # "Mon, Feb 23"
+                    time_part = parts[1].strip() # "5:30pm"
+                    
+                    # FIX: Remove "Mon, " and add ", 2026"
+                    # We split by comma and take the last part to get "Feb 23"
+                    if ',' in raw_date:
+                        date_part = f"{raw_date.split(',')[-1].strip()}, {current_year}"
+                    else:
+                        date_part = f"{raw_date}, {current_year}"
                 else:
                     month_elem = card.select_one('.timely-month')
                     day_elem = card.select_one('.timely-day')
-                    date_part = f"{month_elem.text.strip()} {day_elem.text.strip()}" if month_elem and day_elem else "Unknown Date"
-                    time_part = raw_time_str if raw_time_str else "Time TBA"
+                    if month_elem and day_elem:
+                        date_part = f"{month_elem.text.strip()} {day_elem.text.strip()}, {current_year}"
                 
-                # Clean off venue from title if it carried over
                 clean_title = title.split('@')[0].strip()
                 venue = "Big Spring Park"
-                
                 timeline = calculate_temporal_impact(clean_title, venue, time_part)
                 
                 event_data = {
                     "title": clean_title,
-                    "date": date_part,
+                    "date": date_part, # Now returns "Feb 23, 2026"
                     "time": time_part,
                     "venue": venue,
                     "impact_timeline": timeline,
