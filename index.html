@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Downtown Valet Operations</title>
+    <style>
+        :root {
+            --bg-base: #09090b;
+            --bg-surface: #18181b;
+            --bg-surface-elevated: #27272a;
+            --text-primary: #fafafa;
+            --text-secondary: #a1a1aa;
+            --border-subtle: #3f3f46;
+            
+            /* Traffic Lights */
+            --impact-low: #10b981;    
+            --impact-low-bg: rgba(16, 185, 129, 0.15);
+            --impact-med: #f59e0b;    
+            --impact-med-bg: rgba(245, 158, 11, 0.15);
+            --impact-high: #ef4444;   
+            --impact-high-bg: rgba(239, 68, 68, 0.15);
+        }
+
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            padding-bottom: 60px;
+        }
+
+        /* Sticky Top Navigation / Dashboard */
+        .app-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(24, 24, 27, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-time h1 { margin: 0; font-size: 1.25rem; font-weight: 700; letter-spacing: -0.5px; }
+        .header-time p { margin: 2px 0 0; font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; }
+
+        .live-impact { display: flex; flex-direction: column; align-items: flex-end; }
+        .live-impact span { font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 700; }
+        .impact-badge-large {
+            margin-top: 4px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            transition: all 0.3s ease;
+        }
+
+        .container { padding: 20px; max-width: 600px; margin: 0 auto; }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 10px 0 16px;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Hotel Stats Cards */
+        .hotel-stats {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .stat-box {
+            flex: 1;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .stat-label { font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 700; letter-spacing: 1px; }
+        .stat-value { font-size: 2rem; font-weight: 800; margin-top: 4px; }
+        .stat-arr { color: var(--impact-low); }
+        .stat-dep { color: var(--impact-med); }
+
+        /* Vertical Timeline (Today) */
+        .timeline { display: flex; flex-direction: column; gap: 16px; position: relative; }
+        
+        .event-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 16px;
+            position: relative;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .event-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; gap: 10px; }
+        .event-title { margin: 0; font-size: 1.1rem; font-weight: 600; line-height: 1.3; }
+        .event-venue { margin: 6px 0 0; font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; gap: 4px; }
+        .event-time-main { font-size: 0.85rem; font-weight: 700; color: var(--text-primary); background: var(--bg-surface-elevated); padding: 6px 10px; border-radius: 8px; white-space: nowrap; }
+
+        .phases-container { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-subtle); }
+        .phase-row { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; padding: 8px 12px; border-radius: 8px; }
+        .phase-name { font-weight: 600; }
+        .phase-time { font-family: monospace; font-size: 0.9rem; }
+        .impact-indicator { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+
+        /* Full Calendar Section */
+        .calendar-controls { margin: 30px 0 10px; text-align: center; }
+        .btn-toggle {
+            background: var(--bg-surface-elevated); color: var(--text-primary); border: 1px solid var(--border-subtle);
+            padding: 14px 24px; border-radius: 30px; font-size: 1rem; font-weight: 600; cursor: pointer;
+            width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px;
+            transition: background 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .btn-toggle:active { background: var(--border-subtle); }
+
+        .full-calendar-container { margin-top: 20px; display: flex; flex-direction: column; gap: 16px; }
+        .calendar-date-header {
+            font-size: 0.95rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase;
+            letter-spacing: 1px; margin: 16px 0 4px; padding-bottom: 4px; border-bottom: 1px solid var(--border-subtle);
+            display: flex; justify-content: space-between;
+        }
+        .header-hotel-stats { color: var(--text-primary); font-size: 0.8rem; }
+        .calendar-impact-pill { font-size: 0.75rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; margin-top: 8px; display: inline-block; }
+
+        .loading, .empty-state { text-align: center; padding: 40px 20px; color: var(--text-secondary); background: var(--bg-surface); border-radius: 16px; border: 1px dashed var(--border-subtle); }
+        .spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid var(--border-subtle); border-radius: 50%; border-top-color: var(--impact-low); animation: spin 1s ease-in-out infinite; margin-bottom: 12px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="header-time">
+            <h1 id="clock-time">--:--</h1>
+            <p id="clock-date">Loading...</p>
+        </div>
+        <div class="live-impact">
+            <span>Live Traffic</span>
+            <div id="global-impact-badge" class="impact-badge-large" style="background: var(--border-subtle);">-- / 10</div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <div id="hotel-stats-today" class="hotel-stats hidden">
+            <div class="stat-box">
+                <span class="stat-label">Arrivals</span>
+                <span class="stat-value stat-arr" id="today-arrivals">--</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Departures</span>
+                <span class="stat-value stat-dep" id="today-departures">--</span>
+            </div>
+        </div>
+
+        <h2 class="section-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Today's Events
+        </h2>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <div>Syncing hotel & city schedules...</div>
+        </div>
+
+        <div id="empty-state" class="empty-state hidden">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom:10px; color:var(--text-secondary)"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            <p>No major events downtown today.</p>
+        </div>
+
+        <div id="timeline" class="timeline hidden">
+            </div>
+
+        <div class="calendar-controls">
+            <button class="btn-toggle" onclick="toggleCalendar()" id="calendar-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                View Full Schedule
+            </button>
+        </div>
+
+        <div id="full-calendar" class="full-calendar-container hidden">
+            </div>
+    </div>
+
+    <script>
+        // --- Clock Logic ---
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock-time').innerText = now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+            document.getElementById('clock-date').innerText = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // --- Helper Functions ---
+        function getImpactTheme(score) {
+            if (score >= 8) return { color: 'var(--impact-high)', bg: 'var(--impact-high-bg)', label: 'Heavy' };
+            if (score >= 4) return { color: 'var(--impact-med)', bg: 'var(--impact-med-bg)', label: 'Moderate' };
+            return { color: 'var(--impact-low)', bg: 'var(--impact-low-bg)', label: 'Light' };
+        }
+
+        function parseTimeToHours(timeStr) {
+            const match = timeStr.match(/(\d+):(\d+)\s*(AM|PM)/i);
+            if (!match) return 0;
+            let hours = parseInt(match[1]);
+            const mins = parseInt(match[2]);
+            const period = match[3].toUpperCase();
+            if (period === 'PM' && hours !== 12) hours += 12;
+            if (period === 'AM' && hours === 12) hours = 0;
+            return hours + (mins / 60);
+        }
+
+        function toggleCalendar() {
+            const cal = document.getElementById('full-calendar');
+            const btn = document.getElementById('calendar-btn');
+            if (cal.classList.contains('hidden')) {
+                cal.classList.remove('hidden');
+                btn.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 9V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v4"></path><polyline points="7 14 12 9 17 14"></polyline><line x1="12" y1="9" x2="12" y2="21"></line></svg> Hide Schedule`;
+                window.scrollBy({ top: 150, behavior: 'smooth' });
+            } else {
+                cal.classList.add('hidden');
+                btn.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> View Full Schedule`;
+            }
+        }
+
+        // Generate YYYY-MM-DD string matching local time
+        function getLocalIsoDate(dateObj) {
+            const year = dateObj.getFullYear();
+            const month = String(dateObj.getMonth() + 1).padStart(2, '0');
+            const day = String(dateObj.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        // --- Main Data Fetch ---
+        async function fetchDashboardData() {
+            try {
+                const timestamp = new Date().getTime();
+                
+                // Fetch both JSON files in parallel
+                const [eventsRes, hotelRes] = await Promise.all([
+                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/main/events.json?t=${timestamp}`),
+                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/main/hotel_traffic.json?t=${timestamp}`)
+                ]);
+
+                const events = await eventsRes.json();
+                let hotelData = {};
+                if (hotelRes.ok) {
+                    try { hotelData = await hotelRes.json(); } catch(e) { console.warn("Hotel JSON empty or malformed"); }
+                }
+                
+                document.getElementById('loading').classList.add('hidden');
+                
+                const now = new Date();
+                const todayIsoStr = getLocalIsoDate(now);
+                
+                // --- UPDATE HOTEL STATS (TODAY) ---
+                if (hotelData[todayIsoStr]) {
+                    document.getElementById('today-arrivals').innerText = hotelData[todayIsoStr].arrivals;
+                    document.getElementById('today-departures').innerText = hotelData[todayIsoStr].departures;
+                    document.getElementById('hotel-stats-today').classList.remove('hidden');
+                }
+
+                const timeline = document.getElementById('timeline');
+                const fullCalendar = document.getElementById('full-calendar');
+                const emptyState = document.getElementById('empty-state');
+                timeline.innerHTML = ''; 
+                fullCalendar.innerHTML = '';
+
+                const currentHourFloat = now.getHours() + (now.getMinutes() / 60);
+                const todayMidnight = new Date(now);
+                todayMidnight.setHours(0,0,0,0);
+                const todayString = now.toDateString();
+                
+                let currentGlobalImpact = 1; 
+                let eventsToday = [];
+                let eventsFuture = [];
+
+                // Categorize events
+                events.forEach(event => {
+                    const eventDate = new Date(event.date);
+                    event.sortTime = parseTimeToHours(event.time);
+                    event.dateObj = eventDate;
+                    
+                    if (eventDate.toDateString() === todayString) {
+                        eventsToday.push(event);
+                    } else if (eventDate > todayMidnight) {
+                        eventsFuture.push(event);
+                    }
+                });
+
+                eventsToday.sort((a, b) => a.sortTime - b.sortTime);
+                eventsFuture.sort((a, b) => {
+                    if (a.dateObj.getTime() !== b.dateObj.getTime()) return a.dateObj - b.dateObj;
+                    return a.sortTime - b.sortTime;
+                });
+
+                // --- BUILD TODAY'S VIEW ---
+                if (eventsToday.length === 0) {
+                    emptyState.classList.remove('hidden');
+                } else {
+                    timeline.classList.remove('hidden');
+                    eventsToday.forEach(event => {
+                        let phasesHTML = '';
+                        if (event.impact_timeline && !event.impact_timeline.error) {
+                            const phaseData = [
+                                { key: 'arrival_rush', name: 'Intake Rush' },
+                                { key: 'departure_rush', name: 'Exodus Rush' }
+                            ];
+
+                            phaseData.forEach(p => {
+                                const data = event.impact_timeline[p.key];
+                                if (!data) return;
+
+                                const times = data.window.split(' - ');
+                                const startH = parseTimeToHours(times[0]);
+                                let endH = parseTimeToHours(times[1]);
+                                if (endH < startH) endH += 24; 
+
+                                if (currentHourFloat >= startH && currentHourFloat <= endH) {
+                                    currentGlobalImpact = Math.max(currentGlobalImpact, data.impact);
+                                }
+
+                                const theme = getImpactTheme(data.impact);
+                                phasesHTML += `
+                                    <div class="phase-row" style="background: ${theme.bg}; color: ${theme.color};">
+                                        <span class="phase-name">
+                                            <span class="impact-indicator" style="background:${theme.color};"></span>
+                                            ${p.name}
+                                        </span>
+                                        <span class="phase-time">${data.window}</span>
+                                    </div>
+                                `;
+                            });
+                        }
+
+                        const card = document.createElement('div');
+                        card.className = 'event-card';
+                        card.innerHTML = `
+                            <div class="event-header">
+                                <div>
+                                    <h3 class="event-title">${event.title}</h3>
+                                    <p class="event-venue">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                        ${event.venue}
+                                    </p>
+                                </div>
+                                <div class="event-time-main">${event.time}</div>
+                            </div>
+                            <div class="phases-container">
+                                ${phasesHTML || '<p style="color:var(--text-secondary); font-size:0.85rem; margin:0;">Time TBA</p>'}
+                            </div>
+                        `;
+                        timeline.appendChild(card);
+                    });
+                }
+
+                // --- BUILD FULL CALENDAR ---
+                let currentDateHeader = '';
+                eventsFuture.forEach(event => {
+                    const dateStr = event.dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+                    
+                    if (dateStr !== currentDateHeader) {
+                        // Check if we have hotel stats for this future date
+                        const futureIso = getLocalIsoDate(event.dateObj);
+                        let hotelTag = '';
+                        if (hotelData[futureIso]) {
+                            hotelTag = `<span class="header-hotel-stats">Arr: ${hotelData[futureIso].arrivals} | Dep: ${hotelData[futureIso].departures}</span>`;
+                        }
+
+                        const header = document.createElement('div');
+                        header.className = 'calendar-date-header';
+                        header.innerHTML = `<span>${dateStr}</span> ${hotelTag}`;
+                        fullCalendar.appendChild(header);
+                        currentDateHeader = dateStr;
+                    }
+
+                    let maxImpact = 1;
+                    if (event.impact_timeline && !event.impact_timeline.error) {
+                        if (event.impact_timeline.departure_rush) maxImpact = Math.max(maxImpact, event.impact_timeline.departure_rush.impact);
+                        if (event.impact_timeline.arrival_rush) maxImpact = Math.max(maxImpact, event.impact_timeline.arrival_rush.impact);
+                    }
+                    const theme = getImpactTheme(maxImpact);
+
+                    const card = document.createElement('div');
+                    card.className = 'event-card';
+                    card.innerHTML = `
+                        <div class="event-header" style="margin-bottom:0;">
+                            <div>
+                                <h3 class="event-title">${event.title}</h3>
+                                <p class="event-venue">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    ${event.venue}
+                                </p>
+                                <div class="calendar-impact-pill" style="background: ${theme.bg}; color: ${theme.color};">
+                                    Peak Impact: ${maxImpact}/10
+                                </div>
+                            </div>
+                            <div class="event-time-main">${event.time}</div>
+                        </div>
+                    `;
+                    fullCalendar.appendChild(card);
+                });
+
+                if (eventsFuture.length === 0) {
+                    fullCalendar.innerHTML = `<p style="text-align:center; color:var(--text-secondary); font-style:italic;">No upcoming events scheduled.</p>`;
+                }
+
+                updateGlobalHeader(currentGlobalImpact);
+
+            } catch (error) {
+                console.error("Error:", error);
+                document.getElementById('loading').innerHTML = `<span style="color:var(--impact-high)">Network error. Check internet connection.</span>`;
+            }
+        }
+
+        function updateGlobalHeader(score) {
+            const badge = document.getElementById('global-impact-badge');
+            const theme = getImpactTheme(score);
+            badge.innerText = `${score} / 10`;
+            badge.style.background = theme.color;
+            if (score >= 8) {
+                badge.style.boxShadow = `0 0 20px ${theme.color}`;
+            } else {
+                badge.style.boxShadow = '0 4px 12px rgba(0,0,0,0.5)';
+            }
+        }
+
+        fetchDashboardData();
+        setInterval(fetchDashboardData, 300000); 
+    </script>
+</body>
+</html>
