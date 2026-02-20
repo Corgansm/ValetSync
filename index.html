@@ -245,13 +245,17 @@
 
         async function fetchDashboardData() {
             try {
+                // Generate a timestamp to prevent the browser from caching old data
                 const timestamp = new Date().getTime();
                 
+                // Relative paths pull from the same folder/repo on Vercel or your PC
                 const [eventsRes, hotelRes] = await Promise.all([
-                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/refs/heads/main/events.json?t=${timestamp}`),
-                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/refs/heads/main/hotel_traffic.json?t=${timestamp}`)
+                    fetch(`./events.json?t=${timestamp}`),
+                    fetch(`./hotel_traffic.json?t=${timestamp}`)
                 ]);
 
+                if (!eventsRes.ok) throw new Error('Could not find events.json');
+                
                 const events = await eventsRes.json();
                 let hotelData = {};
                 if (hotelRes.ok) {
@@ -263,6 +267,7 @@
                 const now = new Date();
                 const todayIsoStr = getLocalIsoDate(now);
                 
+                // --- UPDATE HOTEL STATS (TODAY) ---
                 if (hotelData[todayIsoStr]) {
                     document.getElementById('today-arrivals').innerText = hotelData[todayIsoStr].arrivals;
                     document.getElementById('today-departures').innerText = hotelData[todayIsoStr].departures;
@@ -284,6 +289,7 @@
                 let eventsToday = [];
                 let eventsFuture = [];
 
+                // Categorize events
                 events.forEach(event => {
                     const eventDate = new Date(event.date);
                     event.sortTime = parseTimeToHours(event.time);
@@ -306,8 +312,8 @@
 
                 // Inject Hotel Traffic Today
                 if (hotelData[todayIsoStr]) {
-                    const arrCount = parseInt(hotelData[todayIsoStr].arrivals) || 0;
                     const depCount = parseInt(hotelData[todayIsoStr].departures) || 0;
+                    const arrCount = parseInt(hotelData[todayIsoStr].arrivals) || 0;
 
                     if (depCount > 0) {
                         const depImpact = Math.min(10, Math.ceil(depCount / 10));
@@ -336,10 +342,10 @@
                     }
                 }
 
-                // SORTING TODAY: Impact (high to low) then Chronological (early to late)
+                // SORTING TODAY: Impact (high to low) then Chronological
                 eventsToday.sort((a, b) => b.maxImpact - a.maxImpact || a.sortTime - b.sortTime);
-                
-                // Sorting Future: Chronological primarily
+
+                // SORTING FUTURE: Chronological
                 eventsFuture.sort((a, b) => {
                     if (a.dateObj.getTime() !== b.dateObj.getTime()) return a.dateObj - b.dateObj;
                     return a.sortTime - b.sortTime;
@@ -361,16 +367,13 @@
                             phaseData.forEach(p => {
                                 const data = event.impact_timeline[p.key];
                                 if (!data) return;
-
                                 const times = data.window.split(' - ');
                                 const startH = parseTimeToHours(times[0]);
                                 let endH = parseTimeToHours(times[1]);
                                 if (endH < startH) endH += 24; 
-
                                 if (currentHourFloat >= startH && currentHourFloat <= endH) {
                                     currentGlobalImpact = Math.max(currentGlobalImpact, data.impact);
                                 }
-
                                 const theme = getImpactTheme(data.impact);
                                 phasesHTML += `
                                     <div class="phase-row" style="background: ${theme.bg}; color: ${theme.color};">
@@ -379,8 +382,7 @@
                                             ${p.name}
                                         </span>
                                         <span class="phase-time">${data.window}</span>
-                                    </div>
-                                `;
+                                    </div>`;
                             });
                         }
 
@@ -390,71 +392,48 @@
                             <div class="event-header">
                                 <div>
                                     <h3 class="event-title">${event.title}</h3>
-                                    <p class="event-venue">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                                        ${event.venue}
-                                    </p>
+                                    <p class="event-venue">${event.venue}</p>
                                 </div>
                                 <div class="event-time-main">${event.time}</div>
                             </div>
-                            <div class="phases-container">
-                                ${phasesHTML || '<p style="color:var(--text-secondary); font-size:0.85rem; margin:0;">Time TBA</p>'}
-                            </div>
-                        `;
+                            <div class="phases-container">${phasesHTML || 'Time TBA'}</div>`;
                         timeline.appendChild(card);
                     });
                 }
 
-                // BUILD FULL CALENDAR
+                // BUILD CALENDAR
                 let currentDateHeader = '';
                 eventsFuture.forEach(event => {
                     const dateStr = event.dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
-                    
                     if (dateStr !== currentDateHeader) {
                         const futureIso = getLocalIsoDate(event.dateObj);
-                        let hotelTag = '';
-                        if (hotelData[futureIso]) {
-                            hotelTag = `<span class="header-hotel-stats">Arr: ${hotelData[futureIso].arrivals} | Dep: ${hotelData[futureIso].departures}</span>`;
-                        }
-
+                        let hotelTag = hotelData[futureIso] ? `<span class="header-hotel-stats">Arr: ${hotelData[futureIso].arrivals} | Dep: ${hotelData[futureIso].departures}</span>` : '';
                         const header = document.createElement('div');
                         header.className = 'calendar-date-header';
                         header.innerHTML = `<span>${dateStr}</span> ${hotelTag}`;
                         fullCalendar.appendChild(header);
                         currentDateHeader = dateStr;
                     }
-
-                    const theme = getImpactTheme(event.maxImpact);
-
                     const card = document.createElement('div');
                     card.className = 'event-card';
+                    const theme = getImpactTheme(event.maxImpact);
                     card.innerHTML = `
                         <div class="event-header" style="margin-bottom:0;">
                             <div>
                                 <h3 class="event-title">${event.title}</h3>
-                                <p class="event-venue">
-                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                                    ${event.venue}
-                                </p>
-                                <div class="calendar-impact-pill" style="background: ${theme.bg}; color: ${theme.color};">
-                                    Peak Impact: ${event.maxImpact}/10
-                                </div>
+                                <p class="event-venue">${event.venue}</p>
+                                <div class="calendar-impact-pill" style="background: ${theme.bg}; color: ${theme.color};">Peak Impact: ${event.maxImpact}/10</div>
                             </div>
                             <div class="event-time-main">${event.time}</div>
-                        </div>
-                    `;
+                        </div>`;
                     fullCalendar.appendChild(card);
                 });
-
-                if (eventsFuture.length === 0) {
-                    fullCalendar.innerHTML = `<p style="text-align:center; color:var(--text-secondary); font-style:italic;">No upcoming events scheduled.</p>`;
-                }
 
                 updateGlobalHeader(currentGlobalImpact);
 
             } catch (error) {
                 console.error("Error:", error);
-                document.getElementById('loading').innerHTML = `<span style="color:var(--impact-high)">Network error. Check internet connection.</span>`;
+                document.getElementById('loading').innerHTML = `Network error. Check JSON files.`;
             }
         }
 
