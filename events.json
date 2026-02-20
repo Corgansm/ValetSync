@@ -1,16 +1,5 @@
 [
     {
-        "title": "HSO presents Young People's Concert",
-        "date": "Dates vary between February 19, 2026 - February 20, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 3
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Electric Avenue: The 80s MTV Experience",
         "date": "February 20, 2026",
         "time": "Starting: 7:30 PM",
@@ -34,6 +23,17 @@
     {
         "title": "Fanfare Quilt Show",
         "date": "Dates vary between February 20, 2026 - February 21, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 3
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "HSO presents Young People's Concert",
+        "date": "Dates vary between February 19, 2026 - February 20, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
