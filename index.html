@@ -164,18 +164,18 @@
         
         <div id="hotel-stats-today" class="hotel-stats hidden">
             <div class="stat-box">
-                <span class="stat-label">Arrivals</span>
+                <span class="stat-label">Arr</span>
                 <span class="stat-value stat-arr" id="today-arrivals">--</span>
             </div>
             <div class="stat-box">
-                <span class="stat-label">Departures</span>
+                <span class="stat-label">Dep</span>
                 <span class="stat-value stat-dep" id="today-departures">--</span>
             </div>
         </div>
 
         <h2 class="section-title">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-            Today's Events
+            Valet Expectations
         </h2>
 
         <div id="loading" class="loading">
@@ -203,7 +203,6 @@
     </div>
 
     <script>
-        // --- Clock Logic ---
         function updateClock() {
             const now = new Date();
             document.getElementById('clock-time').innerText = now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
@@ -212,7 +211,6 @@
         setInterval(updateClock, 1000);
         updateClock();
 
-        // --- Helper Functions ---
         function getImpactTheme(score) {
             if (score >= 8) return { color: 'var(--impact-high)', bg: 'var(--impact-high-bg)', label: 'Heavy' };
             if (score >= 4) return { color: 'var(--impact-med)', bg: 'var(--impact-med-bg)', label: 'Moderate' };
@@ -243,7 +241,6 @@
             }
         }
 
-        // Generate YYYY-MM-DD string matching local time
         function getLocalIsoDate(dateObj) {
             const year = dateObj.getFullYear();
             const month = String(dateObj.getMonth() + 1).padStart(2, '0');
@@ -251,15 +248,13 @@
             return `${year}-${month}-${day}`;
         }
 
-        // --- Main Data Fetch ---
         async function fetchDashboardData() {
             try {
                 const timestamp = new Date().getTime();
                 
-                // Fetch both JSON files in parallel
                 const [eventsRes, hotelRes] = await Promise.all([
-                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/main/events.json?t=${timestamp}`),
-                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/main/hotel_traffic.json?t=${timestamp}`)
+                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/refs/heads/main/events.json?t=${timestamp}`),
+                    fetch(`https://raw.githubusercontent.com/Corgansm/VBC-Events/refs/heads/main/hotel_traffic.json?t=${timestamp}`)
                 ]);
 
                 const events = await eventsRes.json();
@@ -273,7 +268,6 @@
                 const now = new Date();
                 const todayIsoStr = getLocalIsoDate(now);
                 
-                // --- UPDATE HOTEL STATS (TODAY) ---
                 if (hotelData[todayIsoStr]) {
                     document.getElementById('today-arrivals').innerText = hotelData[todayIsoStr].arrivals;
                     document.getElementById('today-departures').innerText = hotelData[todayIsoStr].departures;
@@ -295,7 +289,6 @@
                 let eventsToday = [];
                 let eventsFuture = [];
 
-                // Categorize events
                 events.forEach(event => {
                     const eventDate = new Date(event.date);
                     event.sortTime = parseTimeToHours(event.time);
@@ -308,13 +301,47 @@
                     }
                 });
 
+                // Inject Hotel Traffic as Synthesized Events for Today
+                if (hotelData[todayIsoStr]) {
+                    const arrCount = parseInt(hotelData[todayIsoStr].arrivals) || 0;
+                    const depCount = parseInt(hotelData[todayIsoStr].departures) || 0;
+
+                    if (depCount > 0) {
+                        const depImpact = Math.min(10, Math.ceil(depCount / 10));
+                        eventsToday.push({
+                            title: `Hotel Check-outs (${depCount} cars)`,
+                            venue: "Trilogy Hotel Huntsville",
+                            time: "6:00 AM - 1:00 PM",
+                            date: todayString,
+                            sortTime: 6.0,
+                            impact_timeline: {
+                                departure_rush: { window: "6:00 AM - 1:00 PM", impact: depImpact }
+                            }
+                        });
+                    }
+
+                    if (arrCount > 0) {
+                        const arrImpact = Math.min(10, Math.ceil(arrCount / 10));
+                        eventsToday.push({
+                            title: `Hotel Check-ins (${arrCount} cars)`,
+                            venue: "Trilogy Hotel Huntsville",
+                            time: "4:00 PM - 8:30 PM",
+                            date: todayString,
+                            sortTime: 16.0,
+                            impact_timeline: {
+                                arrival_rush: { window: "4:00 PM - 8:30 PM", impact: arrImpact }
+                            }
+                        });
+                    }
+                }
+
                 eventsToday.sort((a, b) => a.sortTime - b.sortTime);
                 eventsFuture.sort((a, b) => {
                     if (a.dateObj.getTime() !== b.dateObj.getTime()) return a.dateObj - b.dateObj;
                     return a.sortTime - b.sortTime;
                 });
 
-                // --- BUILD TODAY'S VIEW ---
+                // BUILD TODAY'S VIEW
                 if (eventsToday.length === 0) {
                     emptyState.classList.remove('hidden');
                 } else {
@@ -322,9 +349,10 @@
                     eventsToday.forEach(event => {
                         let phasesHTML = '';
                         if (event.impact_timeline && !event.impact_timeline.error) {
+                            // Dynamically label the phases so hotel events look natural
                             const phaseData = [
-                                { key: 'arrival_rush', name: 'Intake Rush' },
-                                { key: 'departure_rush', name: 'Exodus Rush' }
+                                { key: 'arrival_rush', name: event.venue.includes('Trilogy') ? 'Active Window' : 'Intake Rush' },
+                                { key: 'departure_rush', name: event.venue.includes('Trilogy') ? 'Active Window' : 'Exodus Rush' }
                             ];
 
                             phaseData.forEach(p => {
@@ -374,13 +402,12 @@
                     });
                 }
 
-                // --- BUILD FULL CALENDAR ---
+                // BUILD FULL CALENDAR
                 let currentDateHeader = '';
                 eventsFuture.forEach(event => {
                     const dateStr = event.dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
                     
                     if (dateStr !== currentDateHeader) {
-                        // Check if we have hotel stats for this future date
                         const futureIso = getLocalIsoDate(event.dateObj);
                         let hotelTag = '';
                         if (hotelData[futureIso]) {
