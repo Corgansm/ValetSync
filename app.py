@@ -21,8 +21,6 @@ def calculate_temporal_impact(title, venue, time_str):
     title = title.lower()
     venue = venue.lower()
     
-    # 1. Base Peak Capacity Score
-    # Parades and Panoply automatically trigger a Level 10 impact
     if 'propst' in venue or 'havoc' in title or 'parade' in title or 'panoply' in title:
         max_impact = 10
     elif 'concert hall' in venue or 'mark c' in venue:
@@ -32,11 +30,10 @@ def calculate_temporal_impact(title, venue, time_str):
     elif 'hall' in venue or 'convention' in venue:
         max_impact = 4
     elif 'big spring' in venue or 'park' in venue:
-        max_impact = 4 # Reduced impact for standard park events
+        max_impact = 4 
     else:
         max_impact = 3
         
-    # 2. Estimate Event Duration
     if 'panoply' in title:
         duration_hours = 8.0 
     elif 'parade' in title:
@@ -77,9 +74,6 @@ def calculate_temporal_impact(title, venue, time_str):
         }
     }
 
-# ==========================================
-# SCRAPER 1: Von Braun Center
-# ==========================================
 def scrape_vbc(browser):
     events = []
     print("Fetching VBC schedule...")
@@ -134,15 +128,12 @@ def scrape_vbc(browser):
         print(f"Error scraping VBC: {e}")
     return events
 
-# ==========================================
-# SCRAPER 2: Huntsville CVB (Parades/Panoply)
-# ==========================================
 def scrape_huntsville_org(browser):
     events = []
     print("Fetching Huntsville.org events for parades and Panoply...")
     try:
         page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-        page.goto("https://www.huntsville.org/events/", wait_until="networkidle")
+        page.goto("https://www.huntsville.org/events/", wait_until="domcontentloaded", timeout=60000)
         
         while True:
             try:
@@ -152,6 +143,7 @@ def scrape_huntsville_org(browser):
                 
             soup = BeautifulSoup(page.content(), 'html.parser')
             event_cards = soup.select('.shared-item.item') 
+            print(f"Debug: Found {len(event_cards)} total events on current CVB page.")
             
             for card in event_cards:
                 title_elem = card.select_one('h2 a')
@@ -181,13 +173,13 @@ def scrape_huntsville_org(browser):
                         "source": "Huntsville.org"
                     })
 
-            next_button = page.locator('.pager a').filter(has=page.locator('i.fa-caret-right:only-child')).first
-            if next_button.count() > 0:
-                if "disabled" in (next_button.get_attribute('class') or ""):
+            next_button = page.locator('a', has_text=re.compile(r'Next Page', re.IGNORECASE)).first
+            if next_button.count() > 0 and next_button.is_visible():
+                if "disabled" in (next_button.get_attribute('class') or "").lower():
                     break
                 next_button.click()
-                page.wait_for_timeout(2000)
-                page.wait_for_load_state("networkidle")
+                page.wait_for_timeout(3000)
+                page.wait_for_load_state("domcontentloaded")
             else:
                 break
         page.close()
@@ -195,66 +187,83 @@ def scrape_huntsville_org(browser):
         print(f"Error scraping Huntsville.org: {e}")
     return events
 
-# ==========================================
-# SCRAPER 3: DHI / Big Spring Park (Time.ly Widget)
-# ==========================================
 def scrape_big_spring_park(browser):
     events = []
     print("Fetching DHI events directly from the hidden Time.ly widget...")
     try:
         page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
+        page.goto("https://calendar.time.ly/fuwat0y5/?tags=677452611", wait_until="domcontentloaded")
         
-        # Target the hidden iframe URL
-        page.goto("https://calendar.time.ly/fuwat0y5/?tags=677452611", wait_until="networkidle")
-        page.wait_for_timeout(3000) 
+        try:
+            page.wait_for_selector('.timely-tile-event', timeout=10000)
+            page.wait_for_timeout(3000) 
+        except:
+            print("Note: Time.ly loaded, but no events triggered.")
         
         soup = BeautifulSoup(page.content(), 'html.parser')
         
-        event_cards = soup.select('.timely-event, .timely-list-event, .timely-agenda-event') 
+        # Target the exact angular class block provided
+        event_cards = soup.select('.timely-tile-event, .timely-event') 
+        print(f"Debug: Found {len(event_cards)} potential cards in Time.ly")
         
         for card in event_cards:
-            title_elem = card.select_one('.timely-title, .timely-title-text, .timely-event-title')
-            time_elem = card.select_one('.timely-time, .timely-start-time')
-            date_elem = card.select_one('.timely-date, .timely-start-date')
+            # 1. Grab Title (Targeting the first span to avoid the venue string)
+            title_elem = card.select_one('.timely-title-text span')
+            title = title_elem.text.strip() if title_elem else card.get('aria-label', '')
             
-            if title_elem:
-                title = title_elem.text.strip()
-                venue = "Big Spring Park / Downtown"
+            # 2. Grab Venue
+            venue_elem = card.select_one('.timely-tile-event-venue')
+            raw_venue = venue_elem.text.strip() if venue_elem else ""
+            
+            if 'big spring' in title.lower() or 'big spring' in raw_venue.lower():
+                # 3. Grab combined Date and Time
+                time_dt_elem = card.select_one('.timely-tile-event-time')
+                raw_time_str = time_dt_elem.text.strip() if time_dt_elem else ""
                 
-                time_str = time_elem.text.strip() if time_elem else "Time TBA"
-                date = date_elem.text.strip() if date_elem else "Unknown Date"
+                # Split "Mon, Feb 23 @ 5:30pm" into distinct variables
+                if '@' in raw_time_str:
+                    date_part = raw_time_str.split('@')[0].strip()
+                    time_part = raw_time_str.split('@')[1].strip()
+                else:
+                    month_elem = card.select_one('.timely-month')
+                    day_elem = card.select_one('.timely-day')
+                    date_part = f"{month_elem.text.strip()} {day_elem.text.strip()}" if month_elem and day_elem else "Unknown Date"
+                    time_part = raw_time_str if raw_time_str else "Time TBA"
                 
-                timeline = calculate_temporal_impact(title, venue, time_str)
-                events.append({
-                    "title": title,
-                    "date": date,
-                    "time": time_str,
+                # Clean off venue from title if it carried over
+                clean_title = title.split('@')[0].strip()
+                venue = "Big Spring Park"
+                
+                timeline = calculate_temporal_impact(clean_title, venue, time_part)
+                
+                event_data = {
+                    "title": clean_title,
+                    "date": date_part,
+                    "time": time_part,
                     "venue": venue,
                     "impact_timeline": timeline,
                     "source": "DHI Time.ly Calendar"
-                })
+                }
+                if event_data not in events:
+                    events.append(event_data)
+                        
         page.close()
     except Exception as e:
         print(f"Error scraping Time.ly calendar: {e}")
     return events
 
-# ==========================================
-# MASTER EXECUTION
-# ==========================================
 if __name__ == '__main__':
     all_events = []
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             
-            # Run all scrapers and combine
             all_events.extend(scrape_vbc(browser))
             all_events.extend(scrape_huntsville_org(browser))
             all_events.extend(scrape_big_spring_park(browser))
             
             browser.close()
             
-            # Save to JSON
             with open(JSON_FILE_PATH, 'w', encoding='utf-8') as f:
                 json.dump(all_events, f, indent=4, ensure_ascii=False)
             print(f"Successfully saved {len(all_events)} events to {JSON_FILE_PATH}")
