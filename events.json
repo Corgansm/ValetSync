@@ -1835,5 +1835,26 @@
             }
         },
         "source": "VBC"
+    },
+    {
+        "title": "Weekly Movement Arts Community Meetup",
+        "date": "Mon, Feb 23",
+        "time": "11:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 PM - 11:00 PM",
+                "impact": 3
+            },
+            "during_event": {
+                "window": "11:00 PM - 01:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "01:00 AM - 02:00 AM",
+                "impact": 4
+            }
+        },
+        "source": "DHI Time.ly Calendar"
     }
 ]
