@@ -164,12 +164,12 @@
         
         <div id="hotel-stats-today" class="hotel-stats hidden">
             <div class="stat-box">
-                <span class="stat-label">Arr</span>
-                <span class="stat-value stat-arr" id="today-arrivals">--</span>
+                <span class="stat-label">Departures</span>
+                <span class="stat-value stat-dep" id="today-departures">--</span>
             </div>
             <div class="stat-box">
-                <span class="stat-label">Dep</span>
-                <span class="stat-value stat-dep" id="today-departures">--</span>
+                <span class="stat-label">Arrivals</span>
+                <span class="stat-value stat-arr" id="today-arrivals">--</span>
             </div>
         </div>
 
@@ -351,8 +351,8 @@
                         if (event.impact_timeline && !event.impact_timeline.error) {
                             // Dynamically label the phases so hotel events look natural
                             const phaseData = [
-                                { key: 'arrival_rush', name: event.venue.includes('Trilogy') ? 'Active Window' : 'Intake Rush' },
-                                { key: 'departure_rush', name: event.venue.includes('Trilogy') ? 'Active Window' : 'Exodus Rush' }
+                                { key: 'arrival_rush', name: event.venue.includes('Trilogy') ? 'Expected Arrival Rush' : 'Arrival Rush' },
+                                { key: 'departure_rush', name: event.venue.includes('Trilogy') ? 'Expected Departure Rush' : 'Departure Rush' }
                             ];
 
                             phaseData.forEach(p => {
