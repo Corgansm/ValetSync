@@ -1099,6 +1099,27 @@
         "source": "VBC"
     },
     {
+        "title": "Babypalooza",
+        "date": "April 11, 2026",
+        "time": "From: 10:00 AM to 2:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 3
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "HSO presents Dreams In Flight",
         "date": "April 11, 2026",
         "time": "From: 7:30 PM to 9:30 PM",
