@@ -21,20 +21,27 @@ def calculate_temporal_impact(title, venue, time_str):
     title = title.lower()
     venue = venue.lower()
     
-    if 'propst' in venue or 'havoc' in title:
+    # 1. Base Peak Capacity Score
+    # Parades and Panoply automatically trigger a Level 10 impact
+    if 'propst' in venue or 'havoc' in title or 'parade' in title or 'panoply' in title:
         max_impact = 10
-    elif 'big spring' in venue or 'park' in venue:
-        max_impact = 8 
     elif 'concert hall' in venue or 'mark c' in venue:
         max_impact = 7
     elif 'mars music' in venue:
         max_impact = 6
     elif 'hall' in venue or 'convention' in venue:
         max_impact = 4
+    elif 'big spring' in venue or 'park' in venue:
+        max_impact = 4 # Reduced impact for standard park events
     else:
         max_impact = 3
         
-    if 'havoc' in title:
+    # 2. Estimate Event Duration
+    if 'panoply' in title:
+        duration_hours = 8.0 
+    elif 'parade' in title:
+        duration_hours = 2.0 
+    elif 'havoc' in title:
         duration_hours = 2.5
     elif any(kw in title for kw in ['tour', 'comedy', 'concert', 'live']):
         duration_hours = 3.0
@@ -126,7 +133,7 @@ def scrape_vbc(browser):
 
 def scrape_huntsville_org(browser):
     events = []
-    print("Fetching Huntsville.org events...")
+    print("Fetching Huntsville.org events for parades, Panoply, and park events...")
     try:
         page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
         page.goto("https://www.huntsville.org/events/", wait_until="networkidle")
@@ -149,7 +156,14 @@ def scrape_huntsville_org(browser):
                 venue = location_icon.parent.text.strip() if location_icon and location_icon.parent else "Unknown Venue"
                 title = title_elem.text.strip() if title_elem else "Unknown Event"
                 
-                if 'big spring' in venue.lower() or 'big spring' in title.lower() or 'downtown' in venue.lower():
+                title_lower = title.lower()
+                venue_lower = venue.lower()
+                
+                is_park = 'big spring' in venue_lower or 'big spring' in title_lower
+                is_downtown = 'downtown' in venue_lower
+                is_special = 'parade' in title_lower or 'panoply' in title_lower
+                
+                if is_park or is_downtown or is_special:
                     date = date_elem.text.strip() if date_elem else "Unknown Date"
                     time_str = time_elem.text.strip() if time_elem else "Time TBA"
                     
