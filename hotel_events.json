@@ -5,5 +5,12 @@
         "start_time": "05:00 PM",
         "end_time": "08:00 PM",
         "headcount": 100
+    },
+    {
+        "title": "5/3rd Business Social",
+        "date": "February 25, 2026",
+        "start_time": "04:30 PM",
+        "end_time": "08:00 PM",
+        "headcount": 40
     }
 ]
