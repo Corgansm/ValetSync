@@ -1,1 +1,1 @@
-https://vbc-events-fmajjh0d5-corgansms-projects.vercel.app
+https://valet-sync.vercel.app/
