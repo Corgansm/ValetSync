@@ -107,3 +107,55 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// --- FORM 3: SHIFT NOTES ---
+    const noteForm = document.getElementById('note-form');
+    const noteStatusDiv = document.getElementById('note-form-status');
+    const noteSubmitBtn = document.getElementById('note-submit-btn');
+
+    // Fetch current note to pre-fill the text area (fails silently if file doesn't exist yet)
+    fetch('./shift_note.json?t=' + new Date().getTime())
+        .then(res => res.json())
+        .then(data => {
+            if (data && data.note) {
+                document.getElementById('shift-note-text').value = data.note;
+            }
+        }).catch(e => {});
+
+    noteForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const payload = {
+            pin: document.getElementById('note-pin').value,
+            note: document.getElementById('shift-note-text').value
+        };
+
+        noteSubmitBtn.disabled = true;
+        noteSubmitBtn.innerText = "Posting...";
+        noteStatusDiv.className = "status-message hidden";
+
+        try {
+            const response = await fetch('/api/updateNote', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                noteStatusDiv.innerText = "✅ Note Successfully Posted!";
+                noteStatusDiv.className = "status-message status-success fade-in";
+                // Only clear the PIN so they can still see what they typed
+                document.getElementById('note-pin').value = ''; 
+            } else {
+                throw new Error(result.error || "Submission failed");
+            }
+        } catch (error) {
+            noteStatusDiv.innerText = `❌ Error: ${error.message}`;
+            noteStatusDiv.className = "status-message status-error fade-in";
+        } finally {
+            noteSubmitBtn.disabled = false;
+            noteSubmitBtn.innerText = "Post Note to Dashboard";
+        }
+    });
