@@ -248,3 +248,19 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     transform: scale(0.96);
 }
 /* -------------------------------- */
+
+/* --- FIX FOR IOS INPUT OVERFLOW --- */
+input[type="date"].filter-input, 
+input[type="time"].filter-input {
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-height: 42px; /* Maintains touch-target size */
+}
+
+/* Forces flex containers to allow their children to shrink */
+.form-row .form-group {
+    min-width: 0; 
+}
