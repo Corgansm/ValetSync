@@ -34,7 +34,9 @@ body {
 }
 
 @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+
 @keyframes spin { to { transform: rotate(360deg); } }
+
 @keyframes pulse-live {
     0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.5); }
     70% { box-shadow: 0 0 0 8px rgba(239, 68, 68, 0); }
@@ -56,6 +58,9 @@ body {
     align-items: center;
 }
 
+.logo h2 { font-weight: 800; letter-spacing: -0.5px; }
+.logo .highlight { color: var(--impact-low); }
+
 .nav-links { display: flex; gap: 20px; }
 .nav-item {
     color: var(--text-secondary);
@@ -72,29 +77,6 @@ body {
     background-color: var(--impact-low); transition: width var(--transition-smooth);
 }
 .nav-item.active::after { width: 100%; }
-
-/* --- LOGO STYLES & ANIMATIONS --- */
-.logo, .logo:visited, .logo:active {
-    text-decoration: none !important;
-    color: var(--text-primary) !important;
-    display: inline-block;
-    transition: transform var(--transition-fast);
-    cursor: pointer;
-}
-.logo h2 { 
-    font-weight: 800; 
-    letter-spacing: -0.5px; 
-    margin: 0;
-    color: var(--text-primary) !important; 
-}
-.logo:visited h2 { color: var(--text-primary) !important; }
-.logo .highlight, .logo:visited .highlight { 
-    color: var(--impact-low) !important; 
-    transition: text-shadow var(--transition-fast);
-}
-.logo:hover { transform: scale(1.04); }
-.logo:hover .highlight { text-shadow: 0 0 12px rgba(16, 185, 129, 0.6); }
-.logo:active { transform: scale(0.96); }
 
 /* Glass Panel & Global Status */
 .glass-panel {
@@ -158,10 +140,7 @@ body {
 }
 .btn-toggle:hover, .btn-toggle.active { background: var(--border-subtle); color: var(--text-primary); }
 
-/* Event Grid / List Layouts */
-.event-container { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
-.event-container.list-view { grid-template-columns: 1fr; }
-
+/* Event Grid / List */
 .full-calendar-container { 
     display: grid; 
     gap: 16px; 
@@ -173,12 +152,13 @@ body {
 
 /* Calendar Grouping */
 .calendar-date-header {
-    grid-column: 1 / -1; 
+    grid-column: 1 / -1; /* Crucial for iOS/Grid: Forces date headers to span full width */
     font-size: 0.95rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase;
     margin: 16px 0 4px; padding-bottom: 4px; border-bottom: 1px solid var(--border-subtle); display: flex; justify-content: space-between;
 }
 .header-hotel-stats { color: var(--text-primary); font-size: 0.8rem; }
 .calendar-impact-pill { font-size: 0.75rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; margin-top: 8px; display: inline-block; }
+
 
 /* Cards */
 .event-card {
@@ -205,6 +185,14 @@ body {
 .countdown { font-family: monospace; font-size: 0.85rem; color: var(--impact-med); margin-top: 4px; }
 .badge-live { position: absolute; top: 16px; right: 16px; background: var(--impact-high); color: white; padding: 4px 10px; border-radius: 99px; font-size: 0.75rem; font-weight: 800; animation: pulse-live 2s infinite; }
 
+/* Calendar Grouping */
+.calendar-date-header {
+    font-size: 0.95rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase;
+    margin: 16px 0 4px; padding-bottom: 4px; border-bottom: 1px solid var(--border-subtle); display: flex; justify-content: space-between;
+}
+.header-hotel-stats { color: var(--text-primary); font-size: 0.8rem; }
+.calendar-impact-pill { font-size: 0.75rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; margin-top: 8px; display: inline-block; }
+
 .loading, .empty-state { text-align: center; padding: 40px 20px; color: var(--text-secondary); border-radius: 16px; border: 1px dashed var(--border-subtle); }
 .spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid var(--border-subtle); border-radius: 50%; border-top-color: var(--impact-low); animation: spin 1s ease-in-out infinite; margin-bottom: 12px; }
 .hidden { display: none !important; }
@@ -214,7 +202,7 @@ body {
 .form-group { 
     display: flex; 
     flex-direction: column; 
-    justify-content: flex-end; 
+    justify-content: flex-end; /* This forces the text boxes to anchor to the bottom! */
     gap: 6px; 
 }
 .form-group label { font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; }
@@ -240,21 +228,74 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .status-success { background: var(--impact-low-bg); color: var(--impact-low); border: 1px solid var(--impact-low); }
 .status-error { background: var(--impact-high-bg); color: var(--impact-high); border: 1px solid var(--impact-high); }
 
-/* --- FIX FOR IOS INPUT OVERFLOW & LAYOUT --- */
+/* --- LOGO STYLES & ANIMATIONS --- */
+.logo, .logo:visited, .logo:active {
+    text-decoration: none !important;
+    color: var(--text-primary) !important;
+    display: inline-block;
+    transition: transform var(--transition-fast);
+    cursor: pointer;
+}
+
+.logo h2 { 
+    font-weight: 800; 
+    letter-spacing: -0.5px; 
+    margin: 0;
+    color: var(--text-primary) !important; /* Forces the text to stay white */
+}
+
+.logo:visited h2 {
+    color: var(--text-primary) !important;
+}
+
+.logo .highlight, .logo:visited .highlight { 
+    color: var(--impact-low) !important; /* Forces the "Sync" to stay green */
+    transition: text-shadow var(--transition-fast);
+}
+
+/* Hover effect: Scale up slightly and glow */
+.logo:hover {
+    transform: scale(1.04);
+}
+
+.logo:hover .highlight {
+    text-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
+}
+
+/* Active effect: Push down when clicked/tapped */
+.logo:active {
+    transform: scale(0.96);
+}
+/* -------------------------------- */
+
+/* --- FIX FOR IOS INPUT OVERFLOW --- */
+input[type="date"].filter-input, 
+input[type="time"].filter-input {
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-height: 42px; /* Maintains touch-target size */
+}
+
+/* Forces flex containers to allow their children to shrink */
+.form-row .form-group {
+    min-width: 0; 
+}
+
+/* --- COMPREHENSIVE IOS FORM FIX --- */
+/* Force all inputs to respect the container width */
 .filter-input, .filter-select {
     -webkit-appearance: none;
     appearance: none;
     display: block;
     width: 100%;
     max-width: 100%;
-    box-sizing: border-box; 
+    box-sizing: border-box; /* Extremely important for iOS */
 }
 
-input[type="date"].filter-input, 
-input[type="time"].filter-input {
-    min-height: 42px;
-}
-
+/* Strictly enforce side-by-side layout for rows */
 .form-row {
     display: flex !important;
     flex-direction: row !important;
@@ -263,11 +304,13 @@ input[type="time"].filter-input {
     width: 100%;
 }
 
+/* Allow the halves to shrink and cap at 50% */
 .form-row .form-group {
     flex: 1 1 50%;
     min-width: 0;
 }
 
+/* Allow long labels to stack vertically so they don't stretch the box */
 .form-group label {
     white-space: normal;
     word-wrap: break-word;
@@ -275,38 +318,13 @@ input[type="time"].filter-input {
     display: block;
 }
 
-/* --- SHIFT NOTES UI --- */
-textarea.filter-input {
-    resize: vertical;
-    min-height: 80px;
-    padding: 12px;
-    font-family: inherit;
-    line-height: 1.4;
+/* --- ACTIVE EVENT OVERLAP FIX --- */
+/* Hides the time box specifically when an event is in progress */
+.event-time-main.hide-on-active {
+    display: none !important;
 }
 
-.shift-note-container {
-    background: rgba(245, 158, 11, 0.15);
-    border-left: 4px solid var(--impact-med);
-    border-radius: 0 12px 12px 0;
-    padding: 16px;
-    margin-bottom: 24px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-.shift-note-header {
-    font-size: 0.75rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: var(--impact-med);
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.shift-note-body {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--text-primary);
-    white-space: pre-wrap;
+/* Ensures the ACTIVE badge is layered properly */
+.badge-live {
+    z-index: 10;
 }
