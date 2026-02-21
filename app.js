@@ -252,8 +252,9 @@ const initCalendar = (eventsFuture) => {
     const cal = document.getElementById('full-calendar');
     const searchInput = document.getElementById('search-input');
     const locFilter = document.getElementById('location-filter');
-    const btnGrid = document.getElementById('btn-grid');
-    const btnList = document.getElementById('btn-list');
+    
+    // Lock it into list view by default
+    cal.classList.add('list-view');
 
     const renderCalendar = (filteredEvents) => {
         cal.innerHTML = '';
@@ -268,7 +269,6 @@ const initCalendar = (eventsFuture) => {
             const dateStr = e.startObj.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
             
             if (dateStr !== lastDate) {
-                // Remove header stats for future since they are now individual cards
                 cal.innerHTML += `<div class="calendar-date-header"><span>${dateStr}</span></div>`;
                 lastDate = dateStr;
             }
@@ -303,15 +303,6 @@ const initCalendar = (eventsFuture) => {
 
     searchInput.addEventListener('input', applyFilters);
     locFilter.addEventListener('change', applyFilters);
-
-    btnGrid.addEventListener('click', () => {
-        cal.classList.remove('list-view');
-        btnGrid.classList.add('active'); btnList.classList.remove('active');
-    });
-    btnList.addEventListener('click', () => {
-        cal.classList.add('list-view');
-        btnList.classList.add('active'); btnGrid.classList.remove('active');
-    });
 
     renderCalendar(eventsFuture);
 };
@@ -446,4 +437,5 @@ const bootApp = async () => {
 document.addEventListener('DOMContentLoaded', bootApp);
 
 document.addEventListener('DOMContentLoaded', bootApp);
+
 
