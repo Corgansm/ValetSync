@@ -26,6 +26,9 @@ body {
     padding-bottom: 80px;
 }
 
+/* Global Link Reset */
+a { text-decoration: none; color: inherit; }
+
 /* Animations */
 .fade-in {
     opacity: 0;
@@ -58,8 +61,40 @@ body {
     align-items: center;
 }
 
-.logo h2 { font-weight: 800; letter-spacing: -0.5px; }
-.logo .highlight { color: var(--impact-low); }
+/* --- LOGO STYLES & ANIMATIONS --- */
+.logo {
+    text-decoration: none !important;
+    color: var(--text-primary) !important;
+    display: inline-block;
+    transition: transform var(--transition-fast);
+    cursor: pointer;
+}
+
+.logo h2 { 
+    font-weight: 800; 
+    letter-spacing: -0.5px; 
+    margin: 0;
+}
+
+.logo .highlight { 
+    color: var(--impact-low) !important; 
+    transition: text-shadow var(--transition-fast);
+}
+
+/* Hover effect: Scale up slightly and glow */
+.logo:hover {
+    transform: scale(1.04);
+}
+
+.logo:hover .highlight {
+    text-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
+}
+
+/* Active effect: Push down when clicked/tapped */
+.logo:active {
+    transform: scale(0.96);
+}
+/* -------------------------------- */
 
 .nav-links { display: flex; gap: 20px; }
 .nav-item {
