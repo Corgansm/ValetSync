@@ -208,3 +208,43 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .status-message { text-align: center; padding: 12px; border-radius: 8px; font-weight: 700; font-size: 0.9rem; }
 .status-success { background: var(--impact-low-bg); color: var(--impact-low); border: 1px solid var(--impact-low); }
 .status-error { background: var(--impact-high-bg); color: var(--impact-high); border: 1px solid var(--impact-high); }
+
+/* --- LOGO STYLES & ANIMATIONS --- */
+.logo, .logo:visited, .logo:active {
+    text-decoration: none !important;
+    color: var(--text-primary) !important;
+    display: inline-block;
+    transition: transform var(--transition-fast);
+    cursor: pointer;
+}
+
+.logo h2 { 
+    font-weight: 800; 
+    letter-spacing: -0.5px; 
+    margin: 0;
+    color: var(--text-primary) !important; /* Forces the text to stay white */
+}
+
+.logo:visited h2 {
+    color: var(--text-primary) !important;
+}
+
+.logo .highlight, .logo:visited .highlight { 
+    color: var(--impact-low) !important; /* Forces the "Sync" to stay green */
+    transition: text-shadow var(--transition-fast);
+}
+
+/* Hover effect: Scale up slightly and glow */
+.logo:hover {
+    transform: scale(1.04);
+}
+
+.logo:hover .highlight {
+    text-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
+}
+
+/* Active effect: Push down when clicked/tapped */
+.logo:active {
+    transform: scale(0.96);
+}
+/* -------------------------------- */
