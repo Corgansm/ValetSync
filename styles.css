@@ -264,3 +264,37 @@ input[type="time"].filter-input {
 .form-row .form-group {
     min-width: 0; 
 }
+
+/* --- COMPREHENSIVE IOS FORM FIX --- */
+/* Force all inputs to respect the container width */
+.filter-input, .filter-select {
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; /* Extremely important for iOS */
+}
+
+/* Strictly enforce side-by-side layout for rows */
+.form-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 12px;
+    width: 100%;
+}
+
+/* Allow the halves to shrink and cap at 50% */
+.form-row .form-group {
+    flex: 1 1 50%;
+    min-width: 0;
+}
+
+/* Allow long labels to stack vertically so they don't stretch the box */
+.form-group label {
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.3;
+    display: block;
+}
