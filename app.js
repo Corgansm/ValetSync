@@ -399,9 +399,13 @@ const bootApp = async () => {
                 const maxI = Math.min(10, Math.ceil(dep / 10));
                 const sObj = new Date(`${todayString} 06:00 AM`);
                 const eObj = new Date(`${todayString} 01:00 PM`);
+                // Add the 'activeClass' check here
+                const isCheckoutActive = now >= sObj && now <= eObj;
                 eventsToday.push({
                     id: 'checkout', title: `Hotel Check-outs (${dep} cars)`, venue: "Trilogy Hotel",
-                    timeDisplay: "06:00 AM - 01:00 PM", startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 6.0
+                    timeDisplay: "06:00 AM - 01:00 PM", 
+                    activeClass: isCheckoutActive ? 'hide-on-active' : '', // <--- Add this line
+                    startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 6.0
                 });
             }
             if (arr > 0) {
