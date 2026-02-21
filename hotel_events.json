@@ -12,5 +12,12 @@
         "start_time": "04:30 PM",
         "end_time": "08:00 PM",
         "headcount": 40
+    },
+    {
+        "title": "Zero Trust Expo",
+        "date": "February 25, 2026",
+        "start_time": "06:30 PM",
+        "end_time": "07:30 AM",
+        "headcount": 100
     }
 ]
