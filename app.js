@@ -322,10 +322,12 @@ const bootApp = async () => {
     try {
         const timestamp = new Date().getTime();
         
-        const [eventsRes, hotelRes, inHouseRes] = await Promise.all([
+        // Fetch all 4 files in parallel
+        const [eventsRes, hotelRes, inHouseRes, noteRes] = await Promise.all([
             fetch(`./events.json?t=${timestamp}`),
             fetch(`./hotel_traffic.json?t=${timestamp}`),
-            fetch(`./hotel_events.json?t=${timestamp}`).catch(() => ({ ok: false })) 
+            fetch(`./hotel_events.json?t=${timestamp}`).catch(() => ({ ok: false })),
+            fetch(`./shift_note.json?t=${timestamp}`).catch(() => ({ ok: false })) 
         ]);
 
         const rawEvents = await eventsRes.json();
@@ -336,6 +338,19 @@ const bootApp = async () => {
 
         const documentLoading = document.getElementById('loading');
         if (documentLoading) documentLoading.classList.add('hidden');
+
+        // --- Process Shift Note ---
+        if (noteRes.ok) {
+            try {
+                const noteData = await noteRes.json();
+                const noteModule = document.getElementById('shift-note-module');
+                const noteText = document.getElementById('shift-note-text-display');
+                if (noteModule && noteText && noteData.note && noteData.note.trim() !== '') {
+                    noteText.innerText = noteData.note;
+                    noteModule.classList.remove('hidden');
+                }
+            } catch(e){}
+        }
 
         const now = new Date();
         const todayMidnight = new Date(now);
@@ -378,7 +393,6 @@ const bootApp = async () => {
             const isToday = dateStr === todayString;
             const isFuture = d > todayMidnight;
 
-            // Only update the top Live Dashboard box for today's stats
             if (isToday) {
                 const arrStat = document.getElementById('today-arrivals');
                 if(arrStat) { 
@@ -388,7 +402,6 @@ const bootApp = async () => {
                 }
             }
 
-            // Generate event cards for today AND the future
             if (isToday || isFuture) {
                 if (dep > 0) {
                     const maxI = Math.min(10, Math.ceil(dep / 10));
@@ -414,11 +427,9 @@ const bootApp = async () => {
             }
         });
 
-        // Apply Primary Sorting Rule (Severity -> Time)
         eventsToday.sort((a, b) => b.maxImpact - a.maxImpact || a.sortTime - b.sortTime);
         eventsFuture.sort((a, b) => a.startObj - b.startObj);
 
-        // Route to appropriate page controller
         if (document.getElementById('page-home')) {
             initDashboard(eventsToday);
         } else if (document.getElementById('page-calendar')) {
@@ -433,3 +444,6 @@ const bootApp = async () => {
 };
 
 document.addEventListener('DOMContentLoaded', bootApp);
+
+document.addEventListener('DOMContentLoaded', bootApp);
+
