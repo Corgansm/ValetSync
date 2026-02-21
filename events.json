@@ -6,7 +6,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -18,7 +18,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "08:00 PM - 09:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "09:30 PM - 11:30 PM",
@@ -26,7 +26,7 @@
             },
             "departure_rush": {
                 "window": "11:30 PM - 12:30 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -38,7 +38,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -50,7 +50,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 10:30 PM",
@@ -58,7 +58,7 @@
             },
             "departure_rush": {
                 "window": "10:30 PM - 11:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -70,7 +70,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -102,7 +102,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -113,7 +113,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -125,7 +125,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -133,7 +133,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -146,7 +146,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -154,7 +154,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -166,7 +166,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -177,7 +177,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -189,7 +189,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "07:30 AM - 09:00 AM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "09:00 AM - 11:00 AM",
@@ -197,7 +197,7 @@
             },
             "departure_rush": {
                 "window": "11:00 AM - 12:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -210,7 +210,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -218,7 +218,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -230,7 +230,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -242,7 +242,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -250,7 +250,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -262,7 +262,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -274,7 +274,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 10:00 PM",
@@ -282,7 +282,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -295,7 +295,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -303,7 +303,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -316,7 +316,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "07:30 PM - 09:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "09:00 PM - 11:00 PM",
@@ -324,7 +324,7 @@
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -337,7 +337,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -345,7 +345,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -358,7 +358,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -366,7 +366,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -379,7 +379,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 10:00 PM",
@@ -387,7 +387,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -400,7 +400,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -408,7 +408,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -421,7 +421,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -429,7 +429,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -442,7 +442,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "06:30 PM - 08:30 PM",
@@ -450,7 +450,7 @@
             },
             "departure_rush": {
                 "window": "08:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -462,7 +462,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -474,7 +474,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 10:00 PM",
@@ -482,7 +482,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -495,7 +495,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -503,7 +503,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -516,7 +516,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "01:30 PM - 03:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "03:00 PM - 05:00 PM",
@@ -524,7 +524,7 @@
             },
             "departure_rush": {
                 "window": "05:00 PM - 06:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -537,7 +537,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -545,7 +545,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -557,7 +557,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -569,7 +569,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -577,7 +577,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -590,7 +590,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 10:00 PM",
@@ -598,7 +598,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -611,7 +611,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -619,7 +619,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -632,7 +632,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -640,7 +640,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -653,7 +653,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 11:00 PM",
@@ -661,7 +661,7 @@
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -674,7 +674,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "04:30 PM - 06:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "06:00 PM - 10:00 PM",
@@ -682,7 +682,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -695,7 +695,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -703,7 +703,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -716,7 +716,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -724,7 +724,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -737,7 +737,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -745,7 +745,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -779,7 +779,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 10:30 PM",
@@ -787,7 +787,7 @@
             },
             "departure_rush": {
                 "window": "10:30 PM - 11:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -821,7 +821,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -829,7 +829,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -842,7 +842,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 10:30 PM",
@@ -850,7 +850,7 @@
             },
             "departure_rush": {
                 "window": "10:30 PM - 11:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -862,7 +862,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -894,7 +894,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -927,7 +927,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -935,7 +935,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -948,7 +948,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -956,7 +956,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -969,7 +969,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -977,7 +977,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -990,7 +990,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -998,7 +998,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1011,7 +1011,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "06:30 PM - 08:30 PM",
@@ -1019,7 +1019,7 @@
             },
             "departure_rush": {
                 "window": "08:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1032,7 +1032,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 11:00 PM",
@@ -1040,7 +1040,7 @@
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1053,7 +1053,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "08:30 AM - 10:00 AM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "10:00 AM - 12:00 PM",
@@ -1061,7 +1061,7 @@
             },
             "departure_rush": {
                 "window": "12:00 PM - 01:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1074,7 +1074,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -1082,7 +1082,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1095,7 +1095,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "12:30 PM - 02:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "02:00 PM - 05:00 PM",
@@ -1103,7 +1103,7 @@
             },
             "departure_rush": {
                 "window": "05:00 PM - 06:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1116,7 +1116,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 11:00 PM",
@@ -1124,7 +1124,7 @@
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1136,7 +1136,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1147,7 +1147,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1159,7 +1159,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -1167,7 +1167,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1180,7 +1180,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -1188,7 +1188,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1201,7 +1201,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -1209,7 +1209,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1221,7 +1221,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1233,7 +1233,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 10:30 PM",
@@ -1241,7 +1241,7 @@
             },
             "departure_rush": {
                 "window": "10:30 PM - 11:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1254,7 +1254,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -1262,7 +1262,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1275,7 +1275,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -1283,7 +1283,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1296,7 +1296,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 10:00 PM",
@@ -1304,7 +1304,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1317,7 +1317,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "12:30 PM - 02:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "02:00 PM - 06:00 PM",
@@ -1325,7 +1325,7 @@
             },
             "departure_rush": {
                 "window": "06:00 PM - 07:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1338,7 +1338,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -1346,7 +1346,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1359,7 +1359,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -1367,7 +1367,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1380,7 +1380,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "12:00 PM - 01:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "01:30 PM - 07:30 PM",
@@ -1388,7 +1388,7 @@
             },
             "departure_rush": {
                 "window": "07:30 PM - 08:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1401,7 +1401,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -1409,7 +1409,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1422,7 +1422,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -1430,7 +1430,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1442,7 +1442,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1454,7 +1454,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -1462,7 +1462,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1475,7 +1475,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -1483,7 +1483,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1496,7 +1496,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "08:30 AM - 10:00 AM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "10:00 AM - 04:00 PM",
@@ -1504,7 +1504,7 @@
             },
             "departure_rush": {
                 "window": "04:00 PM - 05:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1517,7 +1517,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -1525,7 +1525,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1538,7 +1538,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -1546,7 +1546,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1559,7 +1559,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -1567,7 +1567,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1580,7 +1580,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -1588,7 +1588,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1600,7 +1600,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1611,7 +1611,7 @@
         "venue": "Von Braun Center",
         "impact_timeline": {
             "error": "Time TBA",
-            "static_impact": 3
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1623,7 +1623,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
@@ -1631,7 +1631,7 @@
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1644,7 +1644,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
@@ -1652,7 +1652,7 @@
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1665,7 +1665,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -1673,7 +1673,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1686,7 +1686,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "06:30 PM - 08:30 PM",
@@ -1694,7 +1694,7 @@
             },
             "departure_rush": {
                 "window": "08:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1707,7 +1707,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
@@ -1715,7 +1715,7 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1728,7 +1728,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "06:30 PM - 08:30 PM",
@@ -1736,7 +1736,7 @@
             },
             "departure_rush": {
                 "window": "08:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1749,7 +1749,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "06:30 PM - 08:30 PM",
@@ -1757,7 +1757,7 @@
             },
             "departure_rush": {
                 "window": "08:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1770,7 +1770,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "06:30 PM - 08:30 PM",
@@ -1778,7 +1778,7 @@
             },
             "departure_rush": {
                 "window": "08:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1791,7 +1791,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 11:00 PM",
@@ -1799,7 +1799,7 @@
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "source": "VBC"
@@ -1812,7 +1812,7 @@
         "impact_timeline": {
             "arrival_rush": {
                 "window": "09:30 PM - 11:00 PM",
-                "impact": 3
+                "impact": 2
             },
             "during_event": {
                 "window": "11:00 PM - 01:00 AM",
@@ -1820,7 +1820,7 @@
             },
             "departure_rush": {
                 "window": "01:00 AM - 02:00 AM",
-                "impact": 4
+                "impact": 3
             }
         },
         "source": "DHI Time.ly Calendar"
