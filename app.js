@@ -36,6 +36,9 @@ const updateClock = () => {
 
 // --- Data Parsing Engines ---
 
+/**
+ * PARSER 1: Web Scraped Events (VBC / Park)
+ */
 const parseEventData = (rawEvent) => {
     let start = null;
     let end = null;
@@ -85,14 +88,20 @@ const parseEventData = (rawEvent) => {
     };
 };
 
+/**
+ * PARSER 2: In-House Trilogy Events
+ * Automatically calculates maxImpact (1-10) based on headcount.
+ */
 const parseInHouseEvent = (hEvent) => {
     const startObj = new Date(`${hEvent.date} ${hEvent.start_time}`);
     const endObj = new Date(`${hEvent.date} ${hEvent.end_time}`);
     
+    // Handle overnight events
     if (endObj < startObj) {
         endObj.setDate(endObj.getDate() + 1);
     }
 
+    // MATH: 1 Impact Point for every 25 guests. (Caps at 10)
     const guestCount = parseInt(hEvent.headcount) || 0;
     const calculatedImpact = Math.min(10, Math.max(1, Math.ceil(guestCount / 25)));
 
@@ -100,7 +109,7 @@ const parseInHouseEvent = (hEvent) => {
         id: 'inhouse_' + Math.random().toString(36).substr(2, 9),
         title: `${hEvent.title} (${guestCount} guests)`,
         venue: "Trilogy Hotel",
-        timeDisplay: `Active: ${hEvent.start_time} - ${hEvent.end_time}`,
+        timeDisplay: `${hEvent.start_time} - ${hEvent.end_time}`,
         dateDisplay: hEvent.date,
         startObj: startObj,
         endObj: endObj,
@@ -114,23 +123,26 @@ const parseInHouseEvent = (hEvent) => {
 const calculateLiveTraffic = (now, event) => {
     if (event.isTba || !event.startObj || !event.endObj) return 0;
 
-    const arrivalWindowMs = 90 * 60 * 1000; 
-    const departureWindowMs = 60 * 60 * 1000; 
+    const arrivalWindowMs = 90 * 60 * 1000; // 90 mins before
+    const departureWindowMs = 60 * 60 * 1000; // 60 mins after
 
     const timeNow = now.getTime();
     const timeStart = event.startObj.getTime();
     const timeEnd = event.endObj.getTime();
 
+    // PHASE 1: Arrival Rush
     if (timeNow >= timeStart - arrivalWindowMs && timeNow < timeStart) {
         const x = (timeNow - (timeStart - arrivalWindowMs)) / arrivalWindowMs;
         const score = event.maxImpact * Math.pow(x, 3);
         return Math.max(0.5, score);
     }
     
+    // PHASE 2: During Event
     if (timeNow >= timeStart && timeNow <= timeEnd) {
         return 0.0;
     }
     
+    // PHASE 3: Departure Exodus
     if (timeNow > timeEnd && timeNow <= timeEnd + departureWindowMs) {
         const y = (timeNow - timeEnd) / departureWindowMs;
         const score = event.maxImpact * Math.pow(1 - y, 4);
@@ -172,6 +184,7 @@ const createEventCardHTML = (event, trafficScore, now) => {
         </div>
     `;
 
+    // Highlight Trilogy Events Visually
     const isTrilogy = event.venue === "Trilogy Hotel" ? "border-color: var(--impact-med); box-shadow: 0 0 10px rgba(245, 158, 11, 0.1);" : "";
 
     return `
@@ -268,8 +281,9 @@ const initCalendar = (eventsFuture) => {
             const dateStr = e.startObj.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
             
             if (dateStr !== lastDate) {
-                // Remove header stats for future since they are now individual cards
-                cal.innerHTML += `<div class="calendar-date-header"><span>${dateStr}</span></div>`;
+                const iso = getLocalIsoDate(e.startObj);
+                const hTag = hotelData[iso] ? `<span class="header-hotel-stats">Arr: ${hotelData[iso].arrivals} | Dep: ${hotelData[iso].departures}</span>` : '';
+                cal.innerHTML += `<div class="calendar-date-header"><span>${dateStr}</span> ${hTag}</div>`;
                 lastDate = dateStr;
             }
             
@@ -322,6 +336,7 @@ const bootApp = async () => {
     try {
         const timestamp = new Date().getTime();
         
+        // Fetch all 3 files in parallel
         const [eventsRes, hotelRes, inHouseRes] = await Promise.all([
             fetch(`./events.json?t=${timestamp}`),
             fetch(`./hotel_traffic.json?t=${timestamp}`),
@@ -357,7 +372,7 @@ const bootApp = async () => {
             }
         });
 
-        // 2. Process Internal Hotel Events
+        // 2. Process Internal Hotel Events (hotel_events.json)
         rawInHouseEvents.forEach(hEvent => {
             const parsedEvent = parseInHouseEvent(hEvent);
             if (parsedEvent.startObj && parsedEvent.startObj.toDateString() === todayString) {
@@ -367,52 +382,38 @@ const bootApp = async () => {
             }
         });
 
-        // 3. Synthesize ALL Hotel Guest Traffic into Cards
-        Object.keys(hotelData).forEach(isoDate => {
-            const dep = parseInt(hotelData[isoDate].departures) || 0;
-            const arr = parseInt(hotelData[isoDate].arrivals) || 0;
-            
-            const d = new Date(isoDate + 'T00:00:00');
-            const dateStr = d.toDateString();
-            
-            const isToday = dateStr === todayString;
-            const isFuture = d > todayMidnight;
+        // 3. Synthesize Hotel Guest Traffic (Check-ins/Check-outs)
+        const todayIsoStr = getLocalIsoDate(now);
+        if (hotelData[todayIsoStr]) {
+            const dep = parseInt(hotelData[todayIsoStr].departures) || 0;
+            const arr = parseInt(hotelData[todayIsoStr].arrivals) || 0;
 
-            // Only update the top Live Dashboard box for today's stats
-            if (isToday) {
-                const arrStat = document.getElementById('today-arrivals');
-                if(arrStat) { 
-                    arrStat.innerText = arr; 
-                    document.getElementById('today-departures').innerText = dep; 
-                    document.getElementById('hotel-stats-today').classList.remove('hidden'); 
-                }
+            const arrStat = document.getElementById('today-arrivals');
+            if(arrStat) { 
+                arrStat.innerText = arr; 
+                document.getElementById('today-departures').innerText = dep; 
+                document.getElementById('hotel-stats-today').classList.remove('hidden'); 
             }
 
-            // Generate event cards for today AND the future
-            if (isToday || isFuture) {
-                if (dep > 0) {
-                    const maxI = Math.min(10, Math.ceil(dep / 10));
-                    const sObj = new Date(`${dateStr} 06:00 AM`);
-                    const eObj = new Date(`${dateStr} 01:00 PM`);
-                    const checkoutEvent = {
-                        id: `checkout_${isoDate}`, title: `Hotel Check-outs (${dep} cars)`, venue: "Trilogy Hotel",
-                        timeDisplay: "06:00 AM - 01:00 PM", startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 6.0
-                    };
-                    if (isToday) eventsToday.push(checkoutEvent); else eventsFuture.push(checkoutEvent);
-                }
-                
-                if (arr > 0) {
-                    const maxI = Math.min(10, Math.ceil(arr / 10));
-                    const sObj = new Date(`${dateStr} 03:00 PM`);
-                    const eObj = new Date(`${dateStr} 08:30 PM`);
-                    const checkinEvent = {
-                        id: `checkin_${isoDate}`, title: `Hotel Check-ins (${arr} cars)`, venue: "Trilogy Hotel",
-                        timeDisplay: "03:00 PM - 08:30 PM", startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 15.0
-                    };
-                    if (isToday) eventsToday.push(checkinEvent); else eventsFuture.push(checkinEvent);
-                }
+            if (dep > 0) {
+                const maxI = Math.min(10, Math.ceil(dep / 10));
+                const sObj = new Date(`${todayString} 06:00 AM`);
+                const eObj = new Date(`${todayString} 01:00 PM`);
+                eventsToday.push({
+                    id: 'checkout', title: `Hotel Check-outs (${dep} cars)`, venue: "Trilogy Hotel",
+                    timeDisplay: "06:00 AM - 01:00 PM", startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 6.0
+                });
             }
-        });
+            if (arr > 0) {
+                const maxI = Math.min(10, Math.ceil(arr / 10));
+                const sObj = new Date(`${todayString} 03:00 PM`);
+                const eObj = new Date(`${todayString} 08:30 PM`);
+                eventsToday.push({
+                    id: 'checkin', title: `Hotel Check-ins (${arr} cars)`, venue: "Trilogy Hotel",
+                    timeDisplay: "03:00 PM - 08:30 PM", startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 15.0
+                });
+            }
+        }
 
         // Apply Primary Sorting Rule (Severity -> Time)
         eventsToday.sort((a, b) => b.maxImpact - a.maxImpact || a.sortTime - b.sortTime);
