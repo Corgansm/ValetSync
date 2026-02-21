@@ -185,7 +185,12 @@ body {
 
 /* --- ADMIN PORTAL STYLES --- */
 .admin-form { display: flex; flex-direction: column; gap: 16px; }
-.form-group { display: flex; flex-direction: column; gap: 6px; }
+.form-group { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; /* This forces the text boxes to anchor to the bottom! */
+    gap: 6px; 
+}
 .form-group label { font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; }
 .form-row { display: flex; gap: 16px; }
 .form-row .form-group { flex: 1; }
