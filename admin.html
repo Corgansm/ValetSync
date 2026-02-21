@@ -97,8 +97,31 @@
                 <div id="traffic-form-status" class="status-message hidden"></div>
             </form>
         </div>
+        <h2 class="section-title fade-in" style="margin-top: 36px;">📝 Shift Handoff Note</h2>
+        
+        <div class="glass-panel" style="padding: 24px; border-radius: 16px; margin-top: 16px; margin-bottom: 40px;">
+            <form id="note-form" class="admin-form fade-in">
+                
+                <div class="form-group">
+                    <label for="shift-note-text">Message (Leave blank to clear)</label>
+                    <textarea id="shift-note-text" class="filter-input" rows="3" placeholder="e.g. VIP arriving at 6 PM, keep front wall clear..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="note-pin">Admin PIN</label>
+                    <input type="password" id="note-pin" class="filter-input" placeholder="Enter PIN to submit" required>
+                </div>
+
+                <button type="submit" id="note-submit-btn" class="btn-primary" style="background: var(--impact-low);">
+                    Post Note to Dashboard
+                </button>
+                
+                <div id="note-form-status" class="status-message hidden"></div>
+            </form>
+        </div>
     </main>
 
     <script src="admin.js"></script>
 </body>
 </html>
+
