@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formatTime12h = (time24) => {
         let [hours, minutes] = time24.split(':');
         hours = parseInt(hours);
-        const ampm = hours >= 12 ? 'PM' : 'AM';
+        const ampm = hours >= 12 ? 'PM' : 'AM'; 
         hours = hours % 12;
         hours = hours ? hours : 12; // the hour '0' should be '12'
         const hoursStr = hours < 10 ? '0' + hours : hours;
@@ -66,4 +66,5 @@ document.addEventListener('DOMContentLoaded', () => {
             submitBtn.innerText = "Push to Schedule";
         }
     });
+
 });
