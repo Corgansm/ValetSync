@@ -128,65 +128,6 @@ def scrape_vbc(browser):
         print(f"Error scraping VBC: {e}")
     return events
 
-def scrape_huntsville_org(browser):
-    events = []
-    print("Fetching Huntsville.org events for parades and Panoply...")
-    try:
-        page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-        page.goto("https://www.huntsville.org/events/", wait_until="domcontentloaded", timeout=60000)
-        
-        while True:
-            try:
-                page.wait_for_selector('.shared-item.item', timeout=10000)
-            except:
-                break
-                
-            soup = BeautifulSoup(page.content(), 'html.parser')
-            event_cards = soup.select('.shared-item.item') 
-            print(f"Debug: Found {len(event_cards)} total events on current CVB page.")
-            
-            for card in event_cards:
-                title_elem = card.select_one('h2 a')
-                date_elem = card.select_one('.dates')
-                time_elem = card.select_one('.starttime')
-                location_icon = card.select_one('.fa-map-marker')
-                
-                venue = location_icon.parent.text.strip() if location_icon and location_icon.parent else "Unknown Venue"
-                title = title_elem.text.strip() if title_elem else "Unknown Event"
-                
-                title_lower = title.lower()
-                venue_lower = venue.lower()
-                
-                is_special = 'parade' in title_lower or 'panoply' in title_lower
-                
-                if is_special:
-                    date = date_elem.text.strip() if date_elem else "Unknown Date"
-                    time_str = time_elem.text.strip() if time_elem else "Time TBA"
-                    
-                    timeline = calculate_temporal_impact(title, venue, time_str)
-                    events.append({
-                        "title": title,
-                        "date": date,
-                        "time": time_str,
-                        "venue": venue,
-                        "impact_timeline": timeline,
-                        "source": "Huntsville.org"
-                    })
-
-            next_button = page.locator('a', has_text=re.compile(r'Next Page', re.IGNORECASE)).first
-            if next_button.count() > 0 and next_button.is_visible():
-                if "disabled" in (next_button.get_attribute('class') or "").lower():
-                    break
-                next_button.click()
-                page.wait_for_timeout(3000)
-                page.wait_for_load_state("domcontentloaded")
-            else:
-                break
-        page.close()
-    except Exception as e:
-        print(f"Error scraping Huntsville.org: {e}")
-    return events
-
 def scrape_big_spring_park(browser):
     events = []
     print("Fetching DHI events directly from the hidden Time.ly widget...")
@@ -199,6 +140,16 @@ def scrape_big_spring_park(browser):
             page.wait_for_timeout(3000) 
         except:
             print("Note: Time.ly loaded, but no events triggered.")
+            
+        # Continually click "Load More" until it disappears
+        while True:
+            load_more_btn = page.locator('#timely-load-more-button')
+            if load_more_btn.count() > 0 and load_more_btn.is_visible():
+                print("Clicking 'Load More' on Time.ly...")
+                load_more_btn.click()
+                page.wait_for_timeout(100) # Give it time to fetch and render new events
+            else:
+                break
         
         soup = BeautifulSoup(page.content(), 'html.parser')
         event_cards = soup.select('.timely-tile-event, .timely-event') 
@@ -212,22 +163,22 @@ def scrape_big_spring_park(browser):
             venue_elem = card.select_one('.timely-tile-event-venue')
             raw_venue = venue_elem.text.strip() if venue_elem else ""
             
-            if 'big spring' in title.lower() or 'big spring' in raw_venue.lower():
+            title_lower = title.lower()
+            venue_lower = raw_venue.lower()
+            
+            # Filter for Big Spring Park, Panoply, or Parades
+            if 'big spring' in title_lower or 'big spring' in venue_lower or 'parade' in title_lower or 'panoply' in title_lower:
                 time_dt_elem = card.select_one('.timely-tile-event-time')
                 raw_time_str = time_dt_elem.text.strip() if time_dt_elem else ""
                 
-                # Default values
                 date_part = ""
                 time_part = "Time TBA"
 
                 if '@' in raw_time_str:
-                    # Example: "Mon, Feb 23 @ 5:30pm"
                     parts = raw_time_str.split('@')
-                    raw_date = parts[0].strip() # "Mon, Feb 23"
-                    time_part = parts[1].strip() # "5:30pm"
+                    raw_date = parts[0].strip() 
+                    time_part = parts[1].strip() 
                     
-                    # FIX: Remove "Mon, " and add ", 2026"
-                    # We split by comma and take the last part to get "Feb 23"
                     if ',' in raw_date:
                         date_part = f"{raw_date.split(',')[-1].strip()}, {current_year}"
                     else:
@@ -239,12 +190,12 @@ def scrape_big_spring_park(browser):
                         date_part = f"{month_elem.text.strip()} {day_elem.text.strip()}, {current_year}"
                 
                 clean_title = title.split('@')[0].strip()
-                venue = "Big Spring Park"
+                venue = "Big Spring Park" if 'big spring' in title_lower or 'big spring' in venue_lower else (raw_venue if raw_venue else "Downtown Huntsville")
                 timeline = calculate_temporal_impact(clean_title, venue, time_part)
                 
                 event_data = {
                     "title": clean_title,
-                    "date": date_part, # Now returns "Feb 23, 2026"
+                    "date": date_part, 
                     "time": time_part,
                     "venue": venue,
                     "impact_timeline": timeline,
@@ -265,7 +216,6 @@ if __name__ == '__main__':
             browser = p.chromium.launch(headless=True)
             
             all_events.extend(scrape_vbc(browser))
-            all_events.extend(scrape_huntsville_org(browser))
             all_events.extend(scrape_big_spring_park(browser))
             
             browser.close()
