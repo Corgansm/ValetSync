@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ValetSync | BEO Admin</title>
+    <title>ValetSync | Admin</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="page-admin">
@@ -60,6 +60,40 @@
                 </button>
                 
                 <div id="form-status" class="status-message hidden"></div>
+            </form>
+        </div>
+
+        <h2 class="section-title fade-in" style="margin-top: 36px;">🚗 Update Hotel Traffic</h2>
+        
+        <div class="glass-panel" style="padding: 24px; border-radius: 16px; margin-top: 16px; margin-bottom: 40px;">
+            <form id="traffic-form" class="admin-form fade-in">
+                
+                <div class="form-group">
+                    <label for="traffic-date">Date</label>
+                    <input type="date" id="traffic-date" class="filter-input" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="traffic-arrivals">Arrivals (Check-ins)</label>
+                        <input type="number" id="traffic-arrivals" class="filter-input" placeholder="e.g. 56" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="traffic-departures">Departures (Check-outs)</label>
+                        <input type="number" id="traffic-departures" class="filter-input" placeholder="e.g. 22" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="traffic-pin">Admin PIN</label>
+                    <input type="password" id="traffic-pin" class="filter-input" placeholder="Enter PIN to submit" required>
+                </div>
+
+                <button type="submit" id="traffic-submit-btn" class="btn-primary" style="background: var(--impact-med);">
+                    Update Traffic Data
+                </button>
+                
+                <div id="traffic-form-status" class="status-message hidden"></div>
             </form>
         </div>
     </main>
