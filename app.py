@@ -24,15 +24,15 @@ def calculate_temporal_impact(title, venue, time_str):
     if 'propst' in venue or 'havoc' in title or 'parade' in title or 'panoply' in title:
         max_impact = 10
     elif 'concert hall' in venue or 'mark c' in venue:
-        max_impact = 7
-    elif 'mars music' in venue:
-        max_impact = 6
-    elif 'hall' in venue or 'convention' in venue:
-        max_impact = 4
-    elif 'big spring' in venue or 'park' in venue:
-        max_impact = 4 
-    else:
         max_impact = 3
+    elif 'mars music' in venue:
+        max_impact = 3
+    elif 'hall' in venue or 'convention' in venue:
+        max_impact = 2
+    elif 'big spring' in venue or 'park' in venue:
+        max_impact = 3
+    else:
+        max_impact = 1
         
     if 'panoply' in title:
         duration_hours = 8.0 
