@@ -32,9 +32,6 @@ const updateClock = () => {
 };
 
 // --- Data Parsing Engine (Calibrated to app.py output) ---
-/**
- * Parses the custom "date" and "impact_timeline" strings into strict JS Date objects.
- */
 const parseEventData = (rawEvent) => {
     let start = null;
     let end = null;
@@ -46,14 +43,14 @@ const parseEventData = (rawEvent) => {
             isTba = true;
             maxImpact = rawEvent.impact_timeline ? rawEvent.impact_timeline.static_impact : 1;
         } else {
-            // 1. Clean the date string (Handles "Dates vary between X - Y")
+            // 1. Clean the date string
             let dateStr = rawEvent.date;
             if (dateStr.includes('vary between')) {
                 dateStr = dateStr.split('between')[1].split('-')[0].trim();
             }
 
             // 2. Extract exact start/end from the "during_event" window string
-            const windowStr = rawEvent.impact_timeline.during_event.window; // e.g. "07:00 PM - 09:30 PM"
+            const windowStr = rawEvent.impact_timeline.during_event.window;
             const [startStr, endStr] = windowStr.split(' - ');
 
             start = new Date(`${dateStr} ${startStr}`);
@@ -71,7 +68,7 @@ const parseEventData = (rawEvent) => {
         isTba = true; // Fallback if format is entirely unknown
     }
 
-    // Default sorting time calculation (fallback to 999 to send to bottom)
+    // Default sorting time calculation
     let sortTimeFloat = 999;
     if (start) { sortTimeFloat = start.getHours() + (start.getMinutes() / 60); }
 
@@ -90,12 +87,6 @@ const parseEventData = (rawEvent) => {
 };
 
 // --- Mathematical Traffic Simulation Core ---
-/**
- * Exponential Growth and Decay Simulation
- * Phase 1: Arrival starts slow, rises exponentially (x^3) to peak right at start time.
- * Phase 2: During event, traffic drops to 0 (No active traffic).
- * Phase 3: Departure starts at Absolute Maximum instantly, decays rapidly (1-y)^4 back to zero.
- */
 const calculateLiveTraffic = (now, event) => {
     if (event.isTba || !event.startObj || !event.endObj) return 0;
 
@@ -106,23 +97,21 @@ const calculateLiveTraffic = (now, event) => {
     const timeStart = event.startObj.getTime();
     const timeEnd = event.endObj.getTime();
 
-    // PHASE 1: Arrival Rush (Exponential Growth)
+    // PHASE 1: Arrival Rush
     if (timeNow >= timeStart - arrivalWindowMs && timeNow < timeStart) {
         const x = (timeNow - (timeStart - arrivalWindowMs)) / arrivalWindowMs;
-        // Traffic = Max * x^3 
         const score = event.maxImpact * Math.pow(x, 3);
-        return Math.max(0.5, score); // Baseline floor so bar isn't totally empty
+        return Math.max(0.5, score);
     }
     
     // PHASE 2: During Event
     if (timeNow >= timeStart && timeNow <= timeEnd) {
-        return 0.0; // Event is occurring, lanes are clear
+        return 0.0;
     }
     
-    // PHASE 3: Departure Exodus (Exponential Decay)
+    // PHASE 3: Departure Exodus
     if (timeNow > timeEnd && timeNow <= timeEnd + departureWindowMs) {
         const y = (timeNow - timeEnd) / departureWindowMs;
-        // Traffic = Max * (1 - y)^4
         const score = event.maxImpact * Math.pow(1 - y, 4);
         return Math.max(0, score);
     }
@@ -133,6 +122,7 @@ const calculateLiveTraffic = (now, event) => {
 // --- UI Rendering ---
 const createEventCardHTML = (event, trafficScore, now) => {
     const theme = getTrafficTheme(trafficScore);
+    const peakTheme = getTrafficTheme(event.maxImpact); // Fetch theme for the Peak score
     const isLiveWindow = trafficScore > 0 || (event.startObj && now >= event.startObj && now <= event.endObj);
     
     // Determine countdown or active status
@@ -150,11 +140,15 @@ const createEventCardHTML = (event, trafficScore, now) => {
     const trafficHTML = event.isTba ? '' : `
         <div class="traffic-module">
             <div class="traffic-header">
-                <span>Lane Impact</span>
+                <span>Traffic Impact</span>
                 <span class="traffic-score" id="score-${event.id}" style="color: ${theme.color}">${trafficScore.toFixed(1)} / 10</span>
             </div>
-            <div class="progress-bar-bg">
+            <div class="progress-bar-bg" style="margin-bottom: 12px;">
                 <div class="progress-bar-fill" id="bar-${event.id}" style="width: ${Math.min(100, (trafficScore / 10) * 100)}%; background-color: ${theme.color}"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--text-secondary);">Peak Impact</span>
+                <span class="calendar-impact-pill" style="margin-top: 0; background: ${peakTheme.bg}; color: ${peakTheme.color}">${event.maxImpact} / 10</span>
             </div>
         </div>
     `;
