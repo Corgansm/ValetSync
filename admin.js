@@ -1,22 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
+    
+    // --- FORM 1: EVENTS ---
     const form = document.getElementById('admin-form');
     const statusDiv = document.getElementById('form-status');
     const submitBtn = document.getElementById('submit-btn');
 
-    // Helper: Convert 24h "14:30" to 12h "02:30 PM"
     const formatTime12h = (time24) => {
         let [hours, minutes] = time24.split(':');
         hours = parseInt(hours);
-        const ampm = hours >= 12 ? 'PM' : 'AM'; 
+        const ampm = hours >= 12 ? 'PM' : 'AM';
         hours = hours % 12;
-        hours = hours ? hours : 12; // the hour '0' should be '12'
+        hours = hours ? hours : 12; 
         const hoursStr = hours < 10 ? '0' + hours : hours;
         return `${hoursStr}:${minutes} ${ampm}`;
     };
 
-    // Helper: Convert "2026-02-21" to "February 21, 2026"
     const formatLongDate = (dateIso) => {
-        // Appending T00:00:00 prevents timezone shifting bugs
         const d = new Date(dateIso + 'T00:00:00');
         return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
     };
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         
-        // 1. Gather & Format Data
         const payload = {
             pin: document.getElementById('admin-pin').value,
             event: {
@@ -36,12 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
 
-        // 2. Loading State
         submitBtn.disabled = true;
         submitBtn.innerText = "Processing...";
         statusDiv.className = "status-message hidden";
 
-        // 3. Send to Vercel Serverless Function
         try {
             const response = await fetch('/api/addEvent', {
                 method: 'POST',
@@ -67,4 +63,47 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // --- FORM 2: HOTEL TRAFFIC ---
+    const trafficForm = document.getElementById('traffic-form');
+    const trafficStatusDiv = document.getElementById('traffic-form-status');
+    const trafficSubmitBtn = document.getElementById('traffic-submit-btn');
+
+    trafficForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const payload = {
+            pin: document.getElementById('traffic-pin').value,
+            date: document.getElementById('traffic-date').value, // Leaves it as YYYY-MM-DD
+            arrivals: parseInt(document.getElementById('traffic-arrivals').value),
+            departures: parseInt(document.getElementById('traffic-departures').value)
+        };
+
+        trafficSubmitBtn.disabled = true;
+        trafficSubmitBtn.innerText = "Updating...";
+        trafficStatusDiv.className = "status-message hidden";
+
+        try {
+            const response = await fetch('/api/updateTraffic', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                trafficStatusDiv.innerText = "✅ Traffic Successfully Updated!";
+                trafficStatusDiv.className = "status-message status-success fade-in";
+                trafficForm.reset();
+            } else {
+                throw new Error(result.error || "Submission failed");
+            }
+        } catch (error) {
+            trafficStatusDiv.innerText = `❌ Error: ${error.message}`;
+            trafficStatusDiv.className = "status-message status-error fade-in";
+        } finally {
+            trafficSubmitBtn.disabled = false;
+            trafficSubmitBtn.innerText = "Update Traffic Data";
+        }
+    });
 });
