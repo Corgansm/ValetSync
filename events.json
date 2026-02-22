@@ -11,113 +11,6 @@
         "source": "VBC"
     },
     {
-        "title": "Bingo Loco",
-        "date": "February 21, 2026",
-        "time": "Starting: 9:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:00 PM - 09:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "09:30 PM - 11:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "11:30 PM - 12:30 AM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Fanfare Quilt Show",
-        "date": "Dates vary between February 20, 2026 - February 21, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "HSO presents Brahms Violin concerto",
-        "date": "February 21, 2026",
-        "time": "From: 7:30 PM to 9:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 10:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:30 PM - 11:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "HSO presents The Comedians",
-        "date": "February 21, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Huntsville Havoc vs. Macon Mayhem",
-        "date": "February 21, 2026",
-        "time": "Starting: 7:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:30 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 10
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Kappa Rho Dance",
-        "date": "February 21, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Sparkman High School JROTC Military Ball",
-        "date": "February 21, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Heart",
         "date": "February 22, 2026",
         "time": "Starting: 7:00 PM",
@@ -1807,20 +1700,41 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 23, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Sol Parade",
+        "date": "Mar 1, 2026",
+        "time": "3:00am",
+        "venue": "@ Tip Top Cafe",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:30 AM - 03:00 AM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "03:00 AM - 05:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "05:00 AM - 06:00 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
@@ -1828,19 +1742,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 2, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -1849,19 +1763,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 9, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -1870,19 +1784,19 @@
     {
         "title": "St. Patrick's Day Parade",
         "date": "Mar 14, 2026",
-        "time": "11:00am",
+        "time": "4:00pm",
         "venue": "@ Downtown Huntsville",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 AM - 11:00 AM",
+                "window": "02:30 PM - 04:00 PM",
                 "impact": 8
             },
             "during_event": {
-                "window": "11:00 AM - 01:00 PM",
+                "window": "04:00 PM - 06:00 PM",
                 "impact": 2
             },
             "departure_rush": {
-                "window": "01:00 PM - 02:00 PM",
+                "window": "06:00 PM - 07:00 PM",
                 "impact": 10
             }
         },
@@ -1891,19 +1805,19 @@
     {
         "title": "Huntsville St. Patrick's Day Parade",
         "date": "Mar 14, 2026",
-        "time": "11:00am",
+        "time": "4:00pm",
         "venue": "@ Downtown Huntsville",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 AM - 11:00 AM",
+                "window": "02:30 PM - 04:00 PM",
                 "impact": 8
             },
             "during_event": {
-                "window": "11:00 AM - 01:00 PM",
+                "window": "04:00 PM - 06:00 PM",
                 "impact": 2
             },
             "departure_rush": {
-                "window": "01:00 PM - 02:00 PM",
+                "window": "06:00 PM - 07:00 PM",
                 "impact": 10
             }
         },
@@ -1912,19 +1826,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 16, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -1933,19 +1847,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 23, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -1954,19 +1868,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 30, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -1975,19 +1889,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 6, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -1996,19 +1910,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 13, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2017,19 +1931,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 20, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2038,19 +1952,19 @@
     {
         "title": "Panoply Arts Festival",
         "date": "Apr 24, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 8
             },
             "during_event": {
-                "window": "05:00 PM - 01:00 AM",
+                "window": "10:00 PM - 06:00 AM",
                 "impact": 2
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "06:00 AM - 07:00 AM",
                 "impact": 10
             }
         },
@@ -2059,19 +1973,19 @@
     {
         "title": "Panoply Arts Huntsville",
         "date": "Apr 25, 2026",
-        "time": "10:30am",
+        "time": "3:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:00 AM - 10:30 AM",
+                "window": "02:00 PM - 03:30 PM",
                 "impact": 8
             },
             "during_event": {
-                "window": "10:30 AM - 06:30 PM",
+                "window": "03:30 PM - 11:30 PM",
                 "impact": 2
             },
             "departure_rush": {
-                "window": "06:30 PM - 07:30 PM",
+                "window": "11:30 PM - 12:30 AM",
                 "impact": 10
             }
         },
@@ -2080,19 +1994,19 @@
     {
         "title": "Panoply Arts Festival",
         "date": "Apr 26, 2026",
-        "time": "11:00am",
+        "time": "4:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 AM - 11:00 AM",
+                "window": "02:30 PM - 04:00 PM",
                 "impact": 8
             },
             "during_event": {
-                "window": "11:00 AM - 07:00 PM",
+                "window": "04:00 PM - 12:00 AM",
                 "impact": 2
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 10
             }
         },
@@ -2101,19 +2015,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 27, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2122,19 +2036,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "May 4, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2143,19 +2057,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "May 11, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2164,19 +2078,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "May 18, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2185,19 +2099,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "May 25, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2206,19 +2120,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jun 1, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2227,19 +2141,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jun 8, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2248,19 +2162,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jun 15, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2269,19 +2183,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jun 22, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2290,19 +2204,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jun 29, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2311,19 +2225,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jul 6, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2332,19 +2246,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jul 13, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2353,19 +2267,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jul 20, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2374,19 +2288,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jul 27, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2395,19 +2309,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 3, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2416,19 +2330,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 10, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2437,19 +2351,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 17, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2458,19 +2372,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 24, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2479,19 +2393,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 31, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2500,19 +2414,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 7, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2521,19 +2435,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 14, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2542,19 +2456,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 21, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2563,19 +2477,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 28, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2584,19 +2498,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 5, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2605,19 +2519,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 12, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2626,19 +2540,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 19, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2647,19 +2561,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 26, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -2668,19 +2582,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 2, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2689,19 +2603,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 9, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2710,19 +2624,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 16, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2731,19 +2645,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 23, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2752,19 +2666,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 30, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2773,19 +2687,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 7, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2794,19 +2708,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 14, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2815,19 +2729,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 21, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2836,19 +2750,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 28, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2857,19 +2771,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 4, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2878,19 +2792,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 11, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2899,19 +2813,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 18, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2920,19 +2834,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 25, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2941,19 +2855,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 1, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2962,19 +2876,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 8, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -2983,19 +2897,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 15, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -3004,19 +2918,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 22, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -3025,19 +2939,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 1, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -3046,19 +2960,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 8, 2026",
-        "time": "5:00pm",
+        "time": "11:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "09:30 PM - 11:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "11:00 PM - 01:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "01:00 AM - 02:00 AM",
                 "impact": 3
             }
         },
@@ -3067,19 +2981,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 15, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -3088,19 +3002,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 22, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -3109,19 +3023,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 29, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -3130,19 +3044,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 5, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -3151,19 +3065,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 12, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -3172,19 +3086,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 19, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -3193,19 +3107,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 26, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
@@ -3214,19 +3128,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "May 3, 2026",
-        "time": "5:00pm",
+        "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
+                "window": "08:30 PM - 10:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "05:00 PM - 07:00 PM",
+                "window": "10:00 PM - 12:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
+                "window": "12:00 AM - 01:00 AM",
                 "impact": 3
             }
         },
