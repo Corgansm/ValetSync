@@ -16,31 +16,31 @@
         "departures": 56
     },
     "2026-02-23": {
-        "arrivals": 56,
-        "departures": 58
+        "arrivals": 59,
+        "departures": 7
     },
     "2026-02-24": {
-        "arrivals": 56,
-        "departures": 58
+        "arrivals": 65,
+        "departures": 62
     },
     "2026-02-25": {
-        "arrivals": 27,
+        "arrivals": 34,
         "departures": 80
     },
     "2026-02-26": {
         "arrivals": 25,
-        "departures": 46
+        "departures": 58
     },
     "2026-02-27": {
-        "arrivals": 40,
-        "departures": 38
+        "arrivals": 45,
+        "departures": 37
     },
     "2026-02-28": {
-        "arrivals": 29,
-        "departures": 33
+        "arrivals": 38,
+        "departures": 42
     },
     "2026-03-01": {
         "arrivals": 12,
-        "departures": 53
+        "departures": 57
     }
 }
