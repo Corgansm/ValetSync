@@ -149,6 +149,27 @@
         "source": "VBC"
     },
     {
+        "title": "2026 AGF Huntsville Championships",
+        "date": "February 28, 2026",
+        "time": "From: 8:00 AM to 4:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Club 90's present Heated Rivalry Night",
         "date": "February 28, 2026",
         "time": "Starting: 9:00 PM",
@@ -164,6 +185,48 @@
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "St. John's Benefit Gala",
+        "date": "February 28, 2026",
+        "time": "Starting: 5:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:00 PM - 05:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "05:30 PM - 07:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "The Flip Trade Show",
+        "date": "February 28, 2026",
+        "time": "From: 10:00 AM to 5:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
                 "impact": 1
             }
         },
@@ -391,6 +454,27 @@
         "source": "VBC"
     },
     {
+        "title": "COC Washington Update",
+        "date": "March 9, 2026",
+        "time": "From: 8:00 AM to 9:00 AM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "2026 CUSA Basketball Championships",
         "date": "Dates vary between March 10, 2026 - March 14, 2026",
         "time": "Time TBA",
@@ -398,6 +482,27 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Raise the Roof Benefit Gala",
+        "date": "March 10, 2026",
+        "time": "Starting: 5:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:00 PM - 05:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "05:30 PM - 07:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 1
+            }
         },
         "source": "VBC"
     },
@@ -440,6 +545,17 @@
                 "window": "10:00 PM - 11:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "SoutheastCon 2026",
+        "date": "Dates vary between March 13, 2026 - March 15, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -507,6 +623,27 @@
         "source": "VBC"
     },
     {
+        "title": "Victorian Cotillion Ball",
+        "date": "March 14, 2026",
+        "time": "Starting: 7:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "3rd Annual Rocket City Blues Festival",
         "date": "March 15, 2026",
         "time": "Starting: 6:00 PM",
@@ -524,6 +661,17 @@
                 "window": "10:00 PM - 11:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "42nd International Symposium on Child Abuse",
+        "date": "Dates vary between March 16, 2026 - March 19, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -585,6 +733,27 @@
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Black & White Charity Ball",
+        "date": "March 20, 2026",
+        "time": "From: 7:00 PM to 12:00 AM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
                 "impact": 1
             }
         },
@@ -675,6 +844,17 @@
         "source": "VBC"
     },
     {
+        "title": "AUSA Global Force",
+        "date": "Dates vary between March 24, 2026 - March 26, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Stayin' Alive: One Night of the Bee Gees",
         "date": "March 26, 2026",
         "time": "Starting: 7:30 PM",
@@ -703,6 +883,27 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Bid on Blue 2026",
+        "date": "March 27, 2026",
+        "time": "Starting: 6:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
         },
         "source": "VBC"
     },
@@ -756,6 +957,17 @@
                 "window": "09:30 PM - 10:30 PM",
                 "impact": 10
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "The Flip Trade Show",
+        "date": "Dates vary between March 28, 2026 - March 29, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -970,7 +1182,7 @@
         "source": "VBC"
     },
     {
-        "title": "2026Crescen-Dough Auction",
+        "title": "2026 Crescen-Dough Auction",
         "date": "April 17, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
