@@ -1,12 +1,16 @@
 import re
 import json
 import os
+import time
 from datetime import datetime, timedelta
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-JSON_FILE_PATH = os.path.join(BASE_DIR, 'events.json')
+JSON_PATHS = {
+    'events': os.path.join(BASE_DIR, 'events.json'),
+    'weather': os.path.join(BASE_DIR, 'weather.json')
+}
 
 def parse_time(time_str):
     if not time_str or "TBA" in time_str.upper():
@@ -66,13 +70,38 @@ def calculate_temporal_impact(title, venue, time_str):
         },
         "during_event": {
             "window": f"{start_dt.strftime('%I:%M %p')} - {end_dt.strftime('%I:%M %p')}",
-            "impact": max(1, int(max_impact * 0.2)) 
+            "impact": max(1, int(max_impact * 1.0)) 
         },
         "departure_rush": {
             "window": f"{end_dt.strftime('%I:%M %p')} - {departure_end.strftime('%I:%M %p')}",
             "impact": max_impact 
         }
     }
+
+def scrape_weather(browser):
+    print("Fetching weather for Huntsville (35801)...")
+    weather_data = {"condition": "Clear", "is_raining": False, "is_storming": False}
+    try:
+        page = browser.new_page(user_agent="Mozilla/5.0")
+        page.goto("https://forecast.weather.gov/MapClick.php?lat=34.7304&lon=-86.5861", wait_until="domcontentloaded")
+        
+        condition_elem = page.locator('#current_conditions-summary p.myforecast-current')
+        if condition_elem.count() > 0:
+            condition = condition_elem.inner_text().lower()
+            weather_data["condition"] = condition.title()
+            
+            if "rain" in condition or "drizzle" in condition or "shower" in condition:
+                weather_data["is_raining"] = True
+            if "thunder" in condition or "storm" in condition or "t-storm" in condition:
+                weather_data["is_raining"] = True
+                weather_data["is_storming"] = True
+                
+        print(f"Weather scraped: {weather_data}")
+        page.close()
+    except Exception as e:
+        print(f"Error scraping weather: {e}")
+        
+    return weather_data
 
 def scrape_vbc(browser):
     events = []
@@ -141,13 +170,12 @@ def scrape_big_spring_park(browser):
         except:
             print("Note: Time.ly loaded, but no events triggered.")
             
-        # Continually click "Load More" until it disappears
         while True:
             load_more_btn = page.locator('#timely-load-more-button')
             if load_more_btn.count() > 0 and load_more_btn.is_visible():
                 print("Clicking 'Load More' on Time.ly...")
                 load_more_btn.click()
-                page.wait_for_timeout(100) # Give it time to fetch and render new events
+                page.wait_for_timeout(100) 
             else:
                 break
         
@@ -166,7 +194,6 @@ def scrape_big_spring_park(browser):
             title_lower = title.lower()
             venue_lower = raw_venue.lower()
             
-            # Filter for Big Spring Park, Panoply, or Parades
             if 'big spring' in title_lower or 'big spring' in venue_lower or 'parade' in title_lower or 'panoply' in title_lower:
                 time_dt_elem = card.select_one('.timely-tile-event-time')
                 raw_time_str = time_dt_elem.text.strip() if time_dt_elem else ""
@@ -218,11 +245,17 @@ if __name__ == '__main__':
             all_events.extend(scrape_vbc(browser))
             all_events.extend(scrape_big_spring_park(browser))
             
+            weather_info = scrape_weather(browser)
+            
             browser.close()
             
-            with open(JSON_FILE_PATH, 'w', encoding='utf-8') as f:
+            with open(JSON_PATHS['events'], 'w', encoding='utf-8') as f:
                 json.dump(all_events, f, indent=4, ensure_ascii=False)
-            print(f"Successfully saved {len(all_events)} events to {JSON_FILE_PATH}")
+            
+            with open(JSON_PATHS['weather'], 'w', encoding='utf-8') as f:
+                json.dump(weather_info, f, indent=4)
+                
+            print(f"Done. Events: {len(all_events)} | Weather: {weather_info['condition']}")
 
     except Exception as e:
         print(f"Master scraping error: {e}")

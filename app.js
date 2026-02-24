@@ -1,12 +1,20 @@
 /**
  * ValetSync | Core Application Engine
- * Architecture: ES6 Modules, JSON-Driven, Live Math Simulation
  */
+
+// --- Configuration ---
+const DATA_SOURCES = {
+    events: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/events.json",
+    hotelEvents: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/hotel_events.json",
+    hotelTraffic: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/hotel_traffic.json",
+    shiftNote: "./shift_note.json", 
+    weather: "./weather.json"       
+};
 
 // --- Global State ---
 let masterEventsList = [];
 let hotelData = {};
-let inHouseEvents = [];
+let weatherState = { is_raining: false, is_storming: false };
 let simulationInterval;
 
 // --- Utility Functions ---
@@ -34,11 +42,20 @@ const updateClock = () => {
     }
 };
 
-// --- Data Parsing Engines ---
+// --- Weather Visuals Engine ---
+const applyWeatherEffects = (weather) => {
+    const body = document.body;
+    
+    body.classList.remove('weather-rain', 'weather-storm');
 
-/**
- * PARSER 1: Web Scraped Events (VBC / Park)
- */
+    if (weather.is_storming) {
+        body.classList.add('weather-storm'); 
+    } else if (weather.is_raining) {
+        body.classList.add('weather-rain'); 
+    }
+};
+
+// --- Data Parsing Engines ---
 const parseEventData = (rawEvent) => {
     let start = null;
     let end = null;
@@ -88,20 +105,12 @@ const parseEventData = (rawEvent) => {
     };
 };
 
-/**
- * PARSER 2: In-House Trilogy Events
- * Automatically calculates maxImpact (1-10) based on headcount.
- */
 const parseInHouseEvent = (hEvent) => {
     const startObj = new Date(`${hEvent.date} ${hEvent.start_time}`);
     const endObj = new Date(`${hEvent.date} ${hEvent.end_time}`);
     
-    // Handle overnight events
-    if (endObj < startObj) {
-        endObj.setDate(endObj.getDate() + 1);
-    }
+    if (endObj < startObj) { endObj.setDate(endObj.getDate() + 1); }
 
-    // MATH: 1 Impact Point for every 25 guests. (Caps at 10)
     const guestCount = parseInt(hEvent.headcount) || 0;
     const calculatedImpact = Math.min(10, Math.max(1, Math.ceil(guestCount / 25)));
 
@@ -123,26 +132,26 @@ const parseInHouseEvent = (hEvent) => {
 const calculateLiveTraffic = (now, event) => {
     if (event.isTba || !event.startObj || !event.endObj) return 0;
 
-    const arrivalWindowMs = 90 * 60 * 1000; // 90 mins before
-    const departureWindowMs = 60 * 60 * 1000; // 60 mins after
+    const arrivalWindowMs = 90 * 60 * 1000; 
+    const departureWindowMs = 60 * 60 * 1000; 
 
     const timeNow = now.getTime();
     const timeStart = event.startObj.getTime();
     const timeEnd = event.endObj.getTime();
 
-    // PHASE 1: Arrival Rush
     if (timeNow >= timeStart - arrivalWindowMs && timeNow < timeStart) {
         const x = (timeNow - (timeStart - arrivalWindowMs)) / arrivalWindowMs;
         const score = event.maxImpact * Math.pow(x, 3);
         return Math.max(0.5, score);
     }
     
-    // PHASE 2: During Event
     if (timeNow >= timeStart && timeNow <= timeEnd) {
+        if (event.id === 'checkin' || event.id === 'checkout') {
+            return event.maxImpact; 
+        }
         return 0.0;
     }
     
-    // PHASE 3: Departure Exodus
     if (timeNow > timeEnd && timeNow <= timeEnd + departureWindowMs) {
         const y = (timeNow - timeEnd) / departureWindowMs;
         const score = event.maxImpact * Math.pow(1 - y, 4);
@@ -184,7 +193,6 @@ const createEventCardHTML = (event, trafficScore, now) => {
         </div>
     `;
 
-    // Highlight Trilogy Events Visually
     const isTrilogy = event.venue === "Trilogy Hotel" ? "border-color: var(--impact-med); box-shadow: 0 0 10px rgba(245, 158, 11, 0.1);" : "";
 
     return `
@@ -193,10 +201,7 @@ const createEventCardHTML = (event, trafficScore, now) => {
             <div class="event-header">
                 <div>
                     <h3 class="event-title">${event.title}</h3>
-                    <p class="event-venue">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                        ${event.venue}
-                    </p>
+                    <p class="event-venue">${event.venue}</p>
                 </div>
                 <div class="event-time-main ${now >= event.startObj && now <= event.endObj ? 'hide-on-active' : ''}">${event.timeDisplay}</div>
             </div>
@@ -240,11 +245,27 @@ const tickSimulation = (containerId, eventsList) => {
     }
 };
 
-// --- Initialization & Bootstrapping ---
-const initDashboard = (eventsToday) => {
+const initDashboard = async (eventsToday) => {
     const timeline = document.getElementById('timeline');
     const emptyState = document.getElementById('empty-state');
     const now = new Date();
+
+    try {
+        const noteRes = await fetch(DATA_SOURCES.shiftNote + '?t=' + now.getTime());
+        if (noteRes.ok) {
+            const noteData = await noteRes.json();
+            if (noteData.note && noteData.note.trim() !== "") {
+                const noteModule = document.getElementById('shift-note-module');
+                const noteText = document.getElementById('shift-note-text-display');
+                if (noteModule && noteText) {
+                    noteText.innerText = noteData.note;
+                    noteModule.classList.remove('hidden'); 
+                }
+            }
+        }
+    } catch (e) {
+        console.warn("No shift note found.");
+    }
 
     if (eventsToday.length === 0) {
         emptyState.classList.remove('hidden');
@@ -265,8 +286,6 @@ const initCalendar = (eventsFuture) => {
     const cal = document.getElementById('full-calendar');
     const searchInput = document.getElementById('search-input');
     const locFilter = document.getElementById('location-filter');
-    const btnGrid = document.getElementById('btn-grid');
-    const btnList = document.getElementById('btn-list');
 
     const renderCalendar = (filteredEvents) => {
         cal.innerHTML = '';
@@ -317,16 +336,6 @@ const initCalendar = (eventsFuture) => {
 
     searchInput.addEventListener('input', applyFilters);
     locFilter.addEventListener('change', applyFilters);
-
-    btnGrid.addEventListener('click', () => {
-        cal.classList.remove('list-view');
-        btnGrid.classList.add('active'); btnList.classList.remove('active');
-    });
-    btnList.addEventListener('click', () => {
-        cal.classList.add('list-view');
-        btnList.classList.add('active'); btnGrid.classList.remove('active');
-    });
-
     renderCalendar(eventsFuture);
 };
 
@@ -336,11 +345,11 @@ const bootApp = async () => {
     try {
         const timestamp = new Date().getTime();
         
-        // Fetch all 3 files in parallel
-        const [eventsRes, hotelRes, inHouseRes] = await Promise.all([
-            fetch(`./events.json?t=${timestamp}`),
-            fetch(`./hotel_traffic.json?t=${timestamp}`),
-            fetch(`./hotel_events.json?t=${timestamp}`).catch(() => ({ ok: false })) 
+        const [eventsRes, hotelRes, inHouseRes, weatherRes] = await Promise.all([
+            fetch(DATA_SOURCES.events),
+            fetch(DATA_SOURCES.hotelTraffic),
+            fetch(DATA_SOURCES.hotelEvents).catch(() => ({ ok: false })),
+            fetch(DATA_SOURCES.weather + '?t=' + timestamp).catch(() => ({ ok: false }))
         ]);
 
         const rawEvents = await eventsRes.json();
@@ -348,6 +357,13 @@ const bootApp = async () => {
         
         let rawInHouseEvents = [];
         if (inHouseRes.ok) { try { rawInHouseEvents = await inHouseRes.json(); } catch(e){} }
+
+        if (weatherRes.ok) {
+            try {
+                const weather = await weatherRes.json();
+                applyWeatherEffects(weather);
+            } catch(e) {}
+        }
 
         const documentLoading = document.getElementById('loading');
         if (documentLoading) documentLoading.classList.add('hidden');
@@ -360,7 +376,6 @@ const bootApp = async () => {
         let eventsToday = [];
         let eventsFuture = [];
 
-        // 1. Process Web Scraped Events
         rawEvents.forEach(rawEvent => {
             const parsedEvent = parseEventData(rawEvent);
             if (parsedEvent.startObj && parsedEvent.startObj.toDateString() === todayString) {
@@ -372,7 +387,6 @@ const bootApp = async () => {
             }
         });
 
-        // 2. Process Internal Hotel Events (hotel_events.json)
         rawInHouseEvents.forEach(hEvent => {
             const parsedEvent = parseInHouseEvent(hEvent);
             if (parsedEvent.startObj && parsedEvent.startObj.toDateString() === todayString) {
@@ -382,7 +396,6 @@ const bootApp = async () => {
             }
         });
 
-        // 3. Synthesize Hotel Guest Traffic (Check-ins/Check-outs)
         const todayIsoStr = getLocalIsoDate(now);
         if (hotelData[todayIsoStr]) {
             const dep = parseInt(hotelData[todayIsoStr].departures) || 0;
@@ -394,17 +407,16 @@ const bootApp = async () => {
                 document.getElementById('today-departures').innerText = dep; 
                 document.getElementById('hotel-stats-today').classList.remove('hidden'); 
             }
-
+            
             if (dep > 0) {
                 const maxI = Math.min(10, Math.ceil(dep / 10));
                 const sObj = new Date(`${todayString} 06:00 AM`);
                 const eObj = new Date(`${todayString} 01:00 PM`);
-                // Add the 'activeClass' check here
                 const isCheckoutActive = now >= sObj && now <= eObj;
                 eventsToday.push({
                     id: 'checkout', title: `Hotel Check-outs (${dep} cars)`, venue: "Trilogy Hotel",
                     timeDisplay: "06:00 AM - 01:00 PM", 
-                    activeClass: isCheckoutActive ? 'hide-on-active' : '', // <--- Add this line
+                    activeClass: isCheckoutActive ? 'hide-on-active' : '',
                     startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 6.0
                 });
             }
@@ -419,11 +431,9 @@ const bootApp = async () => {
             }
         }
 
-        // Apply Primary Sorting Rule (Severity -> Time)
         eventsToday.sort((a, b) => b.maxImpact - a.maxImpact || a.sortTime - b.sortTime);
         eventsFuture.sort((a, b) => a.startObj - b.startObj);
 
-        // Route to appropriate page controller
         if (document.getElementById('page-home')) {
             initDashboard(eventsToday);
         } else if (document.getElementById('page-calendar')) {
@@ -432,8 +442,6 @@ const bootApp = async () => {
 
     } catch (error) {
         console.error("Boot Failed:", error);
-        const ld = document.getElementById('loading');
-        if(ld) ld.innerHTML = `<span style="color:var(--impact-high)">Network offline. Check data feeds.</span>`;
     }
 };
 
