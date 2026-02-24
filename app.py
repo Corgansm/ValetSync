@@ -1,3 +1,4 @@
+import urllib.request
 import re
 import json
 import os
@@ -78,30 +79,38 @@ def calculate_temporal_impact(title, venue, time_str):
         }
     }
 
-def scrape_weather(browser):
-    print("Fetching weather for Huntsville (35801)...")
-    weather_data = {"condition": "Clear", "is_raining": False, "is_storming": False}
+def scrape_weather_forecast():
+    print("Fetching 7-day forecast for Huntsville from NWS...")
+    forecast_dict = {}
     try:
-        page = browser.new_page(user_agent="Mozilla/5.0")
-        page.goto("https://forecast.weather.gov/MapClick.php?lat=34.7304&lon=-86.5861", wait_until="domcontentloaded")
+        url = "https://api.weather.gov/gridpoints/HUN/75,54/forecast"
+        req = urllib.request.Request(url, headers={'User-Agent': 'ValetSync/1.0'})
         
-        condition_elem = page.locator('#current_conditions-summary p.myforecast-current')
-        if condition_elem.count() > 0:
-            condition = condition_elem.inner_text().lower()
-            weather_data["condition"] = condition.title()
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
             
-            if "rain" in condition or "drizzle" in condition or "shower" in condition:
-                weather_data["is_raining"] = True
-            if "thunder" in condition or "storm" in condition or "t-storm" in condition:
-                weather_data["is_raining"] = True
-                weather_data["is_storming"] = True
+            for period in data['properties']['periods']:
+                date_str = period['startTime'][:10]
+                forecast = period['shortForecast'].lower()
                 
-        print(f"Weather scraped: {weather_data}")
-        page.close()
+                if date_str not in forecast_dict:
+                    forecast_dict[date_str] = {
+                        "condition": period['shortForecast'],
+                        "is_raining": False,
+                        "is_storming": False
+                    }
+                
+                if any(word in forecast for word in ['rain', 'shower', 'drizzle', 'precip']):
+                    forecast_dict[date_str]["is_raining"] = True
+                if any(word in forecast for word in ['thunder', 'storm', 't-storm']):
+                    forecast_dict[date_str]["is_raining"] = True
+                    forecast_dict[date_str]["is_storming"] = True
+                    
+        print(f"Weather forecast scraped for {len(forecast_dict)} days.")
     except Exception as e:
-        print(f"Error scraping weather: {e}")
+        print(f"Error fetching weather forecast: {e}")
         
-    return weather_data
+    return forecast_dict
 
 def scrape_vbc(browser):
     events = []
@@ -245,9 +254,9 @@ if __name__ == '__main__':
             all_events.extend(scrape_vbc(browser))
             all_events.extend(scrape_big_spring_park(browser))
             
-            weather_info = scrape_weather(browser)
-            
             browser.close()
+            
+            weather_info = scrape_weather_forecast()
             
             with open(JSON_PATHS['events'], 'w', encoding='utf-8') as f:
                 json.dump(all_events, f, indent=4, ensure_ascii=False)
@@ -255,7 +264,7 @@ if __name__ == '__main__':
             with open(JSON_PATHS['weather'], 'w', encoding='utf-8') as f:
                 json.dump(weather_info, f, indent=4)
                 
-            print(f"Done. Events: {len(all_events)} | Weather: {weather_info['condition']}")
+            print(f"Done. Events: {len(all_events)} | Weather Data: {len(weather_info)} days generated.")
 
     except Exception as e:
         print(f"Master scraping error: {e}")

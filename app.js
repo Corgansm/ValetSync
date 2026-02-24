@@ -7,8 +7,8 @@ const DATA_SOURCES = {
     events: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/events.json",
     hotelEvents: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/hotel_events.json",
     hotelTraffic: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/hotel_traffic.json",
-    shiftNote: "./shift_note.json", 
-    weather: "./weather.json"       
+    shiftNote: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/shift_note.json", 
+    weather: "https://raw.githubusercontent.com/Corgansm/ValetSync/refs/heads/main/weather.json"       
 };
 
 // --- Global State ---
@@ -402,13 +402,21 @@ const bootApp = async () => {
             const arr = parseInt(hotelData[todayIsoStr].arrivals) || 0;
 
             const arrStat = document.getElementById('today-arrivals');
-            if(arrStat) { 
+            const depStat = document.getElementById('today-departures');
+            
+            if(arrStat && depStat) { 
                 arrStat.innerText = arr; 
-                document.getElementById('today-departures').innerText = dep; 
+                depStat.innerText = dep; 
                 document.getElementById('hotel-stats-today').classList.remove('hidden'); 
+                
+                // Hide departure count box if 2:00 PM (14:00) or later
+                if (now.getHours() >= 14) {
+                    depStat.parentElement.classList.add('hidden');
+                }
             }
             
-            if (dep > 0) {
+            // Only create the check-out event if before 2:00 PM
+            if (dep > 0 && now.getHours() < 14) {
                 const maxI = Math.min(10, Math.ceil(dep / 10));
                 const sObj = new Date(`${todayString} 06:00 AM`);
                 const eObj = new Date(`${todayString} 01:00 PM`);
