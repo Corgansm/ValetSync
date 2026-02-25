@@ -35,8 +35,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add events.json
+          git add events.json weather.json
           
           # Only commit if there are actual changes
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update event data"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update event and weather data"
           git push
+
+      - name: Trigger Vercel Deployment
+        run: curl -X POST "https://api.vercel.com/v1/integrations/deploy/YOUR_UNIQUE_HOOK"
