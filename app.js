@@ -364,11 +364,9 @@ const bootApp = async () => {
                 const now = new Date();
                 const todayIsoStr = getLocalIsoDate(now);
                 
-                // Look for today's date in the 7-day forecast
                 if (weatherData[todayIsoStr]) {
                     applyWeatherEffects(weatherData[todayIsoStr]);
                 } else {
-                    // Fallback to the first day if midnight timezone mismatch occurs
                     const firstDateKey = Object.keys(weatherData)[0];
                     if (firstDateKey) applyWeatherEffects(weatherData[firstDateKey]);
                 }
@@ -408,48 +406,74 @@ const bootApp = async () => {
             }
         });
 
+        // --- UPDATED HOTEL TRAFFIC LOGIC ---
+        // Loops through all dates in the traffic JSON and pushes them to the correct arrays
         const todayIsoStr = getLocalIsoDate(now);
-        if (hotelData[todayIsoStr]) {
-            const dep = parseInt(hotelData[todayIsoStr].departures) || 0;
-            const arr = parseInt(hotelData[todayIsoStr].arrivals) || 0;
-
-            const arrStat = document.getElementById('today-arrivals');
-            const depStat = document.getElementById('today-departures');
+        
+        Object.keys(hotelData).forEach(dateStr => {
+            const arr = parseInt(hotelData[dateStr].arrivals) || 0;
+            const dep = parseInt(hotelData[dateStr].departures) || 0;
             
-            if(arrStat && depStat) { 
-                arrStat.innerText = arr; 
-                depStat.innerText = dep; 
-                document.getElementById('hotel-stats-today').classList.remove('hidden'); 
+            const [y, m, d] = dateStr.split('-');
+            const targetDate = new Date(y, m - 1, d);
+            const targetDateStr = targetDate.toDateString();
+            
+            if (dateStr === todayIsoStr) {
+                // Handle Today's Dashboard View
+                const arrStat = document.getElementById('today-arrivals');
+                const depStat = document.getElementById('today-departures');
                 
-                // Hide departure count box if 2:00 PM (14:00) or later
-                if (now.getHours() >= 14) {
-                    depStat.parentElement.classList.add('hidden');
+                if(arrStat && depStat) { 
+                    arrStat.innerText = arr; 
+                    depStat.innerText = dep; 
+                    document.getElementById('hotel-stats-today').classList.remove('hidden'); 
+                    
+                    if (now.getHours() >= 14) {
+                        depStat.parentElement.classList.add('hidden');
+                    }
+                }
+                
+                if (dep > 0 && now.getHours() < 14) {
+                    const maxI = Math.min(10, Math.ceil(dep / 10));
+                    const sObj = new Date(`${targetDateStr} 06:00 AM`);
+                    const eObj = new Date(`${targetDateStr} 01:00 PM`);
+                    const isCheckoutActive = now >= sObj && now <= eObj;
+                    eventsToday.push({
+                        id: 'checkout', title: `Hotel Check-outs (${dep} cars)`, venue: "Trilogy Hotel",
+                        timeDisplay: "06:00 AM - 01:00 PM", 
+                        activeClass: isCheckoutActive ? 'hide-on-active' : '',
+                        startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 6.0
+                    });
+                }
+                if (arr > 0) {
+                    const maxI = Math.min(10, Math.ceil(arr / 10));
+                    const sObj = new Date(`${targetDateStr} 03:00 PM`);
+                    const eObj = new Date(`${targetDateStr} 08:30 PM`);
+                    eventsToday.push({
+                        id: 'checkin', title: `Hotel Check-ins (${arr} cars)`, venue: "Trilogy Hotel",
+                        timeDisplay: "03:00 PM - 08:30 PM", startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 15.0
+                    });
+                }
+            } else if (targetDate > todayMidnight) {
+                // Handle Future Schedule Views
+                if (dep > 0) {
+                    const maxI = Math.min(10, Math.ceil(dep / 10));
+                    eventsFuture.push({
+                        id: `checkout-${dateStr}`, title: `Hotel Check-outs (${dep} cars)`, venue: "Trilogy Hotel",
+                        timeDisplay: "06:00 AM - 01:00 PM", startObj: new Date(`${targetDateStr} 06:00 AM`), 
+                        endObj: new Date(`${targetDateStr} 01:00 PM`), maxImpact: maxI, isTba: false, sortTime: 6.0
+                    });
+                }
+                if (arr > 0) {
+                    const maxI = Math.min(10, Math.ceil(arr / 10));
+                    eventsFuture.push({
+                        id: `checkin-${dateStr}`, title: `Hotel Check-ins (${arr} cars)`, venue: "Trilogy Hotel",
+                        timeDisplay: "03:00 PM - 08:30 PM", startObj: new Date(`${targetDateStr} 03:00 PM`), 
+                        endObj: new Date(`${targetDateStr} 08:30 PM`), maxImpact: maxI, isTba: false, sortTime: 15.0
+                    });
                 }
             }
-            
-            // Only create the check-out event if before 2:00 PM
-            if (dep > 0 && now.getHours() < 14) {
-                const maxI = Math.min(10, Math.ceil(dep / 10));
-                const sObj = new Date(`${todayString} 06:00 AM`);
-                const eObj = new Date(`${todayString} 01:00 PM`);
-                const isCheckoutActive = now >= sObj && now <= eObj;
-                eventsToday.push({
-                    id: 'checkout', title: `Hotel Check-outs (${dep} cars)`, venue: "Trilogy Hotel",
-                    timeDisplay: "06:00 AM - 01:00 PM", 
-                    activeClass: isCheckoutActive ? 'hide-on-active' : '',
-                    startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 6.0
-                });
-            }
-            if (arr > 0) {
-                const maxI = Math.min(10, Math.ceil(arr / 10));
-                const sObj = new Date(`${todayString} 03:00 PM`);
-                const eObj = new Date(`${todayString} 08:30 PM`);
-                eventsToday.push({
-                    id: 'checkin', title: `Hotel Check-ins (${arr} cars)`, venue: "Trilogy Hotel",
-                    timeDisplay: "03:00 PM - 08:30 PM", startObj: sObj, endObj: eObj, maxImpact: maxI, isTba: false, sortTime: 15.0
-                });
-            }
-        }
+        });
 
         eventsToday.sort((a, b) => b.maxImpact - a.maxImpact || a.sortTime - b.sortTime);
         eventsFuture.sort((a, b) => a.startObj - b.startObj);
