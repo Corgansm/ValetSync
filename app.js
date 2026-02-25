@@ -360,9 +360,21 @@ const bootApp = async () => {
 
         if (weatherRes.ok) {
             try {
-                const weather = await weatherRes.json();
-                applyWeatherEffects(weather);
-            } catch(e) {}
+                const weatherData = await weatherRes.json();
+                const now = new Date();
+                const todayIsoStr = getLocalIsoDate(now);
+                
+                // Look for today's date in the 7-day forecast
+                if (weatherData[todayIsoStr]) {
+                    applyWeatherEffects(weatherData[todayIsoStr]);
+                } else {
+                    // Fallback to the first day if midnight timezone mismatch occurs
+                    const firstDateKey = Object.keys(weatherData)[0];
+                    if (firstDateKey) applyWeatherEffects(weatherData[firstDateKey]);
+                }
+            } catch(e) {
+                console.warn("Could not apply weather data.");
+            }
         }
 
         const documentLoading = document.getElementById('loading');
