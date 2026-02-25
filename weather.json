@@ -1,7 +1,7 @@
 {
     "2026-02-24": {
         "condition": "Mostly Cloudy",
-        "is_raining": false,
+        "is_raining": true,
         "is_storming": false
     },
     "2026-02-25": {
