@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Trigger Vercel Deployment
         # This pings the Deploy Hook you created to force a fresh production build
-        run: curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_UiuTI9baIfLeezA4hYz0OJ0Jun1I/hPS4oMmWiz"
+        run: curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_UiuTI9baIfLeezA4hYz0OJ0Jun1I/6U7UrSXlHn"
