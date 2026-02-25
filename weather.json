@@ -1,8 +1,8 @@
 {
     "2026-02-24": {
         "condition": "Mostly Cloudy",
-        "is_raining": true,
-        "is_storming": true
+        "is_raining": false,
+        "is_storming": false
     },
     "2026-02-25": {
         "condition": "Mostly Cloudy then Slight Chance Rain Showers",
