@@ -10,6 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Vercel Deployment
-        # We add SHOULD_BUILD=true directly into the URL query string
-        run: |
-          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_UiuTI9baIfLeezA4hYz0OJ0Jun1I/hPS4oMmWiz?SHOULD_BUILD=true"
+        run: curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_UiuTI9baIfLeezA4hYz0OJ0Jun1I/6U7UrSXlHn"
