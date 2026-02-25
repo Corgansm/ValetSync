@@ -2,14 +2,14 @@ name: Manual Vercel Deployment Trigger
 
 on:
   schedule:
-    # Runs at 10:00 UTC (4:00 AM CST) every day
     - cron: '0 10 * * *'
-  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Vercel Deployment
-        # This pings the Deploy Hook you created to force a fresh production build
-        run: curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_UiuTI9baIfLeezA4hYz0OJ0Jun1I/6U7UrSXlHn"
+        # We add SHOULD_BUILD=true directly into the URL query string
+        run: |
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_UiuTI9baIfLeezA4hYz0OJ0Jun1I/hPS4oMmWiz?SHOULD_BUILD=true"
