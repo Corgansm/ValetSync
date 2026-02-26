@@ -1,23 +1,164 @@
 [
-    {
-        "title": "Frazier & Deeter Advisory Event",
-        "date": "February 24, 2026",
-        "start_time": "05:00 PM",
-        "end_time": "08:00 PM",
-        "headcount": 100
-    },
-    {
-        "title": "5/3rd Business Social",
-        "date": "February 25, 2026",
-        "start_time": "04:30 PM",
-        "end_time": "08:00 PM",
-        "headcount": 40
-    },
-    {
-        "title": "Zero Trust Expo",
-        "date": "February 25, 2026",
-        "start_time": "06:30 PM",
-        "end_time": "07:30 AM",
-        "headcount": 100
-    }
+  {
+    "date": "2.27",
+    "name": "JOANNA'S 50TH BDAY",
+    "time": "7PM-11PM",
+    "people": 120
+  },
+  {
+    "date": "2.28",
+    "name": "ANDRE 50TH CELEBRATION(PROSPECT)",
+    "time": "7PM-11PM",
+    "people": 30
+  },
+  {
+    "date": "3.1",
+    "name": "ANDRE CELEBRATION(ALTERNATIVE)",
+    "time": "7PM-11PM",
+    "people": 30
+  },
+  {
+    "date": "3.3",
+    "name": "FIRST COMMAND RECEPTION",
+    "time": "5PM-8PM",
+    "people": 50
+  },
+  {
+    "date": "3.3",
+    "name": "IN HOUSE MEETING(PROSPECT)",
+    "time": "TBD",
+    "people": 14
+  },
+  {
+    "date": "3.4",
+    "name": "SITEONE(PROSPECT)",
+    "time": "4:30PM-7:30PM",
+    "people": 12
+  },
+  {
+    "date": "3.5",
+    "name": "OLD REPUBLIC",
+    "time": "8AM-4PM",
+    "people": 60
+  },
+  {
+    "date": "3.5",
+    "name": "SITEONE(PROSPECT)",
+    "time": "4:30PM-7:30PM",
+    "people": 12
+  },
+  {
+    "date": "3.9",
+    "name": "CUSA WELCOME",
+    "time": "5:30PM-8PM",
+    "people": 50
+  },
+  {
+    "date": "3.10",
+    "name": "CONF DIRECT",
+    "time": "8AM-10PM",
+    "people": 40
+  },
+  {
+    "date": "3.11",
+    "name": "CONF DIRECT",
+    "time": "8AM-10PM",
+    "people": 40
+  },
+  {
+    "date": "3.11",
+    "name": "OFF THE CLOCK",
+    "time": "4:30PM-6:30PM",
+    "people": 40
+  },
+  {
+    "date": "3.12",
+    "name": "CONF DIRECT",
+    "time": "8AM-10PM",
+    "people": 40
+  },
+  {
+    "date": "3.12",
+    "name": "LEADERSHIP AL",
+    "time": "8:15AM-9:15AM",
+    "people": 75
+  },
+  {
+    "date": "3.13",
+    "name": "CONF DIRECT",
+    "time": "8AM-10PM",
+    "people": 40
+  },
+  {
+    "date": "3.13",
+    "name": "IEEE",
+    "time": "8PM-9:30PM",
+    "people": 75
+  },
+  {
+    "date": "3.14",
+    "name": "CONF DIRECT",
+    "time": "8AM-10PM",
+    "people": 40
+  },
+  {
+    "date": "3.15",
+    "name": "CONF DIRECT",
+    "time": "8AM-10PM",
+    "people": 40
+  },
+  {
+    "date": "3.17",
+    "name": "BLUE ORIGIN(PROSPECT)",
+    "time": "9AM-5PM",
+    "people": 25
+  },
+  {
+    "date": "3.18",
+    "name": "BLUE ORIGIN(PROSPECT)",
+    "time": "9AM-5PM",
+    "people": 25
+  },
+  {
+    "date": "3.19",
+    "name": "BLUE ORIGIN(PROSPECT)",
+    "time": "9AM-5PM",
+    "people": 25
+  },
+  {
+    "date": "3.24",
+    "name": "DELOITTE AUSA",
+    "time": "5PM-9PM",
+    "people": 50
+  },
+  {
+    "date": "3.24",
+    "name": "IGNITE AUSA",
+    "time": "4:30PM-7:30PM",
+    "people": 100
+  },
+  {
+    "date": "3.24",
+    "name": "REMAX ALLIANCE(PROSPECT)",
+    "time": "11:30PM-1PM",
+    "people": 30
+  },
+  {
+    "date": "3.24",
+    "name": "GOVINI AUSA",
+    "time": "5PM-7PM",
+    "people": 60
+  },
+  {
+    "date": "3.25",
+    "name": "CONCURRENT TECH",
+    "time": "5:30PM-8PM",
+    "people": 50
+  },
+  {
+    "date": "3.25",
+    "name": "MAYNARD NEXSEN",
+    "time": "5PM-7PM",
+    "people": 50
+  }
 ]
