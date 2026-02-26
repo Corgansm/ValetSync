@@ -1,164 +1,191 @@
 [
   {
-    "date": "2.27",
-    "name": "JOANNA'S 50TH BDAY",
-    "time": "7PM-11PM",
-    "people": 120
+    "title": "Joanna's 50th Bday",
+    "date": "February 27, 2026",
+    "start_time": "07:00 PM",
+    "end_time": "11:00 PM",
+    "headcount": 120
   },
   {
-    "date": "2.28",
-    "name": "ANDRE 50TH CELEBRATION(PROSPECT)",
-    "time": "7PM-11PM",
-    "people": 30
+    "title": "Andre 50th Celebration(Prospect)",
+    "date": "February 28, 2026",
+    "start_time": "07:00 PM",
+    "end_time": "11:00 PM",
+    "headcount": 30
   },
   {
-    "date": "3.1",
-    "name": "ANDRE CELEBRATION(ALTERNATIVE)",
-    "time": "7PM-11PM",
-    "people": 30
+    "title": "Andre Celebration(Alternative)",
+    "date": "March 1, 2026",
+    "start_time": "07:00 PM",
+    "end_time": "11:00 PM",
+    "headcount": 30
   },
   {
-    "date": "3.3",
-    "name": "FIRST COMMAND RECEPTION",
-    "time": "5PM-8PM",
-    "people": 50
+    "title": "First Command Reception",
+    "date": "March 3, 2026",
+    "start_time": "05:00 PM",
+    "end_time": "08:00 PM",
+    "headcount": 50
   },
   {
-    "date": "3.3",
-    "name": "IN HOUSE MEETING(PROSPECT)",
-    "time": "TBD",
-    "people": 14
+    "title": "In House Meeting(Prospect)",
+    "date": "March 3, 2026",
+    "start_time": "TBD",
+    "end_time": "TBD",
+    "headcount": 14
   },
   {
-    "date": "3.4",
-    "name": "SITEONE(PROSPECT)",
-    "time": "4:30PM-7:30PM",
-    "people": 12
+    "title": "Siteone(Prospect)",
+    "date": "March 4, 2026",
+    "start_time": "04:30 PM",
+    "end_time": "07:30 PM",
+    "headcount": 12
   },
   {
-    "date": "3.5",
-    "name": "OLD REPUBLIC",
-    "time": "8AM-4PM",
-    "people": 60
+    "title": "Old Republic",
+    "date": "March 5, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "04:00 PM",
+    "headcount": 60
   },
   {
-    "date": "3.5",
-    "name": "SITEONE(PROSPECT)",
-    "time": "4:30PM-7:30PM",
-    "people": 12
+    "title": "Siteone(Prospect)",
+    "date": "March 5, 2026",
+    "start_time": "04:30 PM",
+    "end_time": "07:30 PM",
+    "headcount": 12
   },
   {
-    "date": "3.9",
-    "name": "CUSA WELCOME",
-    "time": "5:30PM-8PM",
-    "people": 50
+    "title": "Cusa Welcome",
+    "date": "March 9, 2026",
+    "start_time": "05:30 PM",
+    "end_time": "08:00 PM",
+    "headcount": 50
   },
   {
-    "date": "3.10",
-    "name": "CONF DIRECT",
-    "time": "8AM-10PM",
-    "people": 40
+    "title": "Conf Direct",
+    "date": "March 10, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "10:00 PM",
+    "headcount": 40
   },
   {
-    "date": "3.11",
-    "name": "CONF DIRECT",
-    "time": "8AM-10PM",
-    "people": 40
+    "title": "Conf Direct",
+    "date": "March 11, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "10:00 PM",
+    "headcount": 40
   },
   {
-    "date": "3.11",
-    "name": "OFF THE CLOCK",
-    "time": "4:30PM-6:30PM",
-    "people": 40
+    "title": "Off The Clock",
+    "date": "March 11, 2026",
+    "start_time": "04:30 PM",
+    "end_time": "06:30 PM",
+    "headcount": 40
   },
   {
-    "date": "3.12",
-    "name": "CONF DIRECT",
-    "time": "8AM-10PM",
-    "people": 40
+    "title": "Conf Direct",
+    "date": "March 12, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "10:00 PM",
+    "headcount": 40
   },
   {
-    "date": "3.12",
-    "name": "LEADERSHIP AL",
-    "time": "8:15AM-9:15AM",
-    "people": 75
+    "title": "Leadership Al",
+    "date": "March 12, 2026",
+    "start_time": "08:15 AM",
+    "end_time": "09:15 AM",
+    "headcount": 75
   },
   {
-    "date": "3.13",
-    "name": "CONF DIRECT",
-    "time": "8AM-10PM",
-    "people": 40
+    "title": "Conf Direct",
+    "date": "March 13, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "10:00 PM",
+    "headcount": 40
   },
   {
-    "date": "3.13",
-    "name": "IEEE",
-    "time": "8PM-9:30PM",
-    "people": 75
+    "title": "Ieee",
+    "date": "March 13, 2026",
+    "start_time": "08:00 PM",
+    "end_time": "09:30 PM",
+    "headcount": 75
   },
   {
-    "date": "3.14",
-    "name": "CONF DIRECT",
-    "time": "8AM-10PM",
-    "people": 40
+    "title": "Conf Direct",
+    "date": "March 14, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "10:00 PM",
+    "headcount": 40
   },
   {
-    "date": "3.15",
-    "name": "CONF DIRECT",
-    "time": "8AM-10PM",
-    "people": 40
+    "title": "Conf Direct",
+    "date": "March 15, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "10:00 PM",
+    "headcount": 40
   },
   {
-    "date": "3.17",
-    "name": "BLUE ORIGIN(PROSPECT)",
-    "time": "9AM-5PM",
-    "people": 25
+    "title": "Blue Origin(Prospect)",
+    "date": "March 17, 2026",
+    "start_time": "09:00 AM",
+    "end_time": "05:00 PM",
+    "headcount": 25
   },
   {
-    "date": "3.18",
-    "name": "BLUE ORIGIN(PROSPECT)",
-    "time": "9AM-5PM",
-    "people": 25
+    "title": "Blue Origin(Prospect)",
+    "date": "March 18, 2026",
+    "start_time": "09:00 AM",
+    "end_time": "05:00 PM",
+    "headcount": 25
   },
   {
-    "date": "3.19",
-    "name": "BLUE ORIGIN(PROSPECT)",
-    "time": "9AM-5PM",
-    "people": 25
+    "title": "Blue Origin(Prospect)",
+    "date": "March 19, 2026",
+    "start_time": "09:00 AM",
+    "end_time": "05:00 PM",
+    "headcount": 25
   },
   {
-    "date": "3.24",
-    "name": "DELOITTE AUSA",
-    "time": "5PM-9PM",
-    "people": 50
+    "title": "Deloitte Ausa",
+    "date": "March 24, 2026",
+    "start_time": "05:00 PM",
+    "end_time": "09:00 PM",
+    "headcount": 50
   },
   {
-    "date": "3.24",
-    "name": "IGNITE AUSA",
-    "time": "4:30PM-7:30PM",
-    "people": 100
+    "title": "Ignite Ausa",
+    "date": "March 24, 2026",
+    "start_time": "04:30 PM",
+    "end_time": "07:30 PM",
+    "headcount": 100
   },
   {
-    "date": "3.24",
-    "name": "REMAX ALLIANCE(PROSPECT)",
-    "time": "11:30PM-1PM",
-    "people": 30
+    "title": "Remax Alliance(Prospect)",
+    "date": "March 24, 2026",
+    "start_time": "11:30 PM",
+    "end_time": "01:00 PM",
+    "headcount": 30
   },
   {
-    "date": "3.24",
-    "name": "GOVINI AUSA",
-    "time": "5PM-7PM",
-    "people": 60
+    "title": "Govini Ausa",
+    "date": "March 24, 2026",
+    "start_time": "05:00 PM",
+    "end_time": "07:00 PM",
+    "headcount": 60
   },
   {
-    "date": "3.25",
-    "name": "CONCURRENT TECH",
-    "time": "5:30PM-8PM",
-    "people": 50
+    "title": "Concurrent Tech",
+    "date": "March 25, 2026",
+    "start_time": "05:30 PM",
+    "end_time": "08:00 PM",
+    "headcount": 50
   },
   {
-    "date": "3.25",
-    "name": "MAYNARD NEXSEN",
-    "time": "5PM-7PM",
-    "people": 50
+    "title": "Maynard Nexsen",
+    "date": "March 25, 2026",
+    "start_time": "05:00 PM",
+    "end_time": "07:00 PM",
+    "headcount": 50
   }
 ]
