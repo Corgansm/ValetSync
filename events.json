@@ -1,26 +1,5 @@
 [
     {
-        "title": "2026 AGF Huntsville Championships",
-        "date": "February 28, 2026",
-        "time": "From: 8:00 AM to 4:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "BTL presents & Juilet",
         "date": "Dates vary between February 24, 2026 - March 1, 2026",
         "time": "Time TBA",
@@ -32,27 +11,6 @@
         "source": "VBC"
     },
     {
-        "title": "Club 90's present Heated Rivalry Night",
-        "date": "February 28, 2026",
-        "time": "Starting: 9:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:30 PM - 09:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "09:00 PM - 11:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Disney On Ice presents Mickey's Search Party",
         "date": "Dates vary between February 26, 2026 - March 1, 2026",
         "time": "Time TBA",
@@ -60,48 +18,6 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "St. John's Benefit Gala",
-        "date": "February 28, 2026",
-        "time": "Starting: 5:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:00 PM - 05:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "05:30 PM - 07:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "07:30 PM - 08:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "The Flip Trade Show",
-        "date": "February 28, 2026",
-        "time": "From: 10:00 AM to 5:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 AM - 10:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "10:00 AM - 12:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "12:00 PM - 01:00 PM",
-                "impact": 1
-            }
         },
         "source": "VBC"
     },
