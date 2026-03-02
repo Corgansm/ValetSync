@@ -1,27 +1,5 @@
 [
     {
-        "title": "BTL presents & Juilet",
-        "date": "Dates vary between February 24, 2026 - March 1, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Disney On Ice presents Mickey's Search Party",
-        "date": "Dates vary between February 26, 2026 - March 1, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
         "title": "The Wood Brothers",
         "date": "March 3, 2026",
         "time": "Starting: 7:30 PM",
@@ -1686,27 +1664,6 @@
             }
         },
         "source": "VBC"
-    },
-    {
-        "title": "Sol Parade",
-        "date": "Mar 1, 2026",
-        "time": "3:00am",
-        "venue": "@ Tip Top Cafe",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "01:30 AM - 03:00 AM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "03:00 AM - 05:00 AM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "05:00 AM - 06:00 AM",
-                "impact": 10
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
