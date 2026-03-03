@@ -316,8 +316,8 @@
         "source": "VBC"
     },
     {
-        "title": "SoutheastCon 2026",
-        "date": "Dates vary between March 13, 2026 - March 15, 2026",
+        "title": "POSTPONED: Southern Lyricism",
+        "date": "March 13, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
@@ -327,23 +327,13 @@
         "source": "VBC"
     },
     {
-        "title": "Southern Lyricism",
-        "date": "March 13, 2026",
-        "time": "Starting: 8:00 PM",
+        "title": "SoutheastCon 2026",
+        "date": "Dates vary between March 13, 2026 - March 15, 2026",
+        "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
