@@ -1,47 +1,5 @@
 [
     {
-        "title": "An Evening with Toto",
-        "date": "March 4, 2026",
-        "time": "Starting: 8:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Bryce Crawford: \"I LVOE JESUS\" Tour",
-        "date": "March 4, 2026",
-        "time": "Starting: 7:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "KC & the Sunshine Band",
         "date": "March 5, 2026",
         "time": "Starting: 7:30 PM",
