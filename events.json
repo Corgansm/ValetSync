@@ -1,26 +1,5 @@
 [
     {
-        "title": "KC & the Sunshine Band",
-        "date": "March 5, 2026",
-        "time": "Starting: 7:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Beatles vs. Stones - A Musical Showdown",
         "date": "March 6, 2026",
         "time": "Starting: 7:30 PM",
@@ -741,8 +720,30 @@
         "source": "VBC"
     },
     {
+        "title": "Gamma Mu Induction Ceremony",
+        "date": "April 4, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Oakwood Alumni Association",
         "date": "April 4, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "FIRST Robotics Competition",
+        "date": "Dates vary between April 8, 2026 - April 11, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
@@ -769,6 +770,17 @@
                 "window": "09:00 PM - 10:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "NCMS Mid-South Chapter",
+        "date": "April 9, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1027,6 +1039,17 @@
     },
     {
         "title": "Monster Jam",
+        "date": "Dates vary between April 24, 2026 - April 26, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "NEACA Craft Show",
         "date": "Dates vary between April 24, 2026 - April 26, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
