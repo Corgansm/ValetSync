@@ -1,58 +1,5 @@
 [
     {
-        "title": "Beatles vs. Stones - A Musical Showdown",
-        "date": "March 6, 2026",
-        "time": "Starting: 7:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Jim Parker's Songwriters Series",
-        "date": "March 6, 2026",
-        "time": "Starting: 6:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Spring Home + Garden Show",
-        "date": "Dates vary between March 6, 2026 - March 8, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
         "title": "HSO presents Jim Brickman in Concert",
         "date": "March 7, 2026",
         "time": "From: 7:00 PM to 9:00 PM",
@@ -91,6 +38,17 @@
                 "window": "10:00 PM - 11:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Spring Home + Garden Show",
+        "date": "Dates vary between March 6, 2026 - March 8, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -720,6 +678,27 @@
         "source": "VBC"
     },
     {
+        "title": "Camacho",
+        "date": "April 4, 2026",
+        "time": "Starting: 7:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Gamma Mu Induction Ceremony",
         "date": "April 4, 2026",
         "time": "Time TBA",
@@ -1323,6 +1302,27 @@
         "source": "VBC"
     },
     {
+        "title": "Sleepy Theory",
+        "date": "May 8, 2026",
+        "time": "Starting: 8:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Get The Led Out",
         "date": "May 9, 2026",
         "time": "Starting: 7:30 PM",
@@ -1556,7 +1556,7 @@
     },
     {
         "title": "Henry Cho: The Empty Nest Tour",
-        "date": "August 21, 2026",
+        "date": "Dates vary between August 20, 2026 - August 21, 2026",
         "time": "Starting: 8:00 PM",
         "venue": "Von Braun Center",
         "impact_timeline": {
