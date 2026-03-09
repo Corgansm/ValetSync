@@ -1,58 +1,5 @@
 [
     {
-        "title": "Elevate the Stage",
-        "date": "March 8, 2026",
-        "time": "Starting: 3:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "01:30 PM - 03:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "03:00 PM - 05:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "05:00 PM - 06:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Il Divo",
-        "date": "March 8, 2026",
-        "time": "Starting: 7:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Spring Home + Garden Show",
-        "date": "Dates vary between March 6, 2026 - March 8, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
         "title": "COC Washington Update",
         "date": "March 9, 2026",
         "time": "From: 8:00 AM to 9:00 AM",
