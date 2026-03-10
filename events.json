@@ -1,26 +1,5 @@
 [
     {
-        "title": "COC Washington Update",
-        "date": "March 9, 2026",
-        "time": "From: 8:00 AM to 9:00 AM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "2026 CUSA Basketball Championships",
         "date": "Dates vary between March 10, 2026 - March 14, 2026",
         "time": "Time TBA",
@@ -861,21 +840,11 @@
     {
         "title": "Black Girl Therapy 2",
         "date": "April 18, 2026",
-        "time": "Starting: 7:00 PM",
+        "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
-            }
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1207,7 +1176,7 @@
         "source": "VBC"
     },
     {
-        "title": "Sleepy Theory",
+        "title": "Sleep Theory",
         "date": "May 8, 2026",
         "time": "Starting: 8:00 PM",
         "venue": "Von Braun Center",
@@ -1588,6 +1557,27 @@
     {
         "title": "Labyrinth: In Concert 40th Anniversary",
         "date": "November 7, 2026",
+        "time": "Starting: 8:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Harry Potter and the Goblet of Fire(TM) in Concert",
+        "date": "January 22, 2027",
         "time": "Starting: 8:00 PM",
         "venue": "Von Braun Center",
         "impact_timeline": {
