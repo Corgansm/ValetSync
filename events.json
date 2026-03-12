@@ -11,27 +11,6 @@
         "source": "VBC"
     },
     {
-        "title": "Croce Plays Croce",
-        "date": "March 11, 2026",
-        "time": "Starting: 7:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Daniel: An Agent of the King of Kings",
         "date": "Dates vary between March 12, 2026 - March 14, 2026",
         "time": "Time TBA",
@@ -1627,27 +1606,6 @@
             }
         },
         "source": "VBC"
-    },
-    {
-        "title": "St. Patrick's Day Parade",
-        "date": "Mar 14, 2026",
-        "time": "4:00pm",
-        "venue": "@ Downtown Huntsville",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "02:30 PM - 04:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "04:00 PM - 06:00 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "06:00 PM - 07:00 PM",
-                "impact": 10
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Huntsville St. Patrick's Day Parade",
