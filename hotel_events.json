@@ -1,103 +1,5 @@
 [
   {
-    "title": "Joanna's 50th Bday",
-    "date": "February 27, 2026",
-    "start_time": "07:00 PM",
-    "end_time": "11:00 PM",
-    "headcount": 120
-  },
-  {
-    "title": "Andre 50th Celebration(Prospect)",
-    "date": "February 28, 2026",
-    "start_time": "07:00 PM",
-    "end_time": "11:00 PM",
-    "headcount": 30
-  },
-  {
-    "title": "Andre Celebration(Alternative)",
-    "date": "March 1, 2026",
-    "start_time": "07:00 PM",
-    "end_time": "11:00 PM",
-    "headcount": 30
-  },
-  {
-    "title": "First Command Reception",
-    "date": "March 3, 2026",
-    "start_time": "05:00 PM",
-    "end_time": "08:00 PM",
-    "headcount": 50
-  },
-  {
-    "title": "In House Meeting(Prospect)",
-    "date": "March 3, 2026",
-    "start_time": "TBD",
-    "end_time": "TBD",
-    "headcount": 14
-  },
-  {
-    "title": "Siteone(Prospect)",
-    "date": "March 4, 2026",
-    "start_time": "04:30 PM",
-    "end_time": "07:30 PM",
-    "headcount": 12
-  },
-  {
-    "title": "Old Republic",
-    "date": "March 5, 2026",
-    "start_time": "08:00 AM",
-    "end_time": "04:00 PM",
-    "headcount": 60
-  },
-  {
-    "title": "Siteone(Prospect)",
-    "date": "March 5, 2026",
-    "start_time": "04:30 PM",
-    "end_time": "07:30 PM",
-    "headcount": 12
-  },
-  {
-    "title": "Cusa Welcome",
-    "date": "March 9, 2026",
-    "start_time": "05:30 PM",
-    "end_time": "08:00 PM",
-    "headcount": 50
-  },
-  {
-    "title": "Conf Direct",
-    "date": "March 10, 2026",
-    "start_time": "08:00 AM",
-    "end_time": "10:00 PM",
-    "headcount": 40
-  },
-  {
-    "title": "Conf Direct",
-    "date": "March 11, 2026",
-    "start_time": "08:00 AM",
-    "end_time": "10:00 PM",
-    "headcount": 40
-  },
-  {
-    "title": "Off The Clock",
-    "date": "March 11, 2026",
-    "start_time": "04:30 PM",
-    "end_time": "06:30 PM",
-    "headcount": 40
-  },
-  {
-    "title": "Conf Direct",
-    "date": "March 12, 2026",
-    "start_time": "08:00 AM",
-    "end_time": "10:00 PM",
-    "headcount": 40
-  },
-  {
-    "title": "Leadership Al",
-    "date": "March 12, 2026",
-    "start_time": "08:15 AM",
-    "end_time": "09:15 AM",
-    "headcount": 75
-  },
-  {
     "title": "Conf Direct",
     "date": "March 13, 2026",
     "start_time": "08:00 AM",
@@ -117,6 +19,13 @@
     "start_time": "08:00 AM",
     "end_time": "10:00 PM",
     "headcount": 40
+  },
+  {
+    "title": "Liberty University",
+    "date": "March 14, 2026",
+    "start_time": "05:00 PM",
+    "end_time": "09:00 PM",
+    "headcount": 50
   },
   {
     "title": "Conf Direct",
@@ -151,7 +60,7 @@
     "date": "March 24, 2026",
     "start_time": "05:00 PM",
     "end_time": "09:00 PM",
-    "headcount": 50
+    "headcount": 125
   },
   {
     "title": "Ignite Ausa",
@@ -163,7 +72,7 @@
   {
     "title": "Remax Alliance(Prospect)",
     "date": "March 24, 2026",
-    "start_time": "11:30 PM",
+    "start_time": "11:30 AM",
     "end_time": "01:00 PM",
     "headcount": 30
   },
@@ -186,6 +95,41 @@
     "date": "March 25, 2026",
     "start_time": "05:00 PM",
     "end_time": "07:00 PM",
-    "headcount": 50
+    "headcount": 16
+  },
+  {
+    "title": "SMX Tech Meeting",
+    "date": "March 25, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "05:00 PM",
+    "headcount": 10
+  },
+  {
+    "title": "Keel Point",
+    "date": "March 26, 2026",
+    "start_time": "05:00 PM",
+    "end_time": "07:30 PM",
+    "headcount": 100
+  },
+  {
+    "title": "SMX Tech Meeting",
+    "date": "March 26, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "05:00 PM",
+    "headcount": 10
+  },
+  {
+    "title": "Radiance Tech",
+    "date": "March 28, 2026",
+    "start_time": "08:00 AM",
+    "end_time": "01:00 PM",
+    "headcount": 33
+  },
+  {
+    "title": "Parks and Rec Lunch",
+    "date": "March 29, 2026",
+    "start_time": "02:00 PM",
+    "end_time": "04:00 PM",
+    "headcount": 40
   }
 ]
