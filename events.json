@@ -22,27 +22,6 @@
         "source": "VBC"
     },
     {
-        "title": "The STARS Tour featuring Anne Wilson",
-        "date": "March 12, 2026",
-        "time": "Starting: 7:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "POSTPONED: Southern Lyricism",
         "date": "March 13, 2026",
         "time": "Time TBA",
@@ -192,27 +171,6 @@
         "source": "VBC"
     },
     {
-        "title": "Badflower",
-        "date": "March 20, 2026",
-        "time": "Starting: 7:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Black & White Charity Ball",
         "date": "March 20, 2026",
         "time": "From: 7:00 PM to 12:00 AM",
@@ -230,6 +188,17 @@
                 "window": "09:00 PM - 10:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "CANCELLED: Badflower",
+        "date": "March 20, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -1434,6 +1403,27 @@
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "BTL presents Bluey's Big Play",
+        "date": "Dates vary between August 26, 2026 - August 27, 2026",
+        "time": "Starting: 6:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
                 "impact": 1
             }
         },
