@@ -1,16 +1,11 @@
 {
-    "2026-03-14": {
-        "condition": "Clear",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-03-15": {
-        "condition": "Slight Chance Rain Showers",
+        "condition": "Mostly Cloudy",
         "is_raining": true,
         "is_storming": true
     },
     "2026-03-16": {
-        "condition": "Chance Rain And Snow Showers",
+        "condition": "Chance Snow Showers",
         "is_raining": true,
         "is_storming": false
     },
@@ -31,6 +26,11 @@
     },
     "2026-03-20": {
         "condition": "Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-03-21": {
+        "condition": "Mostly Sunny",
         "is_raining": false,
         "is_storming": false
     }
