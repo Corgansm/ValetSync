@@ -1,27 +1,5 @@
 [
     {
-        "title": "POSTPONSED: 3rd Annual Rocket City Blues Festival",
-        "date": "March 15, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "SoutheastCon 2026",
-        "date": "Dates vary between March 13, 2026 - March 15, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
         "title": "42nd International Symposium on Child Abuse",
         "date": "Dates vary between March 16, 2026 - March 19, 2026",
         "time": "Time TBA",
