@@ -828,7 +828,7 @@
     },
     {
         "title": "Sleep Theory",
-        "date": "May 8, 2026",
+        "date": "Dates vary between May 7, 2026 - May 8, 2026",
         "time": "Starting: 8:00 PM",
         "venue": "Von Braun Center",
         "impact_timeline": {
@@ -1013,6 +1013,27 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Billy Bob Thornton & The Boxmasters",
+        "date": "July 9, 2026",
+        "time": "Starting: 7:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
         },
         "source": "VBC"
     },
@@ -1351,27 +1372,6 @@
             }
         },
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Mar 23, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
