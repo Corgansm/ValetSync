@@ -1,11 +1,6 @@
 {
-    "2026-03-25": {
-        "condition": "Partly Cloudy",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-03-26": {
-        "condition": "Mostly Sunny",
+        "condition": "Mostly Clear",
         "is_raining": false,
         "is_storming": false
     },
@@ -25,13 +20,18 @@
         "is_storming": false
     },
     "2026-03-30": {
-        "condition": "Mostly Sunny",
+        "condition": "Partly Sunny",
         "is_raining": false,
         "is_storming": false
     },
     "2026-03-31": {
-        "condition": "Mostly Sunny then Slight Chance Rain Showers",
+        "condition": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
         "is_raining": true,
-        "is_storming": false
+        "is_storming": true
+    },
+    "2026-04-01": {
+        "condition": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+        "is_raining": true,
+        "is_storming": true
     }
 }
