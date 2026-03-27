@@ -1,37 +1,5 @@
 [
     {
-        "title": "AUSA Global Force",
-        "date": "Dates vary between March 24, 2026 - March 26, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Stayin' Alive: One Night of the Bee Gees",
-        "date": "March 26, 2026",
-        "time": "Starting: 7:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 10:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:30 PM - 11:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "A Night of the Blues Honoring Microwave Dave",
         "date": "March 27, 2026",
         "time": "Starting: 8:00 PM",
