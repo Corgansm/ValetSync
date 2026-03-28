@@ -1,81 +1,7 @@
 [
     {
-        "title": "A Night of the Blues Honoring Microwave Dave",
-        "date": "March 27, 2026",
-        "time": "Starting: 8:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "BTL presents Mrs. doubtfire",
         "date": "Dates vary between March 27, 2026 - March 29, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Bid on Blue 2026",
-        "date": "March 27, 2026",
-        "time": "Starting: 6:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Huntsville Havoc vs. Birmingham Bulls",
-        "date": "March 27, 2026",
-        "time": "Starting: 7:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:30 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 10
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Theatre Huntsville presents \"A Streetcar Named...",
-        "date": "Dates vary between March 27, 2026 - April 5, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
@@ -119,6 +45,17 @@
     {
         "title": "The Flip Trade Show",
         "date": "Dates vary between March 28, 2026 - March 29, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Theatre Huntsville presents \"A Streetcar Named...",
+        "date": "Dates vary between March 27, 2026 - April 5, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
