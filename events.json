@@ -1,26 +1,5 @@
 [
     {
-        "title": "Celtic Woman - A New Era",
-        "date": "March 31, 2026",
-        "time": "Starting: 7:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Engineering & Operations Conference",
         "date": "Dates vary between March 29, 2026 - April 1, 2026",
         "time": "Time TBA",
@@ -60,6 +39,27 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "90's DJ Night",
+        "date": "April 3, 2026",
+        "time": "From: 7:00 PM to 10:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
         },
         "source": "VBC"
     },
@@ -814,6 +814,27 @@
         "source": "VBC"
     },
     {
+        "title": "Southern Soul Rising Stars",
+        "date": "May 15, 2026",
+        "time": "Starting: 8:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Fantasia & Anthony Hamilton",
         "date": "May 16, 2026",
         "time": "Starting: 8:00 PM",
@@ -1130,6 +1151,27 @@
         "source": "VBC"
     },
     {
+        "title": "Rocket City Octane Auto Show 2026",
+        "date": "August 15, 2026",
+        "time": "From: 10:00 AM to 04:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Henry Cho: The Empty Nest Tour",
         "date": "Dates vary between August 20, 2026 - August 21, 2026",
         "time": "Starting: 8:00 PM",
@@ -1359,27 +1401,6 @@
             }
         },
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Mar 30, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
