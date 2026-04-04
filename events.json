@@ -1,37 +1,5 @@
 [
     {
-        "title": "90's DJ Night",
-        "date": "April 3, 2026",
-        "time": "From: 7:00 PM to 10:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Theatre Huntsville presents \"A Streetcar Named...",
-        "date": "Dates vary between March 27, 2026 - April 5, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Camacho",
         "date": "April 4, 2026",
         "time": "Starting: 7:00 PM",
@@ -66,6 +34,17 @@
     {
         "title": "Oakwood Alumni Association",
         "date": "April 4, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Theatre Huntsville presents \"A Streetcar Named...",
+        "date": "Dates vary between March 27, 2026 - April 5, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
@@ -800,6 +779,17 @@
                 "window": "10:00 PM - 11:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "All Star Pool & Spa Show",
+        "date": "Dates vary between May 15, 2026 - May 17, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
