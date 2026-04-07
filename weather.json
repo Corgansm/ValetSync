@@ -1,26 +1,21 @@
 {
-    "2026-04-06": {
-        "condition": "Mostly Cloudy",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-04-07": {
-        "condition": "Sunny",
+        "condition": "Clear",
         "is_raining": false,
         "is_storming": false
     },
     "2026-04-08": {
-        "condition": "Partly Sunny",
+        "condition": "Mostly Sunny",
         "is_raining": false,
         "is_storming": false
     },
     "2026-04-09": {
-        "condition": "Mostly Sunny",
+        "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
     },
     "2026-04-10": {
-        "condition": "Mostly Sunny",
+        "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
     },
@@ -30,6 +25,11 @@
         "is_storming": false
     },
     "2026-04-12": {
+        "condition": "Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-04-13": {
         "condition": "Mostly Sunny",
         "is_raining": false,
         "is_storming": false

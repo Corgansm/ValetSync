@@ -85,6 +85,17 @@
         "source": "VBC"
     },
     {
+        "title": "Latin Night",
+        "date": "April 10, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "The R&B Lovers Tour",
         "date": "April 10, 2026",
         "time": "Starting: 8:00 PM",
@@ -148,6 +159,48 @@
         "source": "VBC"
     },
     {
+        "title": "Fred Astaire Dance Showcase",
+        "date": "April 11, 2026",
+        "time": "Starting: 6:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "HEART Ball",
+        "date": "April 11, 2026",
+        "time": "Starting: 5:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:00 PM - 05:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "05:30 PM - 07:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "HSO presents Dreams In Flight",
         "date": "April 11, 2026",
         "time": "From: 7:30 PM to 9:30 PM",
@@ -164,6 +217,27 @@
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
                 "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc vs. Knoxville Ice bears: PLAYOFFS",
+        "date": "April 11, 2026",
+        "time": "Starting: 7:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
             }
         },
         "source": "VBC"
@@ -205,6 +279,59 @@
             },
             "departure_rush": {
                 "window": "12:00 PM - 01:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville-Madison County Athletic Hall of Fame...",
+        "date": "April 13, 2026",
+        "time": "From: 6:00 PM to 9:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "TVA Valley Partners",
+        "date": "Dates vary between April 13, 2026 - April 14, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Village of Promise Speaker Series",
+        "date": "April 14, 2026",
+        "time": "Starting: 6:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
                 "impact": 1
             }
         },
@@ -286,6 +413,28 @@
         "source": "VBC"
     },
     {
+        "title": "Inspire Regional Competition",
+        "date": "Dates vary between April 18, 2026 - April 19, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "2026 TVA Industrial Summit",
+        "date": "Dates vary between April 22, 2026 - April 23, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Lake Street Dive",
         "date": "April 22, 2026",
         "time": "Starting: 8:00 PM",
@@ -307,6 +456,17 @@
         "source": "VBC"
     },
     {
+        "title": "NASA Student Launch",
+        "date": "Dates vary between April 22, 2026 - April 24, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "2000's DJ Night",
         "date": "April 24, 2026",
         "time": "From: 7:00 PM to 10:00 PM",
@@ -324,6 +484,17 @@
                 "window": "09:00 PM - 10:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "78th Alabama Council of Deliberation",
+        "date": "Dates vary between April 24, 2026 - April 25, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -378,6 +549,27 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "HSO presents Video Games Live",
+        "date": "April 25, 2026",
+        "time": "From: 7:30 PM to 9:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 1
+            }
         },
         "source": "VBC"
     },
@@ -445,6 +637,27 @@
         "source": "VBC"
     },
     {
+        "title": "UA Alumni Scholarship Dinner",
+        "date": "April 28, 2026",
+        "time": "Starting: 6:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Bailey Zimmerman: Different Night Same Rodeo Tour...",
         "date": "April 30, 2026",
         "time": "Starting: 7:00 PM",
@@ -481,6 +694,27 @@
             },
             "departure_rush": {
                 "window": "06:00 PM - 07:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Alabama Plant Show",
+        "date": "Dates vary between May 2, 2026 - May 3, 2026",
+        "time": "From: 10:00 AM to 3:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
                 "impact": 1
             }
         },
@@ -592,6 +826,17 @@
         "source": "VBC"
     },
     {
+        "title": "AMTC Collaboration Event",
+        "date": "Dates vary between May 5, 2026 - May 6, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "BTL presents Water for Elephants",
         "date": "Dates vary between May 5, 2026 - May 10, 2026",
         "time": "Time TBA",
@@ -683,6 +928,38 @@
                 "window": "04:00 PM - 05:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "NAVIGATE Nonprofit Network Conference",
+        "date": "May 12, 2026",
+        "time": "From: 8:30 AM to 4:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:00 AM - 08:30 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:30 AM - 10:30 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 AM - 11:30 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "48th Aerospace Mechanisms Symposium",
+        "date": "Dates vary between May 13, 2026 - May 15, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -782,6 +1059,27 @@
         "source": "VBC"
     },
     {
+        "title": "UV GlowCon",
+        "date": "May 16, 2026",
+        "time": "From: 10:00 AM to 6:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Jarrod Walker",
         "date": "May 22, 2026",
         "time": "Starting: 8:00 PM",
@@ -803,6 +1101,28 @@
         "source": "VBC"
     },
     {
+        "title": "Regional Convention of Jehovah's Witnesses",
+        "date": "Dates vary between May 22, 2026 - May 24, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Regional Convention of Jehovah's Witnesses",
+        "date": "Dates vary between May 29, 2026 - May 31, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "AEW Presents Collision",
         "date": "May 30, 2026",
         "time": "Starting: 6:30 PM",
@@ -820,6 +1140,38 @@
                 "window": "08:30 PM - 09:30 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Bible College: Vision Banquet",
+        "date": "June 5, 2026",
+        "time": "Starting: 7:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 01:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "01:00 AM - 02:00 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Regional Convention of Jehovah's Witnesses",
+        "date": "Dates vary between June 5, 2026 - June 7, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -856,8 +1208,73 @@
         "source": "VBC"
     },
     {
+        "title": "Vinyl Radio",
+        "date": "June 13, 2026",
+        "time": "Starting: 7:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Alabama Educational Technology Conference",
+        "date": "Dates vary between June 15, 2026 - June 19, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "GridIron Men's Conference",
+        "date": "Dates vary between June 19, 2026 - June 20, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Black Jacket Symphony presents Bon Jovi's...",
         "date": "June 20, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Regional Convention of Jehovah's Witnesses",
+        "date": "Dates vary between June 26, 2026 - June 28, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Regional Convention of Jehovah's Witnesses",
+        "date": "Dates vary between July 3, 2026 - July 5, 2026",
         "time": "Time TBA",
         "venue": "Von Braun Center",
         "impact_timeline": {
@@ -1197,6 +1614,27 @@
             },
             "departure_rush": {
                 "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Jo Koy: Koy Meets World",
+        "date": "October 18, 2026",
+        "time": "Starting: 7:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
                 "impact": 1
             }
         },
