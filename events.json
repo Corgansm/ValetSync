@@ -222,6 +222,27 @@
         "source": "VBC"
     },
     {
+        "title": "Havoc Playoff Pregame Party",
+        "date": "April 11, 2026",
+        "time": "From: 4:00 PM to 6:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "02:30 PM - 04:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "04:00 PM - 06:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "06:30 PM - 07:30 PM",
+                "impact": 10
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Huntsville Havoc vs. Knoxville Ice bears: PLAYOFFS",
         "date": "April 11, 2026",
         "time": "Starting: 7:00 PM",
@@ -826,6 +847,17 @@
         "source": "VBC"
     },
     {
+        "title": "UAH Graduation",
+        "date": "May 4, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "AMTC Collaboration Event",
         "date": "Dates vary between May 5, 2026 - May 6, 2026",
         "time": "Time TBA",
@@ -848,6 +880,38 @@
         "source": "VBC"
     },
     {
+        "title": "Drake State Honors Day",
+        "date": "May 5, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Drake State Nurse Pinning",
+        "date": "May 5, 2026",
+        "time": "From: 10:00 AM to 11:30 AM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Amy Grant",
         "date": "May 6, 2026",
         "time": "Starting: 7:00 PM",
@@ -865,6 +929,38 @@
                 "window": "09:00 PM - 10:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Drake State Graduation",
+        "date": "May 7, 2026",
+        "time": "Starting: 1:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Oakwood University Graduation",
+        "date": "Dates vary between May 7, 2026 - May 8, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
@@ -964,6 +1060,48 @@
         "source": "VBC"
     },
     {
+        "title": "COC 2026 Alabama Update featuring Gov. Kay Ivey",
+        "date": "May 13, 2026",
+        "time": "From: 12:00 PM to 1:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 AM - 12:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "12:00 PM - 02:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "02:00 PM - 03:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "COC 2026 Best Places to Work® Awards",
+        "date": "May 14, 2026",
+        "time": "From: 11:30 AM to 1:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:00 AM - 11:30 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "11:30 AM - 01:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "01:30 PM - 02:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Juvenile",
         "date": "May 14, 2026",
         "time": "Starting: 8:00 PM",
@@ -992,27 +1130,6 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Southern Soul Rising Stars",
-        "date": "May 15, 2026",
-        "time": "Starting: 8:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
         },
         "source": "VBC"
     },
@@ -1080,6 +1197,49 @@
         "source": "VBC"
     },
     {
+        "title": "BTL presents The Tallulah Awards",
+        "date": "May 17, 2026",
+        "time": "Starting: 6:30 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "Westminster Christian Academy Graduation",
+        "date": "May 18, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "St. John Paul II Graduation",
+        "date": "May 21, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Jarrod Walker",
         "date": "May 22, 2026",
         "time": "Starting: 8:00 PM",
@@ -1119,27 +1279,6 @@
         "impact_timeline": {
             "error": "Time TBA",
             "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "AEW Presents Collision",
-        "date": "May 30, 2026",
-        "time": "Starting: 6:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
         },
         "source": "VBC"
     },
@@ -1599,6 +1738,27 @@
         "source": "VBC"
     },
     {
+        "title": "Gary Owen: No Hard Feelings Tour",
+        "date": "September 24, 2026",
+        "time": "Starting: 8:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Jim Parker's Songwriters Series",
         "date": "October 2, 2026",
         "time": "Starting: 6:30 PM",
@@ -1744,27 +1904,6 @@
             }
         },
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Apr 6, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
