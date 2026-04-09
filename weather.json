@@ -1,9 +1,4 @@
 {
-    "2026-04-08": {
-        "condition": "Partly Cloudy",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-04-09": {
         "condition": "Sunny",
         "is_raining": false,
@@ -25,12 +20,17 @@
         "is_storming": false
     },
     "2026-04-13": {
-        "condition": "Partly Sunny",
+        "condition": "Mostly Sunny",
         "is_raining": false,
         "is_storming": false
     },
     "2026-04-14": {
-        "condition": "Partly Sunny then Slight Chance Showers And Thunderstorms",
+        "condition": "Mostly Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-04-15": {
+        "condition": "Partly Sunny",
         "is_raining": true,
         "is_storming": true
     }
