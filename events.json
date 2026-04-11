@@ -1,90 +1,5 @@
 [
     {
-        "title": "FIRST Robotics Competition",
-        "date": "Dates vary between April 8, 2026 - April 11, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "History That Doesn't Suck",
-        "date": "April 10, 2026",
-        "time": "Starting: 7:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Jim Parker's Songwriters Series",
-        "date": "April 10, 2026",
-        "time": "Starting: 6:30 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Latin Night",
-        "date": "April 10, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "The R&B Lovers Tour",
-        "date": "April 10, 2026",
-        "time": "Starting: 8:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "3BALLMTY",
         "date": "April 11, 2026",
         "time": "Starting: 9:00 PM",
@@ -123,6 +38,17 @@
                 "window": "12:00 PM - 01:00 PM",
                 "impact": 1
             }
+        },
+        "source": "VBC"
+    },
+    {
+        "title": "FIRST Robotics Competition",
+        "date": "Dates vary between April 8, 2026 - April 11, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
         },
         "source": "VBC"
     },
