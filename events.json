@@ -1,47 +1,5 @@
 [
     {
-        "title": "GUTFELD LIVE '26",
-        "date": "April 12, 2026",
-        "time": "Starting: 2:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "12:30 PM - 02:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "02:00 PM - 05:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "05:00 PM - 06:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "PGA Watch Party",
-        "date": "April 12, 2026",
-        "time": "Starting: 10:00 AM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 AM - 10:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "10:00 AM - 12:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "12:00 PM - 01:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Huntsville-Madison County Athletic Hall of Fame...",
         "date": "April 13, 2026",
         "time": "From: 6:00 PM to 9:00 PM",
