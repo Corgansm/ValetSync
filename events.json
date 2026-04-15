@@ -1,37 +1,5 @@
 [
     {
-        "title": "TVA Valley Partners",
-        "date": "Dates vary between April 13, 2026 - April 14, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Village of Promise Speaker Series",
-        "date": "April 14, 2026",
-        "time": "Starting: 6:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "Sons Of Legion - Soul To SØL Tour",
         "date": "April 16, 2026",
         "time": "Starting: 8:00 PM",
@@ -1474,6 +1442,27 @@
         "source": "VBC"
     },
     {
+        "title": "The Temptations & The Four Tops",
+        "date": "September 10, 2026",
+        "time": "Starting: 7:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Jim Parker's Songwriters Series",
         "date": "September 11, 2026",
         "time": "Starting: 6:30 PM",
@@ -1600,6 +1589,27 @@
         "source": "VBC"
     },
     {
+        "title": "Nurse Blake: But Did You Die? Comedy Tour",
+        "date": "October 29, 2026",
+        "time": "Starting: 7:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "So Good! The Neil Diamond Experience",
         "date": "November 1, 2026",
         "time": "Starting: 7:30 PM",
@@ -1685,27 +1695,6 @@
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
-        "date": "Apr 13, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 20, 2026",
         "time": "10:00pm",
         "venue": "Big Spring Park",
@@ -1747,85 +1736,85 @@
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "First Lady",
+        "title": "Panoply: First Lady",
         "date": "Apr 24, 2026",
         "time": "10:15pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "08:45 PM - 10:15 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "10:15 PM - 12:15 AM",
-                "impact": 3
+                "window": "10:15 PM - 06:15 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "12:15 AM - 01:15 AM",
-                "impact": 3
+                "window": "06:15 AM - 07:15 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Local Brand",
+        "title": "Panoply: Local Brand",
         "date": "Apr 24, 2026",
         "time": "11:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "10:00 PM - 11:30 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "11:30 PM - 01:30 AM",
-                "impact": 3
+                "window": "11:30 PM - 07:30 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "01:30 AM - 02:30 AM",
-                "impact": 3
+                "window": "07:30 AM - 08:30 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Jazz McKenzie",
+        "title": "Panoply: Jazz McKenzie",
         "date": "Apr 25, 2026",
         "time": "12:45am",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "11:15 PM - 12:45 AM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "12:45 AM - 02:45 AM",
-                "impact": 3
+                "window": "12:45 AM - 08:45 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "02:45 AM - 03:45 AM",
-                "impact": 3
+                "window": "08:45 AM - 09:45 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "The Silver Silos",
+        "title": "Panoply: The Silver Silos",
         "date": "Apr 25, 2026",
         "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "01:30 PM - 03:00 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "03:00 PM - 05:00 PM",
-                "impact": 3
+                "window": "03:00 PM - 11:00 PM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "05:00 PM - 06:00 PM",
-                "impact": 3
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
@@ -1852,127 +1841,127 @@
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Them Damn Dogs",
+        "title": "Panoply: Them Damn Dogs",
         "date": "Apr 25, 2026",
         "time": "4:15pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "02:45 PM - 04:15 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "04:15 PM - 06:15 PM",
-                "impact": 3
+                "window": "04:15 PM - 12:15 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "06:15 PM - 07:15 PM",
-                "impact": 3
+                "window": "12:15 AM - 01:15 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Maclin & Co",
+        "title": "Panoply: Maclin & Co",
         "date": "Apr 25, 2026",
         "time": "5:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "04:00 PM - 05:30 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "05:30 PM - 07:30 PM",
-                "impact": 3
+                "window": "05:30 PM - 01:30 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "07:30 PM - 08:30 PM",
-                "impact": 3
+                "window": "01:30 AM - 02:30 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Gabi Rose",
+        "title": "Panoply: Gabi Rose",
         "date": "Apr 25, 2026",
         "time": "6:45pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:15 PM - 06:45 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "06:45 PM - 08:45 PM",
-                "impact": 3
+                "window": "06:45 PM - 02:45 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "08:45 PM - 09:45 PM",
-                "impact": 3
+                "window": "02:45 AM - 03:45 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Shane Davis Group",
+        "title": "Panoply: Shane Davis Group",
         "date": "Apr 25, 2026",
         "time": "8:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 3
+                "window": "08:00 PM - 04:00 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "window": "04:00 AM - 05:00 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Coyote & The Jitts",
+        "title": "Panoply: Coyote & The Jitts",
         "date": "Apr 25, 2026",
         "time": "9:15pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "07:45 PM - 09:15 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "09:15 PM - 11:15 PM",
-                "impact": 3
+                "window": "09:15 PM - 05:15 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "11:15 PM - 12:15 AM",
-                "impact": 3
+                "window": "05:15 AM - 06:15 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "The Tavern Preachers",
+        "title": "Panoply: The Tavern Preachers",
         "date": "Apr 25, 2026",
         "time": "10:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "09:00 PM - 10:30 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "10:30 PM - 12:30 AM",
-                "impact": 3
+                "window": "10:30 PM - 06:30 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "12:30 AM - 01:30 AM",
-                "impact": 3
+                "window": "06:30 AM - 07:30 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
@@ -1999,22 +1988,22 @@
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Otis Walker Band",
+        "title": "Panoply: Otis Walker Band",
         "date": "Apr 26, 2026",
         "time": "1:00am",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "11:30 PM - 01:00 AM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "01:00 AM - 03:00 AM",
-                "impact": 3
+                "window": "01:00 AM - 09:00 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "03:00 AM - 04:00 AM",
-                "impact": 3
+                "window": "09:00 AM - 10:00 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
@@ -2041,127 +2030,127 @@
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "The Jazz Hotline",
+        "title": "Panoply: The Jazz Hotline",
         "date": "Apr 26, 2026",
         "time": "4:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "02:30 PM - 04:00 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "04:00 PM - 06:00 PM",
-                "impact": 3
+                "window": "04:00 PM - 12:00 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "06:00 PM - 07:00 PM",
-                "impact": 3
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Redstone Avenue",
+        "title": "Panoply: Redstone Avenue",
         "date": "Apr 26, 2026",
         "time": "5:15pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "03:45 PM - 05:15 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "05:15 PM - 07:15 PM",
-                "impact": 3
+                "window": "05:15 PM - 01:15 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "07:15 PM - 08:15 PM",
-                "impact": 3
+                "window": "01:15 AM - 02:15 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Dalton Jones",
+        "title": "Panoply: Dalton Jones",
         "date": "Apr 26, 2026",
         "time": "6:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 3
+                "window": "06:30 PM - 02:30 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 3
+                "window": "02:30 AM - 03:30 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Samuel Issac Penn",
+        "title": "Panoply: Samuel Issac Penn",
         "date": "Apr 26, 2026",
         "time": "7:45pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:15 PM - 07:45 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "07:45 PM - 09:45 PM",
-                "impact": 3
+                "window": "07:45 PM - 03:45 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "09:45 PM - 10:45 PM",
-                "impact": 3
+                "window": "03:45 AM - 04:45 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Ghost River Revival",
+        "title": "Panoply: Ghost River Revival",
         "date": "Apr 26, 2026",
         "time": "9:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "07:30 PM - 09:00 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "09:00 PM - 11:00 PM",
-                "impact": 3
+                "window": "09:00 PM - 05:00 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "window": "05:00 AM - 06:00 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
     },
     {
-        "title": "Double Barrel",
+        "title": "Panoply: Double Barrel",
         "date": "Apr 26, 2026",
         "time": "10:15pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "08:45 PM - 10:15 PM",
-                "impact": 2
+                "impact": 8
             },
             "during_event": {
-                "window": "10:15 PM - 12:15 AM",
-                "impact": 3
+                "window": "10:15 PM - 06:15 AM",
+                "impact": 10
             },
             "departure_rush": {
-                "window": "12:15 AM - 01:15 AM",
-                "impact": 3
+                "window": "06:15 AM - 07:15 AM",
+                "impact": 10
             }
         },
         "source": "DHI Time.ly Calendar"
@@ -2182,6 +2171,27 @@
             },
             "departure_rush": {
                 "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Mayor's Bike Ride",
+        "date": "May 2, 2026",
+        "time": "3:30pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "02:00 PM - 03:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "03:30 PM - 05:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "05:30 PM - 06:30 PM",
                 "impact": 3
             }
         },
