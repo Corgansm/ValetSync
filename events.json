@@ -1,26 +1,5 @@
 [
     {
-        "title": "Sons Of Legion - Soul To SØL Tour",
-        "date": "April 16, 2026",
-        "time": "Starting: 8:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "2026 Crescen-Dough Auction",
         "date": "April 17, 2026",
         "time": "Time TBA",
@@ -204,6 +183,17 @@
         "source": "VBC"
     },
     {
+        "title": "Cancelled: Lil Pump",
+        "date": "April 25, 2026",
+        "time": "Time TBA",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 1
+        },
+        "source": "VBC"
+    },
+    {
         "title": "Cubing USA Southeast Championship 2026",
         "date": "Dates vary between April 25, 2026 - April 26, 2026",
         "time": "Time TBA",
@@ -230,27 +220,6 @@
             },
             "departure_rush": {
                 "window": "10:30 PM - 11:30 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Lil Pump",
-        "date": "April 25, 2026",
-        "time": "Starting: 10:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
                 "impact": 1
             }
         },
