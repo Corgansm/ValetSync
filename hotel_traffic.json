@@ -130,5 +130,9 @@
     "2026-04-02": {
         "arrivals": 43,
         "departures": 13
+    },
+    "2026-04-20": {
+        "arrivals": 4,
+        "departures": 68
     }
 }
