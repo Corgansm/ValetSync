@@ -1,9 +1,4 @@
 {
-    "2026-04-19": {
-        "condition": "Mostly Cloudy",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-04-20": {
         "condition": "Sunny",
         "is_raining": false,
@@ -25,12 +20,17 @@
         "is_storming": false
     },
     "2026-04-24": {
-        "condition": "Mostly Sunny then Chance Showers And Thunderstorms",
+        "condition": "Mostly Sunny then Slight Chance Rain Showers",
         "is_raining": true,
         "is_storming": true
     },
     "2026-04-25": {
         "condition": "Showers And Thunderstorms Likely",
+        "is_raining": true,
+        "is_storming": true
+    },
+    "2026-04-26": {
+        "condition": "Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     }

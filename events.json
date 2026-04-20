@@ -1,27 +1,5 @@
 [
     {
-        "title": "Comic & Pop Culture Expo",
-        "date": "Dates vary between April 17, 2026 - April 19, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
-        "title": "Inspire Regional Competition",
-        "date": "Dates vary between April 18, 2026 - April 19, 2026",
-        "time": "Time TBA",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "error": "Time TBA",
-            "static_impact": 1
-        },
-        "source": "VBC"
-    },
-    {
         "title": "2026 TVA Industrial Summit",
         "date": "Dates vary between April 22, 2026 - April 23, 2026",
         "time": "Time TBA",
