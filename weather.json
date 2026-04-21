@@ -1,11 +1,6 @@
 {
-    "2026-04-20": {
-        "condition": "Sunny",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-04-21": {
-        "condition": "Sunny",
+        "condition": "Patchy Fog then Sunny",
         "is_raining": false,
         "is_storming": false
     },
@@ -25,12 +20,17 @@
         "is_storming": true
     },
     "2026-04-25": {
-        "condition": "Showers And Thunderstorms Likely",
+        "condition": "Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-04-26": {
         "condition": "Chance Showers And Thunderstorms",
+        "is_raining": true,
+        "is_storming": true
+    },
+    "2026-04-27": {
+        "condition": "Showers And Thunderstorms Likely",
         "is_raining": true,
         "is_storming": true
     }

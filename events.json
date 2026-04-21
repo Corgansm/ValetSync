@@ -1178,6 +1178,27 @@
         "source": "VBC"
     },
     {
+        "title": "The Molly Ringwalds",
+        "date": "July 24, 2026",
+        "time": "Starting: 8:00 PM",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 1
+            }
+        },
+        "source": "VBC"
+    },
+    {
         "title": "The Wallflowers",
         "date": "July 31, 2026",
         "time": "Starting: 08:00 PM",
