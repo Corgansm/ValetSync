@@ -11,27 +11,6 @@
         "source": "VBC"
     },
     {
-        "title": "Lake Street Dive",
-        "date": "April 22, 2026",
-        "time": "Starting: 8:00 PM",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
-        },
-        "source": "VBC"
-    },
-    {
         "title": "NASA Student Launch",
         "date": "Dates vary between April 23, 2026 - April 24, 2026",
         "time": "Time TBA",
