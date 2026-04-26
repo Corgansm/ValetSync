@@ -1,89 +1,5 @@
 [
     {
-        "title": "Panoply Arts Festival",
-        "date": "Apr 24, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "10:00 PM - 06:00 AM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "06:00 AM - 07:00 AM",
-                "impact": 10
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Panoply: First Lady",
-        "date": "Apr 24, 2026",
-        "time": "10:15pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:45 PM - 10:15 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "10:15 PM - 06:15 AM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "06:15 AM - 07:15 AM",
-                "impact": 10
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Panoply: Local Brand",
-        "date": "Apr 24, 2026",
-        "time": "11:30pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:00 PM - 11:30 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "11:30 PM - 07:30 AM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "07:30 AM - 08:30 AM",
-                "impact": 10
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Panoply: Jazz McKenzie",
-        "date": "Apr 25, 2026",
-        "time": "12:45am",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "11:15 PM - 12:45 AM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "12:45 AM - 08:45 AM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "08:45 AM - 09:45 AM",
-                "impact": 10
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
         "title": "Panoply: The Silver Silos",
         "date": "Apr 25, 2026",
         "time": "3:00pm",
@@ -204,27 +120,6 @@
             },
             "departure_rush": {
                 "window": "04:00 AM - 05:00 AM",
-                "impact": 10
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Panoply: Coyote & The Jitts",
-        "date": "Apr 25, 2026",
-        "time": "9:15pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:45 PM - 09:15 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "09:15 PM - 05:15 AM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "05:15 AM - 06:15 AM",
                 "impact": 10
             }
         },
