@@ -63,6 +63,27 @@
         "source": "DHI Time.ly Calendar"
     },
     {
+        "title": "MindTravel May Live-to-Headphones Silent Piano Concert in Huntsville",
+        "date": "May 30, 2026",
+        "time": "12:00am",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 PM - 12:00 AM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "12:00 AM - 03:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 AM - 04:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jun 1, 2026",
         "time": "10:00pm",
