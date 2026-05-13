@@ -1,27 +1,6 @@
 [
     {
         "title": "Weekly Movement Arts Community Meetup",
-        "date": "May 11, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
         "date": "May 18, 2026",
         "time": "10:00pm",
         "venue": "Big Spring Park",
