@@ -1,5 +1,26 @@
 [
     {
+        "title": "Caribbean Qarnival 5K for Mental Health Awareness",
+        "date": "May 16, 2026",
+        "time": "1:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "May 18, 2026",
         "time": "10:00pm",
