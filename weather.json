@@ -1,16 +1,11 @@
 {
-    "2026-05-22": {
-        "condition": "Showers And Thunderstorms",
-        "is_raining": true,
-        "is_storming": true
-    },
     "2026-05-23": {
-        "condition": "Showers And Thunderstorms",
+        "condition": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
         "is_raining": true,
         "is_storming": true
     },
     "2026-05-24": {
-        "condition": "Showers And Thunderstorms",
+        "condition": "Slight Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
         "is_raining": true,
         "is_storming": true
     },
@@ -25,12 +20,17 @@
         "is_storming": true
     },
     "2026-05-27": {
-        "condition": "Showers And Thunderstorms",
+        "condition": "Showers And Thunderstorms Likely",
         "is_raining": true,
         "is_storming": true
     },
     "2026-05-28": {
         "condition": "Showers And Thunderstorms Likely",
+        "is_raining": true,
+        "is_storming": true
+    },
+    "2026-05-29": {
+        "condition": "Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     }
