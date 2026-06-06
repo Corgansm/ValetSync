@@ -1,26 +1,21 @@
 {
-    "2026-06-05": {
-        "condition": "Mostly Sunny",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-06-06": {
         "condition": "Mostly Sunny",
         "is_raining": false,
         "is_storming": false
     },
     "2026-06-07": {
-        "condition": "Chance Rain Showers then Chance Showers And Thunderstorms",
+        "condition": "Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-06-08": {
-        "condition": "Chance Showers And Thunderstorms then Showers And Thunderstorms",
+        "condition": "Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-06-09": {
-        "condition": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
+        "condition": "Showers And Thunderstorms Likely",
         "is_raining": true,
         "is_storming": true
     },
@@ -30,6 +25,11 @@
         "is_storming": true
     },
     "2026-06-11": {
+        "condition": "Chance Showers And Thunderstorms",
+        "is_raining": true,
+        "is_storming": true
+    },
+    "2026-06-12": {
         "condition": "Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
