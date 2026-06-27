@@ -357,6 +357,27 @@
         "source": "DHI Time.ly Calendar"
     },
     {
+        "title": "10th Annual End Addiction HSV Walk",
+        "date": "Aug 8, 2026",
+        "time": "2:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 10, 2026",
         "time": "10:00pm",
