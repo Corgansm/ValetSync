@@ -8,7 +8,14 @@
 </head>
 <body id="page-home">
 
-    <header class="app-header">
+    <div class="aurora" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><div class="bar" id="scroll-progress-bar"></div></div>
+
+    <header class="app-header" id="app-header">
         <a href="index.html" class="logo">
             <h2>Valet<span class="highlight">Sync</span></h2>
         </a>
@@ -20,11 +27,11 @@
     </header>
 
     <div class="global-status glass-panel">
-        <div class="header-time">
+        <div class="header-time fade-in">
             <h1 id="clock-time">--:--</h1>
             <p id="clock-date">Loading...</p>
         </div>
-        <div class="live-impact">
+        <div class="live-impact fade-in">
             <span>Global Traffic</span>
             <div id="global-impact-badge" class="impact-badge-large">-- / 10</div>
         </div>
@@ -49,7 +56,7 @@
             </div>
             <div id="shift-note-text-display" class="shift-note-body"></div>
         </div>
-        
+
         <h2 class="section-title fade-in">
             Today's Timeline
         </h2>
@@ -63,12 +70,11 @@
             <p>Lanes are clear. No events scheduled today.</p>
         </div>
 
-        <div id="timeline" class="event-container list-view fade-in"></div>
+        <div id="timeline" class="event-container list-view"></div>
 
     </main>
 
+    <script src="ui.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
-
-

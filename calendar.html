@@ -8,7 +8,14 @@
 </head>
 <body id="page-calendar">
 
-    <header class="app-header">
+    <div class="aurora" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><div class="bar" id="scroll-progress-bar"></div></div>
+
+    <header class="app-header" id="app-header">
         <a href="index.html" class="logo">
             <h2>Valet<span class="highlight">Sync</span></h2>
         </a>
@@ -24,7 +31,7 @@
 
         <section class="controls-bar glass-panel fade-in">
             <input type="text" id="search-input" class="filter-input" placeholder="Search events..." aria-label="Search events">
-            
+
             <div class="filter-group">
                 <select id="location-filter" class="filter-select" aria-label="Filter by location">
                     <option value="all">All Locations</option>
@@ -39,10 +46,10 @@
             <div class="spinner"></div>
         </div>
 
-        <div id="full-calendar" class="full-calendar-container fade-in"></div>
+        <div id="full-calendar" class="full-calendar-container"></div>
     </main>
 
+    <script src="ui.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
-

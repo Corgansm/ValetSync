@@ -112,58 +112,117 @@ def scrape_weather_forecast():
         
     return forecast_dict
 
+def parse_vbc_results(soup):
+    """
+    Parses the redesigned (2026) VBC events archive.
+    Structure: .event-results > month blocks (h3 "July 2026") > day rows
+    (span.hdg-1 = weekday, span.hdg-2 = day number) > event cards (div.group)
+    containing an h4 title and li rows with icon-clock / icon-location-pin.
+    """
+    events = []
+    results = soup.select_one('.event-results')
+    if not results:
+        return events
+
+    for day_num_el in results.select('span.hdg-2'):
+        day = day_num_el.get_text(strip=True)
+        date_col = day_num_el.find_parent('div')
+        day_row = date_col.find_parent('div') if date_col else None
+        if not day_row:
+            continue
+
+        month_header = day_row.find_previous('h3')
+        month_year = month_header.get_text(strip=True) if month_header else ""
+        m = re.match(r'([A-Za-z]+)\s+(\d{4})', month_year)
+        if m and day.isdigit():
+            date_str = f"{m.group(1)} {int(day)}, {m.group(2)}"
+        else:
+            date_str = month_year or "Unknown Date"
+
+        for card in day_row.select('div.group'):
+            title_elem = card.find('h4')
+            if not title_elem:
+                continue
+            title = title_elem.get_text(strip=True)
+
+            time_str = "Time TBA"
+            venue = "Von Braun Center"
+            for li in card.select('li'):
+                svg = li.find('svg')
+                svg_class = ' '.join(svg.get('class', [])) if svg else ''
+                text = li.get_text(strip=True)
+                if 'icon-clock' in svg_class:
+                    time_str = text
+                elif 'icon-location-pin' in svg_class:
+                    venue = text
+
+            link_elem = card.select_one('a[href]')
+            img_elem = card.find('img')
+            image = ""
+            if img_elem:
+                image = img_elem.get('src', '')
+                if not image.startswith('http'):
+                    srcset = img_elem.get('srcset', '')
+                    if srcset:
+                        image = srcset.split(',')[0].strip().split(' ')[0]
+
+            timeline = calculate_temporal_impact(title, venue, time_str)
+            event_data = {
+                "title": title,
+                "date": date_str,
+                "time": time_str,
+                "venue": venue,
+                "impact_timeline": timeline,
+                "url": link_elem['href'] if link_elem else "",
+                "image": image,
+                "source": "VBC"
+            }
+            if event_data not in events:
+                events.append(event_data)
+    return events
+
 def scrape_vbc(browser):
     events = []
     print("Fetching VBC schedule...")
     try:
         page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-        page.goto("https://www.vonbrauncenter.com/events-tickets/upcoming-events/", wait_until="networkidle")
-        
-        while True:
+        page.goto("https://www.vonbrauncenter.com/events/", wait_until="networkidle")
+
+        max_pages = 25
+        for _ in range(max_pages):
             try:
-                page.wait_for_selector('.shared-item.item', timeout=10000)
+                page.wait_for_selector('.event-results h4', timeout=10000)
             except:
-                break 
-                
+                break
+
             soup = BeautifulSoup(page.content(), 'html.parser')
-            event_cards = soup.select('.shared-item.item') 
-            
-            for card in event_cards:
-                title_elem = card.select_one('h2 a')
-                date_elem = card.select_one('.dates')
-                time_elem = card.select_one('.starttime')
-                location_icon = card.select_one('.fa-map-marker')
-                
-                venue = location_icon.parent.text.strip() if location_icon and location_icon.parent else "Von Braun Center"
-                title = title_elem.text.strip() if title_elem else "Unknown Event"
-                date = date_elem.text.strip() if date_elem else "Unknown Date"
-                time_str = time_elem.text.strip() if time_elem else "Time TBA"
-                
-                timeline = calculate_temporal_impact(title, venue, time_str)
-                
-                event_data = {
-                    "title": title,
-                    "date": date,
-                    "time": time_str,
-                    "venue": venue,
-                    "impact_timeline": timeline,
-                    "source": "VBC"
-                }
+            for event_data in parse_vbc_results(soup):
                 if event_data not in events:
                     events.append(event_data)
 
-            next_button = page.locator('.pager a').filter(has=page.locator('i.fa-caret-right:only-child')).first
-            if next_button.count() > 0:
-                if "disabled" in (next_button.get_attribute('class') or ""):
-                    break
-                next_button.click()
-                page.wait_for_timeout(2000)
-                page.wait_for_load_state("networkidle")
-            else:
+            # Pagination is now AJAX buttons: <button class="next page-numbers" data-value="N">
+            next_button = page.locator('.events__pagination button.next')
+            if next_button.count() == 0:
                 break
+            first_title = page.locator('.event-results h4').first.inner_text()
+            next_button.first.click()
+            try:
+                # Wait for results to swap out (content change), then settle.
+                page.wait_for_function(
+                    """(oldTitle) => {
+                        const h = document.querySelector('.event-results h4');
+                        return h && h.innerText !== oldTitle;
+                    }""",
+                    arg=first_title, timeout=10000
+                )
+            except:
+                page.wait_for_timeout(2500)
+            page.wait_for_load_state("networkidle")
+
         page.close()
     except Exception as e:
         print(f"Error scraping VBC: {e}")
+    print(f"VBC events found: {len(events)}")
     return events
 
 def scrape_big_spring_park(browser):

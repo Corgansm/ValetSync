@@ -1,20 +1,1469 @@
 [
     {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Jul 13, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
+        "title": "Leaders & Legends",
+        "date": "July 9, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/leaders-legends/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-5-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Billy Bob Thornton & The Boxmasters “2026 Morro Rock Tour”",
+        "date": "July 9, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "07:30 PM - 10:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/billy-bob-thornton-the-boxmasters-2026-morro-rock-tour-2026-07-09-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/BB-1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Jerry Seinfeld",
+        "date": "July 10, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jerry-seinfeld/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/JS-Touring-1920x1080-1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Mustache the Band",
+        "date": "July 10, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/mustache-the-band-2026-07-10-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Mustache-The-Band-1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Bingo Loco",
+        "date": "July 11, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/bingo-loco-2026-07-11-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Huntsville-Sat-July-11th_Mailer-2-don-t-miss-outai_AC5AF725-E237-8BC5-4BA4182D2EE494EE_ac629aed-c95b-9c1c-f102ac1adaf39547-1024x593.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Tiger-Rock 2026 National Championship",
+        "date": "July 16, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/tiger-rock-2026-national-championship/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Tiger-Rock 2026 National Championship",
+        "date": "July 17, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/tiger-rock-2026-national-championship-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Tiger-Rock 2026 National Championship",
+        "date": "July 18, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/tiger-rock-2026-national-championship-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "2026 Innovate Tech Forum",
+        "date": "July 21, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2026-innovate-tech-forum/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-7-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "BRIT FLOYD – The Moon, The Wall and Beyond",
+        "date": "July 21, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/brit-floyd-the-moon-the-wall-and-beyond-2026-07-21-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Static_Outdoor-ConcertVision_1920x1080_BritFloyd_2026_Regional_VBCMarkC.SmithConcertHall_0721-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "2026 Innovate Tech Forum",
+        "date": "July 22, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2026-innovate-tech-forum-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-7-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "SIGNCONNEXION",
+        "date": "July 23, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/signconnexion/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-9-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "2026 Innovate Tech Forum",
+        "date": "July 23, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2026-innovate-tech-forum-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-7-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "SIGNCONNEXION",
+        "date": "July 24, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/signconnexion-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-9-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Molly Ringwalds",
+        "date": "July 24, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-molly-ringwalds-2026-07-24-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Static_Outdoor-ConcertVision_1920x1080_TheMollyRingwalds_2026_Regional_VBC-Mars-Music-Hall_0724-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "SIGNCONNEXION",
+        "date": "July 25, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/signconnexion-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-9-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Delta Sigma Theta Sisterhood Social Action Luncheon",
+        "date": "July 25, 2026",
+        "time": "11:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 AM - 11:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "11:00 AM - 01:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "01:00 PM - 02:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/delta-sigma-theta-sisterhood-social-action-luncheon/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Heartshakers – A Tom Petty Experience",
+        "date": "July 25, 2026",
+        "time": "7:00 pm",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-heartshakers-a-tom-petty-experience/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-3-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Madison County Board of Education Back to School Development",
+        "date": "July 31, 2026",
+        "time": "8:00 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/madison-county-board-of-education-back-to-school-development/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wallflowers",
+        "date": "July 31, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wallflowers-2026-07-31-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Website-Posts-1920-×-1080-px-8-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Fight Night",
+        "date": "August 1, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fight-night/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Souther Social 2026 featuring Sammy Kershaw",
+        "date": "August 1, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/souther-social-2026-featuring-sammy-kershaw-2026-08-01-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/sammy.kershaw1920x1080px-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AMTC Collaboration Event",
+        "date": "August 4, 2026",
+        "time": "8:00 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/amtc-collaboration-event-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AMTC Collaboration Event",
+        "date": "August 5, 2026",
+        "time": "8:00 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/amtc-collaboration-event-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Jim Parkers Songwriters Series",
+        "date": "August 7, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-08-07-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-1-_2202B513-FF69-E7D4-36B71A563EA2D23F_220a3013-d285-9b19-e03765ba6525fd4c-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "SMD Symposium",
+        "date": "August 11, 2026",
+        "time": "9:00 am",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/smd-symposium/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "SMD Symposium",
+        "date": "August 12, 2026",
+        "time": "8:00 am",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/smd-symposium-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "SMD Symposium",
+        "date": "August 13, 2026",
+        "time": "8:00 am",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/smd-symposium-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Killers of Kill Tony",
+        "date": "August 14, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/killers-of-kill-tony-2026-08-14-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Rocket City Octane Auto Show presented by Autoworkz",
+        "date": "August 15, 2026",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/rocket-city-octane-auto-show-presented-by-autoworkz-2026-08-15-1000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Auto-Show-1920x1080-1-_AD901265-08BA-200E-ABD2879236F40399_add5739b-f990-d1d7-1802fbfa77ea98f6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Gladys Knight",
+        "date": "August 15, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/gladys-knight-2026-08-15-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Website-Posts-1920-×-1080-px-10-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Henry Cho: The Empty Nest Tour",
+        "date": "August 20, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/henry-cho-the-empty-nest-tour-2026-08-20-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/HenryCho_HUNTSAL_1920x1080_2ND-SHOW_LOW-TIX-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Henry Cho: The Empty Nest Tour",
+        "date": "August 21, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/henry-cho-the-empty-nest-tour-2026-08-21-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/HenryCho_HUNTSAL_1920x1080_2ND-SHOW_LOW-TIX-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "TCG Con Huntsville",
+        "date": "August 22, 2026",
+        "time": "10:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/tcg-con-huntsville/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Bluey’s Big Play",
+        "date": "August 26, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/blueys-big-play-2026-08-26-1800/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-1080-px-2-_D949FE98-E9E2-3574-419C56749856ED1D_d982acce-c0cf-3577-9bb9bcc6dfdfffa6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Temptations & The Four Tops",
+        "date": "September 10, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-temptations-the-four-tops-2026-09-10-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Fab Four: Tribute to the Beatles’ “Help!” and the Hits",
+        "date": "September 10, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-fab-four-tribute-to-the-beatles-help-and-the-hits-2026-09-10-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/FabFour-Huntsville-091026-1920px1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Jim Parkers Songwriters Series",
+        "date": "September 11, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-09-11-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-2-_22118EDA-916C-23E0-CEA3A3057D117545_22137c56-af82-cf96-92e499c5743534fe-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Black Jacket Symphony Presents Def Leppard’s “Hysteria”",
+        "date": "September 12, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-black-jacket-symphony-presents-def-leppards-hysteria-2026-09-12-1700/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/091226-Huntsville-AL-1920x1080-1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "The Black Jacket Symphony Presents Def Leppard’s “Hysteria”",
+        "date": "September 12, 2026",
+        "time": "9:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 PM - 09:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-black-jacket-symphony-presents-def-leppards-hysteria-2026-09-12-2100/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/091226-Huntsville-AL-1920x1080-1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "PRESIDENT: North American Campaign 2026",
+        "date": "September 19, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/president-north-american-campaign-2026-2026-09-19-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Gary Owen: No Hard Feelings Tour",
+        "date": "September 24, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/gary-owen-no-hard-feelings-tour-2026-09-24-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/IC_GaryOwen_0924_Huntsville_1920x1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Morgan Wade: Love’s Insane Tour",
+        "date": "September 24, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/morgan-wade-loves-insane-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Jim Parkers Songwriters Series",
+        "date": "October 2, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-10-02-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-3-_2218C24F-B286-3CD3-D6F0260B6A3D49C1_221a2220-f87c-739b-7846c31b9f4f2a6d-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Zach Williams With Cochren & Co. And Christian Hohn: Revival Nights",
+        "date": "October 2, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/zach-williams-with-cochren-co-and-christian-hohn-revival-nights-2026-10-02-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/ZachWilliams_FA26_1920x1080_100226-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "The Brook & The Bluff: The Werewolf Tour",
+        "date": "October 3, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-brook-the-bluff-the-werewolf-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Static_Outdoor-ConcertVision_1920x1080_TheBrookTheBluff_2026_Regional_VBC-Mars-Music-Hall_1003-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "The Rick Burgess Show Presents “The Are You Ready Live Tour”",
+        "date": "October 9, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-rick-burgess-show-presents-the-are-you-ready-live-tour-2026-10-09-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-3-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Rodney Carrington",
+        "date": "October 11, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/rodney-carrington-2026-10-11-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/RodneyCarrington_HUNTAL_1920x1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "DAX – The Anger Management Tour",
+        "date": "October 13, 2026",
+        "time": "8:00 pm",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dax-the-anger-management-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Jo Koy: Koy Meets World Tour",
+        "date": "October 18, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jo-koy-koy-meets-world-tour-2026-10-18-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sonic Live In Concert",
+        "date": "October 23, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sonic-live-in-concert/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The 3rd Annual Rocket City Blues Festival",
+        "date": "October 24, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 11:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-3rd-annual-rocket-city-blues-festival-2026-03-15-1800/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Blues-Spring_2026_Huntsville_1920x1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Lil Tracy",
+        "date": "October 28, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/lil-tracy/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/EC780986-33C0-43D5-A61B-2293B2017189-1024x578.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Nurse Blake: But Did You Die? Comedy Tour",
+        "date": "October 29, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/nurse-blake-but-did-you-die-comedy-tour-2026-10-29-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/NurseBlake_HUNTAL_1920x1080-1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Alabama Bridal & Wedding Expo",
+        "date": "November 1, 2026",
+        "time": "1:30 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:00 PM - 01:30 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "01:30 PM - 07:30 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/alabama-bridal-wedding-expo-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "So Good! The Neil Diamond Experience starring Robert Neary",
+        "date": "November 1, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/so-good-the-neil-diamond-experience-starring-robert-neary-2026-11-01-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Website-Posts-1920-×-1080-px-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Jim Parkers Songwriters Series",
+        "date": "November 6, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-11-06-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-4-_2223C537-C444-83A8-1C8C860E4355C1F9_22255c00-cf63-7364-3c29f5adb9af31f6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Jim Henson’s Labyrinth: In Concert 40th Anniversary",
+        "date": "November 7, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jim-hensons-labyrinth-in-concert-40th-anniversary-2026-11-07-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Labyrinth-1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Phillip Phillips: Lets Go Far Tour",
+        "date": "November 21, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/phillip-phillips-lets-go-far-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Static_Outdoor-ConcertVision_1920x1080_PhillipPhillips_2026_Regional_VBCMarsMusicHall_1121-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Ali Siddiq: The Custom Fit Tour",
+        "date": "December 5, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/ali-siddiq-the-custom-fit-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Rocket City Classic presented by Akima",
+        "date": "December 15, 2026",
+        "time": "12:00 am",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 PM - 12:00 AM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "12:00 AM - 02:00 AM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "02:00 AM - 03:00 AM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/rocket-city-classic-presented-by-akima-2026-12-15-0000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/1a9d61cf-aa9e-4b31-8778-26cf0dcbb695_TABLET_LANDSCAPE_LARGE_16_9-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Harry Potter and the Goblet of Fire(TM) in Concert",
+        "date": "January 22, 2027",
+        "time": "8:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/harry-potter-and-the-goblet-of-firetm-in-concert-2027-01-22-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/HP4_HUNT_VENUE_1920x1080_3D37E7B0-C73A-C4A5-FB870930F68FAAD2_3d6232e3-f1e7-1540-732bca080e5702f1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Stayin’ Alive: One Night of the Bee Gees",
+        "date": "April 29, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/stayin-alive-one-night-of-the-bee-gees-2027-04-29-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Weekly Movement Arts Community Meetup",
+        "date": "Jul 13, 2026",
+        "time": "3:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:30 PM - 03:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "03:00 PM - 05:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -23,19 +1472,19 @@
     {
         "title": "Concerts in the Park - Jayne + The Huntsmen",
         "date": "Jul 13, 2026",
-        "time": "11:30pm",
+        "time": "4:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:00 PM - 11:30 PM",
+                "window": "03:00 PM - 04:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:30 PM - 02:30 AM",
+                "window": "04:30 PM - 07:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "02:30 AM - 03:30 AM",
+                "window": "07:30 PM - 08:30 PM",
                 "impact": 3
             }
         },
@@ -43,20 +1492,20 @@
     },
     {
         "title": "Concerts in the Park - Simeon",
-        "date": "Jul 14, 2026",
-        "time": "12:30am",
+        "date": "Jul 13, 2026",
+        "time": "5:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "11:00 PM - 12:30 AM",
+                "window": "04:00 PM - 05:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "12:30 AM - 03:30 AM",
+                "window": "05:30 PM - 08:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "03:30 AM - 04:30 AM",
+                "window": "08:30 PM - 09:30 PM",
                 "impact": 3
             }
         },
@@ -65,19 +1514,19 @@
     {
         "title": "Downtown Food Truck Rallies: 250th Backyard Bash",
         "date": "Jul 17, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -86,19 +1535,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jul 20, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -107,19 +1556,19 @@
     {
         "title": "Concerts in the Park - The Grasstronauts",
         "date": "Jul 20, 2026",
-        "time": "11:30pm",
+        "time": "4:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:00 PM - 11:30 PM",
+                "window": "03:00 PM - 04:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:30 PM - 02:30 AM",
+                "window": "04:30 PM - 07:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "02:30 AM - 03:30 AM",
+                "window": "07:30 PM - 08:30 PM",
                 "impact": 3
             }
         },
@@ -127,20 +1576,20 @@
     },
     {
         "title": "Concerts in the Park - The Brooklines",
-        "date": "Jul 21, 2026",
-        "time": "12:30am",
+        "date": "Jul 20, 2026",
+        "time": "5:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "11:00 PM - 12:30 AM",
+                "window": "04:00 PM - 05:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "12:30 AM - 03:30 AM",
+                "window": "05:30 PM - 08:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "03:30 AM - 04:30 AM",
+                "window": "08:30 PM - 09:30 PM",
                 "impact": 3
             }
         },
@@ -149,19 +1598,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jul 27, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -169,20 +1618,20 @@
     },
     {
         "title": "Concerts in the Park - Tripleplay",
-        "date": "Jul 28, 2026",
-        "time": "12:30am",
+        "date": "Jul 27, 2026",
+        "time": "5:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "11:00 PM - 12:30 AM",
+                "window": "04:00 PM - 05:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "12:30 AM - 03:30 AM",
+                "window": "05:30 PM - 08:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "03:30 AM - 04:30 AM",
+                "window": "08:30 PM - 09:30 PM",
                 "impact": 3
             }
         },
@@ -191,19 +1640,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 3, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -212,19 +1661,19 @@
     {
         "title": "Concerts in the Park - Surprise Lineup!",
         "date": "Aug 3, 2026",
-        "time": "11:30pm",
+        "time": "4:30pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:00 PM - 11:30 PM",
+                "window": "03:00 PM - 04:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:30 PM - 02:30 AM",
+                "window": "04:30 PM - 07:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "02:30 AM - 03:30 AM",
+                "window": "07:30 PM - 08:30 PM",
                 "impact": 3
             }
         },
@@ -233,19 +1682,19 @@
     {
         "title": "10th Annual End Addiction HSV Walk",
         "date": "Aug 8, 2026",
-        "time": "2:00pm",
+        "time": "7:00am",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "12:30 PM - 02:00 PM",
+                "window": "05:30 AM - 07:00 AM",
                 "impact": 2
             },
             "during_event": {
-                "window": "02:00 PM - 04:00 PM",
+                "window": "07:00 AM - 09:00 AM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "04:00 PM - 05:00 PM",
+                "window": "09:00 AM - 10:00 AM",
                 "impact": 3
             }
         },
@@ -254,19 +1703,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 10, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -275,19 +1724,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 17, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -296,19 +1745,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 24, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -317,19 +1766,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 31, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -338,19 +1787,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 7, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -359,19 +1808,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 14, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -380,19 +1829,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 21, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -401,19 +1850,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 28, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -422,19 +1871,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 5, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -443,19 +1892,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 12, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -464,19 +1913,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 19, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -485,19 +1934,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 26, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -506,19 +1955,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 2, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -527,19 +1976,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 9, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -548,19 +1997,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 16, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -569,19 +2018,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 23, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -590,19 +2039,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Nov 30, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -611,19 +2060,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 7, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -632,19 +2081,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 14, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -653,19 +2102,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 21, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -674,19 +2123,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Dec 28, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -695,19 +2144,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 4, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -716,19 +2165,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 11, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -737,19 +2186,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 18, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -758,19 +2207,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Jan 25, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -779,19 +2228,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 1, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -800,19 +2249,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 8, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -821,19 +2270,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 15, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -842,19 +2291,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Feb 22, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -863,19 +2312,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 1, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -884,19 +2333,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 8, 2026",
-        "time": "11:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "11:00 PM - 01:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -905,19 +2354,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 15, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -926,19 +2375,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 22, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -947,19 +2396,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Mar 29, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -968,19 +2417,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 5, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -989,19 +2438,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 12, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -1010,19 +2459,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 19, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -1031,19 +2480,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Apr 26, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
@@ -1052,19 +2501,19 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "May 3, 2026",
-        "time": "10:00pm",
+        "time": "3:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
+                "window": "01:30 PM - 03:00 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
+                "window": "03:00 PM - 05:00 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },

@@ -196,7 +196,7 @@ const createEventCardHTML = (event, trafficScore, now) => {
     const isTrilogy = event.venue === "Trilogy Hotel" ? "border-color: var(--impact-med); box-shadow: 0 0 10px rgba(245, 158, 11, 0.1);" : "";
 
     return `
-        <div class="event-card fade-in" id="card-${event.id}" style="${isTrilogy}">
+        <div class="event-card reveal" id="card-${event.id}" style="${isTrilogy}">
             ${isLiveWindow && !event.isTba ? `<span class="badge-live">ACTIVE</span>` : ''}
             <div class="event-header">
                 <div>
@@ -278,6 +278,7 @@ const initDashboard = async (eventsToday) => {
         htmlBuffer += createEventCardHTML(e, initialScore, now);
     });
     timeline.innerHTML = htmlBuffer;
+    if (window.ValetFX) ValetFX.observeReveals(timeline);
 
     simulationInterval = setInterval(() => { tickSimulation('timeline', eventsToday); }, 3000);
 };
@@ -302,7 +303,7 @@ const initCalendar = (eventsFuture) => {
             if (dateStr !== lastDate) {
                 const iso = getLocalIsoDate(e.startObj);
                 const hTag = hotelData[iso] ? `<span class="header-hotel-stats">Arr: ${hotelData[iso].arrivals} | Dep: ${hotelData[iso].departures}</span>` : '';
-                cal.innerHTML += `<div class="calendar-date-header"><span>${dateStr}</span> ${hTag}</div>`;
+                cal.innerHTML += `<div class="calendar-date-header reveal"><span>${dateStr}</span> ${hTag}</div>`;
                 lastDate = dateStr;
             }
             
@@ -310,7 +311,7 @@ const initCalendar = (eventsFuture) => {
             const isTrilogy = e.venue === "Trilogy Hotel" ? "border-color: var(--impact-med);" : "";
 
             cal.innerHTML += `
-                <div class="event-card fade-in" style="${isTrilogy}">
+                <div class="event-card reveal" style="${isTrilogy}">
                     <div class="event-header" style="margin-bottom:0;">
                         <div>
                             <h3 class="event-title">${e.title}</h3>
@@ -321,6 +322,8 @@ const initCalendar = (eventsFuture) => {
                     </div>
                 </div>`;
         });
+
+        if (window.ValetFX) ValetFX.observeReveals(cal);
     };
 
     const applyFilters = () => {
@@ -328,7 +331,9 @@ const initCalendar = (eventsFuture) => {
         const loc = locFilter.value;
         const filtered = eventsFuture.filter(e => {
             const matchesQuery = e.title.toLowerCase().includes(query) || e.venue.toLowerCase().includes(query);
-            const matchesLoc = loc === 'all' || e.venue.includes(loc);
+            // New VBC site prefixes venues with "VBC" instead of "Von Braun Center"
+            const matchesLoc = loc === 'all' || e.venue.includes(loc) ||
+                (loc === 'Von Braun Center' && /\bVBC\b/i.test(e.venue));
             return matchesQuery && matchesLoc;
         });
         renderCalendar(filtered);
@@ -423,10 +428,10 @@ const bootApp = async () => {
                 const arrStat = document.getElementById('today-arrivals');
                 const depStat = document.getElementById('today-departures');
                 
-                if(arrStat && depStat) { 
-                    arrStat.innerText = arr; 
-                    depStat.innerText = dep; 
-                    document.getElementById('hotel-stats-today').classList.remove('hidden'); 
+                if(arrStat && depStat) {
+                    if (window.ValetFX) { ValetFX.countUp(arrStat, arr); ValetFX.countUp(depStat, dep); }
+                    else { arrStat.innerText = arr; depStat.innerText = dep; }
+                    document.getElementById('hotel-stats-today').classList.remove('hidden');
                     
                     if (now.getHours() >= 14) {
                         depStat.parentElement.classList.add('hidden');

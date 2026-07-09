@@ -8,7 +8,14 @@
 </head>
 <body id="page-admin">
 
-    <header class="app-header">
+    <div class="aurora" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><div class="bar" id="scroll-progress-bar"></div></div>
+
+    <header class="app-header" id="app-header">
         <a href="index.html" class="logo">
             <h2>Valet<span class="highlight">Sync</span></h2>
         </a>
@@ -121,6 +128,7 @@
         </div>
     </main>
 
+    <script src="ui.js"></script>
     <script src="admin.js"></script>
 </body>
 </html>
