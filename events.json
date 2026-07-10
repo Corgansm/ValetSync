@@ -1,51 +1,5 @@
 [
     {
-        "title": "Leaders & Legends",
-        "date": "July 9, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/leaders-legends/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-5-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Billy Bob Thornton & The Boxmasters “2026 Morro Rock Tour”",
-        "date": "July 9, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 10:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "10:30 PM - 11:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/billy-bob-thornton-the-boxmasters-2026-morro-rock-tour-2026-07-09-1930/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/BB-1920x1080-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Jerry Seinfeld",
         "date": "July 10, 2026",
         "time": "7:00 pm",
@@ -112,6 +66,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/bingo-loco-2026-07-11-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Huntsville-Sat-July-11th_Mailer-2-don-t-miss-outai_AC5AF725-E237-8BC5-4BA4182D2EE494EE_ac629aed-c95b-9c1c-f102ac1adaf39547-1024x593.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Love Island Season Finale Watch Party",
+        "date": "July 12, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/love-island-season-finale-watch-party/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -253,29 +230,6 @@
         "source": "VBC"
     },
     {
-        "title": "SIGNCONNEXION",
-        "date": "July 23, 2026",
-        "time": "8:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/signconnexion/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-9-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "2026 Innovate Tech Forum",
         "date": "July 23, 2026",
         "time": "8:00 am",
@@ -296,6 +250,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/2026-innovate-tech-forum-3/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-7-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "SIGNCONNEXION",
+        "date": "July 23, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/signconnexion/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-9-1024x576.png",
         "source": "VBC"
     },
     {
@@ -989,6 +966,121 @@
         "source": "VBC"
     },
     {
+        "title": "Waitress",
+        "date": "September 25, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-25-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Waitress",
+        "date": "September 26, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-26-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Waitress",
+        "date": "September 26, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-26-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Waitress",
+        "date": "September 27, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-27-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Waitress",
+        "date": "September 27, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-27-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Jim Parkers Songwriters Series",
         "date": "October 2, 2026",
         "time": "6:30 pm",
@@ -1334,6 +1426,75 @@
         "source": "VBC"
     },
     {
+        "title": "A Beautiful Noise",
+        "date": "November 20, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-20-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "A Beautiful Noise",
+        "date": "November 21, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-21-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "A Beautiful Noise",
+        "date": "November 21, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-21-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Phillip Phillips: Lets Go Far Tour",
         "date": "November 21, 2026",
         "time": "8:00 pm",
@@ -1354,6 +1515,52 @@
         },
         "url": "https://www.vonbrauncenter.com/events/phillip-phillips-lets-go-far-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Static_Outdoor-ConcertVision_1920x1080_PhillipPhillips_2026_Regional_VBCMarsMusicHall_1121-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "A Beautiful Noise",
+        "date": "November 22, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-22-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "A Beautiful Noise",
+        "date": "November 22, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-22-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1423,6 +1630,420 @@
         },
         "url": "https://www.vonbrauncenter.com/events/harry-potter-and-the-goblet-of-firetm-in-concert-2027-01-22-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/HP4_HUNT_VENUE_1920x1080_3D37E7B0-C73A-C4A5-FB870930F68FAAD2_3d6232e3-f1e7-1540-732bca080e5702f1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 9, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-09-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 10, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-10-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 11, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-11-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 12, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-12-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 13, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-13-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 13, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-13-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 14, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-14-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Wiz",
+        "date": "February 14, 2027",
+        "time": "6:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-14-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 2, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-02-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 3, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-03-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 4, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-04-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 5, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-05-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 6, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-06-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 6, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-06-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 7, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-07-1300/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Notebook",
+        "date": "March 7, 2027",
+        "time": "6:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-07-1830/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Shen Yun",
+        "date": "April 10, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/shen-yun/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/1920x1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Shen Yun",
+        "date": "April 11, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/shen-yun-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/1920x1080-1024x576.jpg",
         "source": "VBC"
     },
     {
