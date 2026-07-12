@@ -1,21 +1,16 @@
 {
-    "2026-07-11": {
-        "condition": "Showers And Thunderstorms Likely",
-        "is_raining": true,
-        "is_storming": true
-    },
     "2026-07-12": {
-        "condition": "Chance Showers And Thunderstorms",
+        "condition": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
         "is_raining": true,
         "is_storming": true
     },
     "2026-07-13": {
-        "condition": "Showers And Thunderstorms",
+        "condition": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
         "is_raining": true,
         "is_storming": true
     },
     "2026-07-14": {
-        "condition": "Slight Chance Showers And Thunderstorms",
+        "condition": "Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
@@ -25,12 +20,17 @@
         "is_storming": true
     },
     "2026-07-16": {
-        "condition": "Mostly Sunny then Chance Showers And Thunderstorms",
+        "condition": "Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-07-17": {
-        "condition": "Mostly Sunny then Chance Showers And Thunderstorms",
+        "condition": "Chance Showers And Thunderstorms",
+        "is_raining": true,
+        "is_storming": true
+    },
+    "2026-07-18": {
+        "condition": "Sunny then Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     }
