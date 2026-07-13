@@ -1,28 +1,5 @@
 [
     {
-        "title": "Love Island Season Finale Watch Party",
-        "date": "July 12, 2026",
-        "time": "5:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "05:00 PM - 07:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/love-island-season-finale-watch-party/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Tiger-Rock 2026 National Championship",
         "date": "July 16, 2026",
         "time": "8:00 am",
@@ -161,29 +138,6 @@
         "source": "VBC"
     },
     {
-        "title": "SIGNCONNEXION",
-        "date": "July 23, 2026",
-        "time": "8:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/signconnexion/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-9-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "2026 Innovate Tech Forum",
         "date": "July 23, 2026",
         "time": "8:00 am",
@@ -204,6 +158,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/2026-innovate-tech-forum-3/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-7-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "SIGNCONNEXION",
+        "date": "July 23, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/signconnexion/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-9-1024x576.png",
         "source": "VBC"
     },
     {
