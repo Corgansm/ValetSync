@@ -598,6 +598,75 @@
         "source": "VBC"
     },
     {
+        "title": "4th Annual All Seasons Fashion Show 2026",
+        "date": "August 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Hot Southern Night Gala",
+        "date": "August 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/hot-southern-night-gala/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "9th Annual Black & White Charity Ball",
+        "date": "August 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/9th-annual-black-white-charity-ball/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Gladys Knight",
         "date": "August 15, 2026",
         "time": "7:30 pm",
@@ -618,6 +687,75 @@
         },
         "url": "https://www.vonbrauncenter.com/events/gladys-knight-2026-08-15-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Website-Posts-1920-×-1080-px-10-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AUSVI Pathfinder Symposium 2026",
+        "date": "August 17, 2026",
+        "time": "12:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 AM - 12:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "12:00 PM - 02:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "02:00 PM - 03:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/ausvi-pathfinder-symposium-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AUSVI Pathfinder Symposium 2026",
+        "date": "August 18, 2026",
+        "time": "8:30 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:00 AM - 08:30 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:30 AM - 10:30 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:30 AM - 11:30 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/ausvi-pathfinder-symposium-2026-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AUSVI Pathfinder Symposium 2026",
+        "date": "August 19, 2026",
+        "time": "8:30 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:00 AM - 08:30 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:30 AM - 10:30 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:30 AM - 11:30 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/ausvi-pathfinder-symposium-2026-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -667,6 +805,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Hamfest",
+        "date": "August 22, 2026",
+        "time": "9:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-hamfest/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "TCG Con Huntsville",
         "date": "August 22, 2026",
         "time": "10:00 am",
@@ -686,6 +847,52 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/tcg-con-huntsville/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Hamfest",
+        "date": "August 23, 2026",
+        "time": "9:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-hamfest-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "TCG Con Huntsville",
+        "date": "August 23, 2026",
+        "time": "11:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 AM - 11:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "11:00 AM - 01:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "01:00 PM - 02:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/tcg-con-huntsville-2/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
         "source": "VBC"
     },
@@ -710,6 +917,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/blueys-big-play-2026-08-26-1800/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-1080-px-2-_D949FE98-E9E2-3574-419C56749856ED1D_d982acce-c0cf-3577-9bb9bcc6dfdfffa6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "2026 Washington Update featuring Congressman Dale Strong",
+        "date": "August 31, 2026",
+        "time": "12:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 AM - 12:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "12:00 PM - 02:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "02:00 PM - 03:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2026-washington-update-featuring-congressman-dale-strong/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -874,29 +1104,6 @@
         "source": "VBC"
     },
     {
-        "title": "Gary Owen: No Hard Feelings Tour",
-        "date": "September 24, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/gary-owen-no-hard-feelings-tour-2026-09-24-2000/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/IC_GaryOwen_0924_Huntsville_1920x1080-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
         "title": "Morgan Wade: Love’s Insane Tour",
         "date": "September 24, 2026",
         "time": "8:00 pm",
@@ -917,6 +1124,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/morgan-wade-loves-insane-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Gary Owen: No Hard Feelings Tour",
+        "date": "September 24, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/gary-owen-no-hard-feelings-tour-2026-09-24-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/IC_GaryOwen_0924_Huntsville_1920x1080-1024x576.jpg",
         "source": "VBC"
     },
     {
@@ -1170,6 +1400,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/dax-the-anger-management-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Billy Joel Legacy – A Tribute Experience",
+        "date": "October 17, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-billy-joel-legacy-a-tribute-experience/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Billy-Joel-Legacy-1920x1090-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2022,69 +2275,6 @@
         "url": "https://www.vonbrauncenter.com/events/stayin-alive-one-night-of-the-bee-gees-2027-04-29-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Jul 13, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Concerts in the Park - Jayne + The Huntsmen",
-        "date": "Jul 13, 2026",
-        "time": "11:30pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:00 PM - 11:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "11:30 PM - 02:30 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "02:30 AM - 03:30 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Concerts in the Park - Simeon",
-        "date": "Jul 14, 2026",
-        "time": "12:30am",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "11:00 PM - 12:30 AM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "12:30 AM - 03:30 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "03:30 AM - 04:30 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Downtown Food Truck Rallies: 250th Backyard Bash",
