@@ -69,6 +69,29 @@
         "source": "VBC"
     },
     {
+        "title": "World Cup Viewing Party",
+        "date": "July 19, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/world-cup-viewing-party/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/FIFA-1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "2026 Innovate Tech Forum",
         "date": "July 21, 2026",
         "time": "8:00 am",
@@ -598,29 +621,6 @@
         "source": "VBC"
     },
     {
-        "title": "4th Annual All Seasons Fashion Show 2026",
-        "date": "August 15, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Hot Southern Night Gala",
         "date": "August 15, 2026",
         "time": "6:00 pm",
@@ -664,6 +664,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/9th-annual-black-white-charity-ball/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "4th Annual All Seasons Fashion Show 2026",
+        "date": "August 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -851,6 +874,29 @@
         "source": "VBC"
     },
     {
+        "title": "Beastie Goys: License to Ill – 40th Anniversary",
+        "date": "August 22, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beastie-goys-license-to-ill-40th-anniversary/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Huntsville Hamfest",
         "date": "August 23, 2026",
         "time": "9:00 am",
@@ -916,6 +962,29 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/blueys-big-play-2026-08-26-1800/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-1080-px-2-_D949FE98-E9E2-3574-419C56749856ED1D_d982acce-c0cf-3577-9bb9bcc6dfdfffa6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Bluey’s Big Play",
+        "date": "August 27, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/blueys-big-play-2026-08-27-1800/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-1080-px-2-_D949FE98-E9E2-3574-419C56749856ED1D_d982acce-c0cf-3577-9bb9bcc6dfdfffa6-1024x576.png",
         "source": "VBC"
     },
@@ -1104,29 +1173,6 @@
         "source": "VBC"
     },
     {
-        "title": "Morgan Wade: Love’s Insane Tour",
-        "date": "September 24, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/morgan-wade-loves-insane-tour/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Gary Owen: No Hard Feelings Tour",
         "date": "September 24, 2026",
         "time": "8:00 pm",
@@ -1147,6 +1193,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/gary-owen-no-hard-feelings-tour-2026-09-24-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/IC_GaryOwen_0924_Huntsville_1920x1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Morgan Wade: Love’s Insane Tour",
+        "date": "September 24, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/morgan-wade-loves-insane-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1024x576.png",
         "source": "VBC"
     },
     {
