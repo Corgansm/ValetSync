@@ -1,29 +1,6 @@
 [
     {
         "title": "Tiger-Rock 2026 National Championship",
-        "date": "July 16, 2026",
-        "time": "8:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/tiger-rock-2026-national-championship/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Tiger-Rock 2026 National Championship",
         "date": "July 17, 2026",
         "time": "8:00 am",
         "venue": "VBC South Hall",
