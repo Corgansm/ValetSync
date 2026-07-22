@@ -1,52 +1,6 @@
 [
     {
         "title": "2026 Innovate Tech Forum",
-        "date": "July 21, 2026",
-        "time": "8:00 am",
-        "venue": "east",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/2026-innovate-tech-forum/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "BRIT FLOYD – The Moon, The Wall and Beyond",
-        "date": "July 21, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/brit-floyd-the-moon-the-wall-and-beyond-2026-07-21-1930/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Static_Outdoor-ConcertVision_1920x1080_BritFloyd_2026_Regional_VBCMarkC.SmithConcertHall_0721-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
-        "title": "2026 Innovate Tech Forum",
         "date": "July 22, 2026",
         "time": "8:00 am",
         "venue": "VBC East Hall",
@@ -204,29 +158,6 @@
         },
         "url": "https://www.vonbrauncenter.com/events/delta-sigma-theta-sisterhood-social-action-luncheon/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-3-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "The Heartshakers – A Tom Petty Experience",
-        "date": "July 25, 2026",
-        "time": "7:00 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/the-heartshakers-a-tom-petty-experience/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-3-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -529,6 +460,29 @@
         "source": "VBC"
     },
     {
+        "title": "4th Annual All Seasons Fashion Show 2026",
+        "date": "August 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Hot Southern Night Gala",
         "date": "August 15, 2026",
         "time": "6:00 pm",
@@ -572,29 +526,6 @@
         },
         "url": "https://www.vonbrauncenter.com/events/9th-annual-black-white-charity-ball/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-5-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "4th Annual All Seasons Fashion Show 2026",
-        "date": "August 15, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1009,6 +940,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-black-jacket-symphony-presents-def-leppards-hysteria-2026-09-12-1700/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/091226-Huntsville-AL-1920x1080-1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "The Heartshakers – A Tom Petty Experience",
+        "date": "September 12, 2026",
+        "time": "7:00 pm",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-heartshakers-a-tom-petty-experience/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1428,19 +1382,19 @@
     {
         "title": "Cann Presents: Yacht Rock Revue – PRIMETIME",
         "date": "October 23, 2026",
-        "time": "7:00 pm",
+        "time": "7:30 pm",
         "venue": "VBC Mars Music Hall",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
+                "window": "06:00 PM - 07:30 PM",
                 "impact": 2
             },
             "during_event": {
-                "window": "07:00 PM - 09:00 PM",
+                "window": "07:30 PM - 09:30 PM",
                 "impact": 3
             },
             "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
+                "window": "09:30 PM - 10:30 PM",
                 "impact": 3
             }
         },
@@ -2275,69 +2229,6 @@
         "url": "https://www.vonbrauncenter.com/events/stayin-alive-one-night-of-the-bee-gees-2027-04-29-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Jul 20, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Concerts in the Park - The Grasstronauts",
-        "date": "Jul 20, 2026",
-        "time": "11:30pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:00 PM - 11:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "11:30 PM - 02:30 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "02:30 AM - 03:30 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Concerts in the Park - The Brooklines",
-        "date": "Jul 21, 2026",
-        "time": "12:30am",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "11:00 PM - 12:30 AM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "12:30 AM - 03:30 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "03:30 AM - 04:30 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
