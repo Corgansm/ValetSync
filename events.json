@@ -1,29 +1,6 @@
 [
     {
         "title": "2026 Innovate Tech Forum",
-        "date": "July 22, 2026",
-        "time": "8:00 am",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/2026-innovate-tech-forum-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "2026 Innovate Tech Forum",
         "date": "July 23, 2026",
         "time": "8:00 am",
         "venue": "VBC East Hall",
@@ -95,19 +72,19 @@
         "title": "The Molly Ringwalds",
         "date": "July 24, 2026",
         "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/the-molly-ringwalds-2026-07-24-2000/",
@@ -187,19 +164,19 @@
         "title": "The Wallflowers",
         "date": "July 31, 2026",
         "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/the-wallflowers-2026-07-31-2000/",
@@ -233,19 +210,19 @@
         "title": "Souther Social 2026 featuring Sammy Kershaw",
         "date": "August 1, 2026",
         "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/souther-social-2026-featuring-sammy-kershaw-2026-08-01-1900/",
@@ -302,7 +279,7 @@
         "title": "Jim Parkers Songwriters Series",
         "date": "August 7, 2026",
         "time": "6:30 pm",
-        "venue": "VBC Playhouse",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
@@ -440,46 +417,23 @@
         "title": "Rocket City Octane Auto Show presented by Autoworkz",
         "date": "August 15, 2026",
         "time": "10:00 am",
-        "venue": "VBC South Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "08:30 AM - 10:00 AM",
-                "impact": 1
+                "impact": 0
             },
             "during_event": {
                 "window": "10:00 AM - 12:00 PM",
-                "impact": 2
+                "impact": 1
             },
             "departure_rush": {
                 "window": "12:00 PM - 01:00 PM",
-                "impact": 2
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/rocket-city-octane-auto-show-presented-by-autoworkz-2026-08-15-1000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Auto-Show-1920x1080-1-_AD901265-08BA-200E-ABD2879236F40399_add5739b-f990-d1d7-1802fbfa77ea98f6-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "4th Annual All Seasons Fashion Show 2026",
-        "date": "August 15, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -503,6 +457,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/hot-southern-night-gala/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "4th Annual All Seasons Fashion Show 2026",
+        "date": "August 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -532,19 +509,19 @@
         "title": "Gladys Knight",
         "date": "August 15, 2026",
         "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/gladys-knight-2026-08-15-1930/",
@@ -854,19 +831,19 @@
         "title": "The Temptations & The Four Tops",
         "date": "September 10, 2026",
         "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/the-temptations-the-four-tops-2026-09-10-1900/",
@@ -900,7 +877,7 @@
         "title": "Jim Parkers Songwriters Series",
         "date": "September 11, 2026",
         "time": "6:30 pm",
-        "venue": "VBC Playhouse",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
@@ -1015,19 +992,19 @@
         "title": "PRESIDENT: North American Campaign 2026",
         "date": "September 19, 2026",
         "time": "7:00 pm",
-        "venue": "VBC Mars Music Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/president-north-american-campaign-2026-2026-09-19-1900/",
@@ -1038,19 +1015,19 @@
         "title": "Gary Owen: No Hard Feelings Tour",
         "date": "September 24, 2026",
         "time": "8:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/gary-owen-no-hard-feelings-tour-2026-09-24-2000/",
@@ -1199,7 +1176,7 @@
         "title": "Jim Parkers Songwriters Series",
         "date": "October 2, 2026",
         "time": "6:30 pm",
-        "venue": "VBC Playhouse",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
@@ -1222,19 +1199,19 @@
         "title": "Zach Williams With Cochren & Co. And Christian Hohn: Revival Nights",
         "date": "October 2, 2026",
         "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 09:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "09:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/zach-williams-with-cochren-co-and-christian-hohn-revival-nights-2026-10-02-1900/",
@@ -1268,19 +1245,19 @@
         "title": "The Rick Burgess Show Presents “The Are You Ready Live Tour”",
         "date": "October 9, 2026",
         "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/the-rick-burgess-show-presents-the-are-you-ready-live-tour-2026-10-09-1900/",
@@ -1360,19 +1337,19 @@
         "title": "Jo Koy: Koy Meets World Tour",
         "date": "October 18, 2026",
         "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "10:30 PM - 11:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/jo-koy-koy-meets-world-tour-2026-10-18-1930/",
@@ -1429,19 +1406,19 @@
         "title": "The 3rd Annual Rocket City Blues Festival",
         "date": "October 24, 2026",
         "time": "7:00 pm",
-        "venue": "VBC Propst Arena",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 8
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 11:00 PM",
-                "impact": 10
+                "impact": 1
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 10
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/the-3rd-annual-rocket-city-blues-festival-2026-03-15-1800/",
@@ -1475,19 +1452,19 @@
         "title": "Nurse Blake: But Did You Die? Comedy Tour",
         "date": "October 29, 2026",
         "time": "7:00 pm",
-        "venue": "VBC Mars Music Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:30 PM - 07:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:00 PM - 10:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "10:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/nurse-blake-but-did-you-die-comedy-tour-2026-10-29-1900/",
@@ -1521,19 +1498,19 @@
         "title": "So Good! The Neil Diamond Experience starring Robert Neary",
         "date": "November 1, 2026",
         "time": "7:30 pm",
-        "venue": "VBC Mars Music Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 09:30 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "09:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/so-good-the-neil-diamond-experience-starring-robert-neary-2026-11-01-1930/",
@@ -1544,7 +1521,7 @@
         "title": "Jim Parkers Songwriters Series",
         "date": "November 6, 2026",
         "time": "6:30 pm",
-        "venue": "VBC Playhouse",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "05:00 PM - 06:30 PM",
@@ -1567,19 +1544,19 @@
         "title": "Jim Henson’s Labyrinth: In Concert 40th Anniversary",
         "date": "November 7, 2026",
         "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/jim-hensons-labyrinth-in-concert-40th-anniversary-2026-11-07-2000/",
@@ -1774,19 +1751,19 @@
         "title": "Harry Potter and the Goblet of Fire(TM) in Concert",
         "date": "January 22, 2027",
         "time": "8:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:30 PM - 08:00 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "08:00 PM - 11:00 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "11:00 PM - 12:00 AM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/harry-potter-and-the-goblet-of-firetm-in-concert-2027-01-22-2000/",
@@ -2211,19 +2188,19 @@
         "title": "Stayin’ Alive: One Night of the Bee Gees",
         "date": "April 29, 2027",
         "time": "7:30 pm",
-        "venue": "VBC Mars Music Hall",
+        "venue": "Von Braun Center",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "06:00 PM - 07:30 PM",
-                "impact": 2
+                "impact": 0
             },
             "during_event": {
                 "window": "07:30 PM - 10:30 PM",
-                "impact": 3
+                "impact": 1
             },
             "departure_rush": {
                 "window": "10:30 PM - 11:30 PM",
-                "impact": 3
+                "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/stayin-alive-one-night-of-the-bee-gees-2027-04-29-1930/",
