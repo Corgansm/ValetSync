@@ -1,5 +1,28 @@
 [
     {
+        "title": "Madison City Schools",
+        "date": "July 30, 2026",
+        "time": "9:00 am",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/madison-city-schools/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Madison County Board of Education Back to School Development",
         "date": "July 31, 2026",
         "time": "8:00 am",
@@ -299,6 +322,29 @@
         "source": "VBC"
     },
     {
+        "title": "Hot Southern Night Gala",
+        "date": "August 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/hot-southern-night-gala/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "4th Annual All Seasons Fashion Show 2026",
         "date": "August 15, 2026",
         "time": "6:00 pm",
@@ -342,29 +388,6 @@
         },
         "url": "https://www.vonbrauncenter.com/events/9th-annual-black-white-charity-ball/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-5-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Hot Southern Night Gala",
-        "date": "August 15, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/hot-southern-night-gala/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-4-1024x576.png",
         "source": "VBC"
     },
     {
