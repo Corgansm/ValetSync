@@ -575,7 +575,7 @@
         "source": "VBC"
     },
     {
-        "title": "Beastie Goys: License to Ill – 40th Anniversary",
+        "title": "Beastie Goys: License To ILL – 40th Anniversary",
         "date": "August 22, 2026",
         "time": "7:00 pm",
         "venue": "VBC Mars Music Hall",
@@ -593,7 +593,7 @@
                 "impact": 3
             }
         },
-        "url": "https://www.vonbrauncenter.com/events/beastie-goys-license-to-ill-40th-anniversary/",
+        "url": "https://www.vonbrauncenter.com/events/beastie-goys-license-to-ill-40th-anniversary-2026-08-22-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
@@ -692,24 +692,24 @@
     {
         "title": "2026 Washington Update featuring Congressman Dale Strong",
         "date": "August 31, 2026",
-        "time": "12:00 pm",
+        "time": "8:00 am",
         "venue": "VBC Saturn Ballroom",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:30 AM - 12:00 PM",
+                "window": "06:30 AM - 08:00 AM",
                 "impact": 0
             },
             "during_event": {
-                "window": "12:00 PM - 02:00 PM",
+                "window": "08:00 AM - 10:00 AM",
                 "impact": 1
             },
             "departure_rush": {
-                "window": "02:00 PM - 03:00 PM",
+                "window": "10:00 AM - 11:00 AM",
                 "impact": 1
             }
         },
         "url": "https://www.vonbrauncenter.com/events/2026-washington-update-featuring-congressman-dale-strong/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-2-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-8-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2160,6 +2160,27 @@
         "url": "https://www.vonbrauncenter.com/events/stayin-alive-one-night-of-the-bee-gees-2027-04-29-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
         "source": "VBC"
+    },
+    {
+        "title": "Light Up the Night",
+        "date": "Jul 31, 2026",
+        "time": "11:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 PM - 11:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "11:00 PM - 01:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "01:00 AM - 02:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
