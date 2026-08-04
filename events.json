@@ -46,6 +46,29 @@
         "source": "VBC"
     },
     {
+        "title": "FCA PLT Conference",
+        "date": "August 7, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/plt-conference/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Jim Parkers Songwriters Series",
         "date": "August 7, 2026",
         "time": "6:30 pm",
@@ -66,6 +89,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-08-07-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-1-_2202B513-FF69-E7D4-36B71A563EA2D23F_220a3013-d285-9b19-e03765ba6525fd4c-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FCA PLT Conference",
+        "date": "August 8, 2026",
+        "time": "9:00 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fca-plt-conference/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -207,26 +253,26 @@
         "source": "VBC"
     },
     {
-        "title": "4th Annual All Seasons Fashion Show 2026",
+        "title": "Hot Southern Night Gala",
         "date": "August 15, 2026",
         "time": "6:00 pm",
-        "venue": "VBC East Hall",
+        "venue": "VBC Saturn Ballroom",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "04:30 PM - 06:00 PM",
-                "impact": 1
+                "impact": 0
             },
             "during_event": {
                 "window": "06:00 PM - 08:00 PM",
-                "impact": 2
+                "impact": 1
             },
             "departure_rush": {
                 "window": "08:00 PM - 09:00 PM",
-                "impact": 2
+                "impact": 1
             }
         },
-        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
+        "url": "https://www.vonbrauncenter.com/events/hot-southern-night-gala/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -253,26 +299,26 @@
         "source": "VBC"
     },
     {
-        "title": "Hot Southern Night Gala",
+        "title": "4th Annual All Seasons Fashion Show 2026",
         "date": "August 15, 2026",
         "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
+        "venue": "VBC East Hall",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "04:30 PM - 06:00 PM",
-                "impact": 0
+                "impact": 1
             },
             "during_event": {
                 "window": "06:00 PM - 08:00 PM",
-                "impact": 1
+                "impact": 2
             },
             "departure_rush": {
                 "window": "08:00 PM - 09:00 PM",
-                "impact": 1
+                "impact": 2
             }
         },
-        "url": "https://www.vonbrauncenter.com/events/hot-southern-night-gala/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "url": "https://www.vonbrauncenter.com/events/4th-annual-all-seasons-fashion-show-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -345,6 +391,29 @@
         "source": "VBC"
     },
     {
+        "title": "Hudson Alpha: Southern Solutions",
+        "date": "August 18, 2026",
+        "time": "5:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:00 PM - 05:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "05:30 PM - 07:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/hudson-alpha-southern-solutions/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "AUSVI Pathfinder Symposium 2026",
         "date": "August 19, 2026",
         "time": "8:30 am",
@@ -365,6 +434,98 @@
         },
         "url": "https://www.vonbrauncenter.com/events/ausvi-pathfinder-symposium-2026-3/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AAMA Small Business Supplier Summit",
+        "date": "August 19, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/aama-small-business-supplier-summit/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Auburn Alumni: Beyond the Plains",
+        "date": "August 19, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/auburn-alumni-beyond-the-plains/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AAMA Small Business Supplier Summit",
+        "date": "August 20, 2026",
+        "time": "8:30 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:00 AM - 08:30 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:30 AM - 10:30 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:30 AM - 11:30 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/aama-small-business-supplier-summit-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "His Way: No Man Left Behind",
+        "date": "August 20, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/his-way-no-man-left-behind/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -529,6 +690,98 @@
         "source": "VBC"
     },
     {
+        "title": "NAITA Security Assistance/FMS Summit",
+        "date": "August 25, 2026",
+        "time": "8:00 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/naita-security-assistance-fms-summit/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-10-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Halsey Food Show",
+        "date": "August 25, 2026",
+        "time": "9:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/halsey-food-show/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-8-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "NAITA Security Assistance/FMS Summit",
+        "date": "August 26, 2026",
+        "time": "8:30 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:00 AM - 08:30 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:30 AM - 10:30 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 AM - 11:30 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/naita-security-assistance-fms-summit-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-10-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Halsey Food Show",
+        "date": "August 26, 2026",
+        "time": "9:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/halsey-food-show-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-8-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Bluey’s Big Play",
         "date": "August 26, 2026",
         "time": "6:00 pm",
@@ -575,6 +828,29 @@
         "source": "VBC"
     },
     {
+        "title": "2026 TICA Southeast Regional Cat Show",
+        "date": "August 29, 2026",
+        "time": "9:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2026-tica-southeast-regional-cat-show/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-11-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Fall Home + Garden Show",
         "date": "August 29, 2026",
         "time": "10:00 am",
@@ -595,6 +871,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/fall-home-garden-show/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-9-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "2026 TICA Southeast Regional Cat Show",
+        "date": "August 30, 2026",
+        "time": "9:30 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:00 AM - 09:30 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:30 AM - 11:30 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:30 AM - 12:30 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2026-tica-southeast-regional-cat-show-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-11-1024x576.png",
         "source": "VBC"
     },
     {
@@ -641,6 +940,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/2026-washington-update-featuring-congressman-dale-strong/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-8-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Community Action Partnership of North Alabama",
+        "date": "September 3, 2026",
+        "time": "9:00 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/community-action-partnership-of-north-alabama/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-12-1024x576.png",
         "source": "VBC"
     },
     {
@@ -828,29 +1150,6 @@
         "source": "VBC"
     },
     {
-        "title": "Morgan Wade: Love’s Insane Tour",
-        "date": "September 24, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/morgan-wade-loves-insane-tour/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Gary Owen: No Hard Feelings Tour",
         "date": "September 24, 2026",
         "time": "8:00 pm",
@@ -871,6 +1170,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/gary-owen-no-hard-feelings-tour-2026-09-24-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/IC_GaryOwen_0924_Huntsville_1920x1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Morgan Wade: Love’s Insane Tour",
+        "date": "September 24, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/morgan-wade-loves-insane-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1630,6 +1952,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/rocket-city-classic-presented-by-akima-2026-12-15-0000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/1a9d61cf-aa9e-4b31-8778-26cf0dcbb695_TABLET_LANDSCAPE_LARGE_16_9-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Sweet Baby James: The #1 James Taylor Tribute",
+        "date": "January 16, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sweet-baby-james-the-1-james-taylor-tribute/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/SBJ-1920x1080-1-1024x576.png",
         "source": "VBC"
     },
     {
