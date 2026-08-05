@@ -1,29 +1,6 @@
 [
     {
         "title": "AMTC Collaboration Event",
-        "date": "August 4, 2026",
-        "time": "8:00 am",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/amtc-collaboration-event-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "AMTC Collaboration Event",
         "date": "August 5, 2026",
         "time": "8:00 am",
         "venue": "VBC Saturn Ballroom",
@@ -874,6 +851,29 @@
         "source": "VBC"
     },
     {
+        "title": "Southern Social 2026 Featuring Sammy Kershaw",
+        "date": "August 29, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/southern-social-2026-featuring-sammy-kershaw/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "2026 TICA Southeast Regional Cat Show",
         "date": "August 30, 2026",
         "time": "9:30 am",
@@ -1012,6 +1012,29 @@
         "source": "VBC"
     },
     {
+        "title": "NEACA Fall Craft Show",
+        "date": "September 11, 2026",
+        "time": "9:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/neaca-fall-craft-show/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Jim Parkers Songwriters Series",
         "date": "September 11, 2026",
         "time": "6:30 pm",
@@ -1032,6 +1055,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-09-11-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-2-_22118EDA-916C-23E0-CEA3A3057D117545_22137c56-af82-cf96-92e499c5743534fe-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "NEACA Fall Craft Show",
+        "date": "September 12, 2026",
+        "time": "9:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/neaca-fall-craft-show-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1104,6 +1150,121 @@
         "source": "VBC"
     },
     {
+        "title": "NEACA Fall Craft Show",
+        "date": "September 13, 2026",
+        "time": "12:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 AM - 12:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "12:00 PM - 02:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "02:00 PM - 03:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/neaca-fall-craft-show-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "NDIA-TVC MDA Small Business Conference",
+        "date": "September 16, 2026",
+        "time": "8:00 am",
+        "venue": "South",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/ndia-tvc-mda-small-business-conference/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-20-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "NDIA-TVC MDA Small Business Conference",
+        "date": "September 17, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/mdia-tvc-mda-small-business-conference/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-20-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Women Honoring Women",
+        "date": "September 17, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/women-honoring-women/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-22-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "2026 Huntsville Wish Night",
+        "date": "September 18, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2026-huntsville-wish-night/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-23-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Electric Avenue – The 80’s MTV Experience",
         "date": "September 18, 2026",
         "time": "7:30 pm",
@@ -1127,6 +1288,52 @@
         "source": "VBC"
     },
     {
+        "title": "Dracula: A Comedy of Terrors",
+        "date": "September 18, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Bollywood Night",
+        "date": "September 19, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/bollywood-night/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-24-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "PRESIDENT: North American Campaign 2026",
         "date": "September 19, 2026",
         "time": "7:00 pm",
@@ -1147,6 +1354,144 @@
         },
         "url": "https://www.vonbrauncenter.com/events/president-north-american-campaign-2026-2026-09-19-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Dracula: A Comedy of Terrors",
+        "date": "September 19, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Dracula: A Comedy of Terrors",
+        "date": "September 20, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 05:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "National Cyber Summit",
+        "date": "September 22, 2026",
+        "time": "8:30 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:00 AM - 08:30 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:30 AM - 10:30 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 AM - 11:30 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/national-cyber-summit/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-25-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "National Cyber Summit",
+        "date": "September 23, 2026",
+        "time": "8:15 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:45 AM - 08:15 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:15 AM - 10:15 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:15 AM - 11:15 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/national-cyber-summit-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-25-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "National Cyber Summit",
+        "date": "September 24, 2026",
+        "time": "8:15 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:45 AM - 08:15 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "08:15 AM - 10:15 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:15 AM - 11:15 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/national-cyber-summit-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-25-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Dracula: A Comedy of Terrors",
+        "date": "September 24, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1219,6 +1564,29 @@
         "source": "VBC"
     },
     {
+        "title": "Dracula: A Comedy of Terrors",
+        "date": "September 25, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Waitress",
         "date": "September 26, 2026",
         "time": "1:00 pm",
@@ -1239,6 +1607,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-26-1300/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Dracula: A Comedy of Terrors",
+        "date": "September 26, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 05:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1265,6 +1656,29 @@
         "source": "VBC"
     },
     {
+        "title": "Dracula: A Comedy of Terror",
+        "date": "September 26, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terror/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Waitress",
         "date": "September 27, 2026",
         "time": "1:00 pm",
@@ -1288,6 +1702,29 @@
         "source": "VBC"
     },
     {
+        "title": "Dracula: A Comedy of Terror",
+        "date": "September 27, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 05:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terror-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Waitress",
         "date": "September 27, 2026",
         "time": "6:30 pm",
@@ -1308,6 +1745,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-27-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Anime Town Huntsville",
+        "date": "October 2, 2026",
+        "time": "3:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:30 PM - 03:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "03:00 PM - 05:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/anime-town-huntsville/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-26-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1357,6 +1817,29 @@
         "source": "VBC"
     },
     {
+        "title": "Anime Town Huntsville",
+        "date": "October 3, 2026",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/anime-town-huntsville-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-26-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Brook & The Bluff: The Werewolf Tour",
         "date": "October 3, 2026",
         "time": "8:00 pm",
@@ -1377,6 +1860,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-brook-the-bluff-the-werewolf-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Static_Outdoor-ConcertVision_1920x1080_TheBrookTheBluff_2026_Regional_VBC-Mars-Music-Hall_1003-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Anime Town Huntsville",
+        "date": "October 4, 2026",
+        "time": "11:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 AM - 11:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "11:00 AM - 01:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "01:00 PM - 02:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/anime-town-huntsville-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-26-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1702,6 +2208,75 @@
         "source": "VBC"
     },
     {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 13, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 14, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 15, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Blackberry Smoke",
         "date": "November 19, 2026",
         "time": "7:30 pm",
@@ -1722,6 +2297,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/blackberry-smoke/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-7-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 19, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1748,6 +2346,29 @@
         "source": "VBC"
     },
     {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 20, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "A Beautiful Noise",
         "date": "November 21, 2026",
         "time": "1:00 pm",
@@ -1771,6 +2392,29 @@
         "source": "VBC"
     },
     {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 21, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "A Beautiful Noise",
         "date": "November 21, 2026",
         "time": "7:30 pm",
@@ -1791,6 +2435,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-21-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 21, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-7/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1837,6 +2504,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-22-1300/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Georgiana & Kitty: Christmas at Pemberley",
+        "date": "November 22, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-8/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1955,7 +2645,7 @@
         "source": "VBC"
     },
     {
-        "title": "Sweet Baby James: The #1 James Taylor Tribute",
+        "title": "Bill Griese sings James Taylor",
         "date": "January 16, 2027",
         "time": "7:30 pm",
         "venue": "VBC Mars Music Hall",
@@ -1975,6 +2665,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/sweet-baby-james-the-1-james-taylor-tribute/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/SBJ-1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 22, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1998,6 +2711,167 @@
         },
         "url": "https://www.vonbrauncenter.com/events/harry-potter-and-the-goblet-of-firetm-in-concert-2027-01-22-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/HP4_HUNT_VENUE_1920x1080_3D37E7B0-C73A-C4A5-FB870930F68FAAD2_3d6232e3-f1e7-1540-732bca080e5702f1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 23, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 24, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 28, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 29, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 30, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 30, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away-7/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Come From Away",
+        "date": "January 31, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/come-from-away-8/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2369,6 +3243,121 @@
         "source": "VBC"
     },
     {
+        "title": "Murder on the Orient Express",
+        "date": "April 2, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "date": "April 3, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "date": "April 4, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "date": "April 8, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "date": "April 9, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Shen Yun",
         "date": "April 10, 2027",
         "time": "2:00 pm",
@@ -2389,6 +3378,52 @@
         },
         "url": "https://www.vonbrauncenter.com/events/shen-yun/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/1920x1080-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "date": "April 10, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "date": "April 10, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-7/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2415,6 +3450,29 @@
         "source": "VBC"
     },
     {
+        "title": "Murder on the Orient Express",
+        "date": "April 11, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-8/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Stayin’ Alive: One Night of the Bee Gees",
         "date": "April 29, 2027",
         "time": "7:30 pm",
@@ -2438,46 +3496,257 @@
         "source": "VBC"
     },
     {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Aug 3, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
+        "title": "Sister Act",
+        "date": "June 11, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
             },
             "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
             },
             "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
             }
         },
-        "source": "DHI Time.ly Calendar"
+        "url": "https://www.vonbrauncenter.com/events/sister-act/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
     },
     {
-        "title": "Concerts in the Park - Surprise Lineup!",
-        "date": "Aug 3, 2026",
-        "time": "11:30pm",
-        "venue": "Big Spring Park",
+        "title": "Sister Act",
+        "date": "June 12, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:00 PM - 11:30 PM",
-                "impact": 2
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
             },
             "during_event": {
-                "window": "11:30 PM - 02:30 AM",
-                "impact": 3
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
             },
             "departure_rush": {
-                "window": "02:30 AM - 03:30 AM",
-                "impact": 3
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
             }
         },
-        "source": "DHI Time.ly Calendar"
+        "url": "https://www.vonbrauncenter.com/events/sister-act-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 13, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 17, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 18, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 19, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 19, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-7/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 20, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-8/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 25, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-9/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 26, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-10/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sister Act",
+        "date": "June 27, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
+        "source": "VBC"
     },
     {
         "title": "10th Annual End Addiction HSV Walk",
