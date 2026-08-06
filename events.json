@@ -1,28 +1,5 @@
 [
     {
-        "title": "AMTC Collaboration Event",
-        "date": "August 5, 2026",
-        "time": "8:00 am",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/amtc-collaboration-event-4/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "FCA PLT Conference",
         "date": "August 7, 2026",
         "time": "5:00 pm",
@@ -848,6 +825,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/fall-home-garden-show/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-9-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Rescheduled: Southern Social 2026 featuring Sammy Kershaw",
+        "date": "August 29, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/souther-social-2026-featuring-sammy-kershaw-2026-08-01-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-2-1-1024x576.png",
         "source": "VBC"
     },
     {
