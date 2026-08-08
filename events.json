@@ -1,52 +1,6 @@
 [
     {
         "title": "FCA PLT Conference",
-        "date": "August 7, 2026",
-        "time": "5:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "05:00 PM - 07:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/plt-conference/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Jim Parkers Songwriters Series",
-        "date": "August 7, 2026",
-        "time": "6:30 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-08-07-1830/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-1-_2202B513-FF69-E7D4-36B71A563EA2D23F_220a3013-d285-9b19-e03765ba6525fd4c-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "FCA PLT Conference",
         "date": "August 8, 2026",
         "time": "9:00 am",
         "venue": "VBC Saturn Ballroom",
@@ -1311,6 +1265,29 @@
         "source": "VBC"
     },
     {
+        "title": "Southern Rock: The Symphony Sessions",
+        "date": "September 18, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/southern-rock-the-symphony-sessions/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Bollywood Night",
         "date": "September 19, 2026",
         "time": "6:00 pm",
@@ -1955,6 +1932,52 @@
         "source": "VBC"
     },
     {
+        "title": "Silver Screen Symphonists",
+        "date": "October 16, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/silver-screen-symphonists/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Symphony Ball",
+        "date": "October 17, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/symphony-ball/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Billy Joel Legacy – A Tribute Experience",
         "date": "October 17, 2026",
         "time": "7:30 pm",
@@ -2182,6 +2205,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-11-06-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-4-_2223C537-C444-83A8-1C8C860E4355C1F9_22255c00-cf63-7364-3c29f5adb9af31f6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Pictures for Yours Ears",
+        "date": "November 6, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/pictures-for-yours-ears/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2645,6 +2691,29 @@
         "source": "VBC"
     },
     {
+        "title": "Champagne & Showtunes",
+        "date": "December 31, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/champagne-showtunes/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-7-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Bill Griese sings James Taylor",
         "date": "January 16, 2027",
         "time": "7:30 pm",
@@ -2665,6 +2734,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/sweet-baby-james-the-1-james-taylor-tribute/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/SBJ-1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Beethoven Violin Concerto",
+        "date": "January 16, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beethoven-violin-concerto/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-10-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2898,6 +2990,29 @@
         "source": "VBC"
     },
     {
+        "title": "Canadian Brass",
+        "date": "February 6, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/canadian-brass/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-11-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Wiz",
         "date": "February 9, 2027",
         "time": "7:00 pm",
@@ -3079,6 +3194,52 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-14-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Story of BABAR",
+        "date": "February 25, 2027",
+        "time": "9:30 am",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:00 AM - 09:30 AM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:30 AM - 11:30 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:30 AM - 12:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-story-of-babar/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-12-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Elgar & Tchaikovsky",
+        "date": "February 27, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/elgar-tchaikovsky/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3312,6 +3473,29 @@
         "source": "VBC"
     },
     {
+        "title": "The Movie Magic of John Williams",
+        "date": "April 3, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-movie-magic-of-john-williams/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Murder on the Orient Express",
         "date": "April 4, 2027",
         "time": "2:00 pm",
@@ -3493,6 +3677,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/murder-on-the-orient-express-8/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Faith & Remembrance",
+        "date": "April 24, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/faith-remembrance/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1-1024x576.png",
         "source": "VBC"
     },
     {
