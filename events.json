@@ -1,28 +1,5 @@
 [
     {
-        "title": "FCA PLT Conference",
-        "date": "August 8, 2026",
-        "time": "9:00 am",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:30 AM - 09:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "09:00 AM - 11:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "11:00 AM - 12:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/fca-plt-conference/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "SMD Symposium",
         "date": "August 11, 2026",
         "time": "9:00 am",
@@ -3977,27 +3954,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "10th Annual End Addiction HSV Walk",
-        "date": "Aug 8, 2026",
-        "time": "2:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "12:30 PM - 02:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "02:00 PM - 04:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "04:00 PM - 05:00 PM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
