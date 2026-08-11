@@ -19,7 +19,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/smd-symposium/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -42,7 +42,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/smd-symposium-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -88,7 +88,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/smd-symposium-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3401,6 +3401,144 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-07-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Beauty and The Beast",
+        "date": "March 24, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beauty-and-the-beast/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Beauty and The Beast",
+        "date": "March 25, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beauty-and-the-beast-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Beauty and The Beast",
+        "date": "March 26, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beauty-and-the-beast-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Beauty and The Beast",
+        "date": "March 26, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beauty-and-the-beast-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Beauty and The Beast",
+        "date": "March 27, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beauty-and-the-beast-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Beauty and The Beast",
+        "date": "March 27, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/beauty-and-the-beast-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
         "source": "VBC"
     },
     {
