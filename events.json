@@ -1,52 +1,6 @@
 [
     {
         "title": "SMD Symposium",
-        "date": "August 12, 2026",
-        "time": "8:00 am",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/smd-symposium-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Your Next Mission",
-        "date": "August 12, 2026",
-        "time": "10:00 am",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 AM - 10:00 AM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 AM - 12:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 PM - 01:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/your-next-mission/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-3-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "SMD Symposium",
         "date": "August 13, 2026",
         "time": "8:00 am",
         "venue": "Von Braun Center",
@@ -502,7 +456,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/beastie-goys-license-to-ill-40th-anniversary/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Beastie-Goys-1920x1080-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Beastie-Goys-1920x1080-2-1024x576.png",
         "source": "VBC"
     },
     {
