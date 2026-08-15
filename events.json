@@ -1,28 +1,5 @@
 [
     {
-        "title": "Killers of Kill Tony",
-        "date": "August 14, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/killers-of-kill-tony-2026-08-14-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Rocket City Octane Auto Show presented by Autoworkz",
         "date": "August 15, 2026",
         "time": "10:00 am",
@@ -2205,6 +2182,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-3/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Russ Taff & Steve Taylor: The (Almost) Farewell Tour",
+        "date": "November 16, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 10:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:30 PM - 11:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/russ-taff-steve-taylor-the-almost-farewell-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
         "source": "VBC"
     },
     {
