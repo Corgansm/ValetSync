@@ -3910,27 +3910,6 @@
         "source": "VBC"
     },
     {
-        "title": "Power on the Line Festival 2026",
-        "date": "Aug 15, 2026",
-        "time": "8:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Aug 17, 2026",
         "time": "10:00pm",
