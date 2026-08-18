@@ -1,29 +1,6 @@
 [
     {
         "title": "AUSVI Pathfinder Symposium 2026",
-        "date": "August 17, 2026",
-        "time": "12:00 pm",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:30 AM - 12:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "12:00 PM - 02:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "02:00 PM - 03:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/ausvi-pathfinder-symposium-2026/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "AUSVI Pathfinder Symposium 2026",
         "date": "August 18, 2026",
         "time": "8:30 am",
         "venue": "VBC South Hall",
@@ -664,6 +641,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/community-action-partnership-of-north-alabama/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-12-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc: Special Announcement & Jersey Reveal",
+        "date": "September 3, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-special-announcement-jersey-reveal/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1630,6 +1630,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-rick-burgess-show-presents-the-are-you-ready-live-tour-2026-10-09-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-3-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc: Exhibition Game",
+        "date": "October 9, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-exhibition-game/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2714,6 +2737,29 @@
         "source": "VBC"
     },
     {
+        "title": "The Black Jacket Symphony presents Michael Jackson’s “Thriller”",
+        "date": "January 30, 2027",
+        "time": "5:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-black-jacket-symphony-presents-michael-jacksons-thriller/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Come From Away",
         "date": "January 30, 2027",
         "time": "7:30 pm",
@@ -2734,6 +2780,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/come-from-away-7/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Black Jacket Symphony presents Michael Jackson’s “Thriller”",
+        "date": "January 30, 2027",
+        "time": "9:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 PM - 09:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-black-jacket-symphony-presents-michael-jacksons-thriller-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-3-1024x576.png",
         "source": "VBC"
     },
     {
