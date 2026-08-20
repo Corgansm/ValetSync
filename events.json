@@ -1,74 +1,5 @@
 [
     {
-        "title": "AUSVI Pathfinder Symposium 2026",
-        "date": "August 19, 2026",
-        "time": "8:30 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:00 AM - 08:30 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:30 AM - 10:30 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:30 AM - 11:30 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/ausvi-pathfinder-symposium-2026-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "AAMA Small Business Supplier Summit",
-        "date": "August 19, 2026",
-        "time": "1:00 pm",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "11:30 AM - 01:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "01:00 PM - 03:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "03:00 PM - 04:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/aama-small-business-supplier-summit/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Auburn Alumni: Beyond the Plains",
-        "date": "August 19, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/auburn-alumni-beyond-the-plains/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-4-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "AAMA Small Business Supplier Summit",
         "date": "August 20, 2026",
         "time": "8:30 am",
@@ -3931,6 +3862,27 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
+    },
+    {
+        "title": "Downtown Food Truck Rallies: HSV Restaurant Week Event",
+        "date": "Aug 21, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
