@@ -1,74 +1,5 @@
 [
     {
-        "title": "AAMA Small Business Supplier Summit",
-        "date": "August 20, 2026",
-        "time": "8:30 am",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:00 AM - 08:30 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:30 AM - 10:30 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:30 AM - 11:30 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/aama-small-business-supplier-summit-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "His Way: No Man Left Behind",
-        "date": "August 20, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/his-way-no-man-left-behind/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Henry Cho: The Empty Nest Tour",
-        "date": "August 20, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/henry-cho-the-empty-nest-tour-2026-08-20-2000/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/HenryCho_HUNTSAL_1920x1080_2ND-SHOW_LOW-TIX-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
         "title": "Henry Cho: The Empty Nest Tour",
         "date": "August 21, 2026",
         "time": "8:00 pm",
@@ -552,6 +483,29 @@
         "source": "VBC"
     },
     {
+        "title": "All The Kings Men",
+        "date": "September 6, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/all-the-kings-men/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-3-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Temptations & The Four Tops",
         "date": "September 10, 2026",
         "time": "7:00 pm",
@@ -621,6 +575,29 @@
         "source": "VBC"
     },
     {
+        "title": "AllStar Pool & Spa Show",
+        "date": "September 11, 2026",
+        "time": "2:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/allstar-pool-spa-show/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Jim Parkers Songwriters Series",
         "date": "September 11, 2026",
         "time": "6:30 pm",
@@ -664,6 +641,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/neaca-fall-craft-show-2/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "AllStar Pool & Spa Show",
+        "date": "September 12, 2026",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/allstar-pool-spa-show-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -736,6 +736,29 @@
         "source": "VBC"
     },
     {
+        "title": "AllStar Pool & Spa Show",
+        "date": "September 13, 2026",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/allstar-pool-spa-show-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "NEACA Fall Craft Show",
         "date": "September 13, 2026",
         "time": "12:00 pm",
@@ -756,6 +779,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/neaca-fall-craft-show-3/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Music Industry Job Fair",
+        "date": "September 14, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-music-industry-job-fair/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1354,6 +1400,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-27-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Alfred Street Experience",
+        "date": "October 1, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-alfred-street-experience/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2044,6 +2113,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-4/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "WWE Road to Survivor Series: Wargames",
+        "date": "November 19, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/wwe-road-to-survivor-series-wargames/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
         "source": "VBC"
     },
     {
