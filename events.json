@@ -1,28 +1,5 @@
 [
     {
-        "title": "Henry Cho: The Empty Nest Tour",
-        "date": "August 21, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/henry-cho-the-empty-nest-tour-2026-08-21-2000/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/HenryCho_HUNTSAL_1920x1080_2ND-SHOW_LOW-TIX-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
         "title": "Huntsville Hamfest",
         "date": "August 22, 2026",
         "time": "9:00 am",
@@ -480,6 +457,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-special-announcement-jersey-reveal/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Sevendust & Theory of a Deadman: The Dead Seven Tour",
+        "date": "September 4, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sevendust-theory-of-a-deadman-the-dead-seven-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1955,6 +1955,29 @@
         "source": "VBC"
     },
     {
+        "title": "A Celtic Christmas",
+        "date": "November 7, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/a-celtic-christmas/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-8-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Jim Henson’s Labyrinth: In Concert 40th Anniversary",
         "date": "November 7, 2026",
         "time": "8:00 pm",
@@ -2135,7 +2158,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/wwe-road-to-survivor-series-wargames/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-9-1024x576.png",
         "source": "VBC"
     },
     {
