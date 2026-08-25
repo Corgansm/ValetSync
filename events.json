@@ -184,29 +184,6 @@
         "source": "VBC"
     },
     {
-        "title": "Rescheduled: Southern Social 2026 featuring Sammy Kershaw",
-        "date": "August 29, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/souther-social-2026-featuring-sammy-kershaw-2026-08-01-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-2-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Southern Social 2026 Featuring Sammy Kershaw",
         "date": "August 29, 2026",
         "time": "7:00 pm",
@@ -2274,6 +2251,52 @@
         },
         "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-22-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Lindsey Stirling – The Snow Waltz Tour",
+        "date": "November 24, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/lindsey-stirling-the-snow-waltz-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-10-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Cirque Dreams Holidaze",
+        "date": "November 25, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/cirque-dreams-holidaze/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-5-1024x576.png",
         "source": "VBC"
     },
     {
