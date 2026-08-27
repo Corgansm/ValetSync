@@ -1,74 +1,5 @@
 [
     {
-        "title": "NAITA Security Assistance/FMS Summit",
-        "date": "August 26, 2026",
-        "time": "8:30 am",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:00 AM - 08:30 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:30 AM - 10:30 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:30 AM - 11:30 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/naita-security-assistance-fms-summit-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-10-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Halsey Food Show",
-        "date": "August 26, 2026",
-        "time": "9:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:30 AM - 09:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "09:00 AM - 11:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "11:00 AM - 12:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/halsey-food-show-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-8-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Bluey’s Big Play",
-        "date": "August 26, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/blueys-big-play-2026-08-26-1800/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-1080-px-2-_D949FE98-E9E2-3574-419C56749856ED1D_d982acce-c0cf-3577-9bb9bcc6dfdfffa6-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Bluey’s Big Play",
         "date": "August 27, 2026",
         "time": "6:00 pm",
@@ -138,7 +69,7 @@
         "source": "VBC"
     },
     {
-        "title": "Southern Social 2026 Featuring Sammy Kershaw",
+        "title": "Southern Social 2026 Featuring The Marlow Brothers & Titus Thornton",
         "date": "August 29, 2026",
         "time": "7:00 pm",
         "venue": "VBC Mark C Smith Concert Hall",
@@ -157,7 +88,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/southern-social-2026-featuring-sammy-kershaw/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/SS-1920-x-1080-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1104,6 +1035,29 @@
         "source": "VBC"
     },
     {
+        "title": "Professional MMA: Cage Fighting Championships",
+        "date": "September 26, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/professional-mma-cage-fighting-championships/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-11-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Waitress",
         "date": "September 26, 2026",
         "time": "7:30 pm",
@@ -1380,6 +1334,29 @@
         "source": "VBC"
     },
     {
+        "title": "Regional Convention of Jehovah’s Witnesses",
+        "date": "October 9, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/regional-convention-of-jehovahs-witnesses-16/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-4-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Rick Burgess Show Presents “The Are You Ready Live Tour”",
         "date": "October 9, 2026",
         "time": "7:00 pm",
@@ -1426,6 +1403,52 @@
         "source": "VBC"
     },
     {
+        "title": "Regional Convention of Jehovah’s Witnesses",
+        "date": "October 10, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/regional-convention-of-jehovahs-witnesses-17/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-4-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Regional Convention of Jehovah’s Witnesses",
+        "date": "October 11, 2026",
+        "time": "8:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/regional-convention-of-jehovahs-witnesses-18/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-4-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Rodney Carrington",
         "date": "October 11, 2026",
         "time": "7:00 pm",
@@ -1449,6 +1472,29 @@
         "source": "VBC"
     },
     {
+        "title": "Summit on Philanthropy",
+        "date": "October 13, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/summit-on-philanthropy/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "DAX – The Anger Management Tour",
         "date": "October 13, 2026",
         "time": "8:00 pm",
@@ -1469,6 +1515,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/dax-the-anger-management-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "REALTOR® Expo 2026",
+        "date": "October 15, 2026",
+        "time": "11:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 AM - 11:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "11:00 AM - 05:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/realtor-expo-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1906,6 +1975,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/russ-taff-steve-taylor-the-almost-farewell-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Southern Lyricism: The New South Experience Featuring Akeem Ali",
+        "date": "November 18, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/southern-lyricism-the-new-south-experience-featuring-akeem-ali-2026-03-13-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-2-1024x576.png",
         "source": "VBC"
     },
     {
