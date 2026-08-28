@@ -1,28 +1,5 @@
 [
     {
-        "title": "Bluey’s Big Play",
-        "date": "August 27, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/blueys-big-play-2026-08-27-1800/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-1080-px-2-_D949FE98-E9E2-3574-419C56749856ED1D_d982acce-c0cf-3577-9bb9bcc6dfdfffa6-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "2026 TICA Southeast Regional Cat Show",
         "date": "August 29, 2026",
         "time": "9:00 am",
@@ -738,24 +715,24 @@
     {
         "title": "PRESIDENT: North American Campaign 2026",
         "date": "September 19, 2026",
-        "time": "7:00 pm",
-        "venue": "Von Braun Center",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
             },
             "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
             },
             "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
             }
         },
         "url": "https://www.vonbrauncenter.com/events/president-north-american-campaign-2026-2026-09-19-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2711,6 +2688,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-black-jacket-symphony-presents-michael-jacksons-thriller/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "TOBYMAC: Hits Deep Tour",
+        "date": "January 30, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/tobymac-hits-deep-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-12-1024x576.png",
         "source": "VBC"
     },
     {
