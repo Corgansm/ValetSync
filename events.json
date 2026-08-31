@@ -1,51 +1,5 @@
 [
     {
-        "title": "2026 TICA Southeast Regional Cat Show",
-        "date": "August 30, 2026",
-        "time": "9:30 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:00 AM - 09:30 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "09:30 AM - 11:30 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "11:30 AM - 12:30 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/2026-tica-southeast-regional-cat-show-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-11-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Fall Home + Garden Show",
-        "date": "August 30, 2026",
-        "time": "12:00 pm",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:30 AM - 12:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "12:00 PM - 02:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "02:00 PM - 03:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/fall-home-garden-show-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-9-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "2026 Washington Update featuring Congressman Dale Strong",
         "date": "August 31, 2026",
         "time": "8:00 am",
