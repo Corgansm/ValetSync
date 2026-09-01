@@ -1,28 +1,5 @@
 [
     {
-        "title": "2026 Washington Update featuring Congressman Dale Strong",
-        "date": "August 31, 2026",
-        "time": "8:00 am",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/2026-washington-update-featuring-congressman-dale-strong/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-8-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Community Action Partnership of North Alabama",
         "date": "September 3, 2026",
         "time": "9:00 am",
