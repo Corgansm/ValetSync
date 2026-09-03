@@ -69,6 +69,29 @@
         "source": "VBC"
     },
     {
+        "title": "Goodbye Dolly Pub Crawl",
+        "date": "September 5, 2026",
+        "time": "5:00 pm",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/goodbye-dolly-pub-crawl/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Dolly-2-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "All The Kings Men",
         "date": "September 6, 2026",
         "time": "6:00 pm",
@@ -2208,6 +2231,29 @@
         "source": "VBC"
     },
     {
+        "title": "12th Annual Mix 96.9 VBC Christmas Parade presented by Food City",
+        "date": "December 1, 2026",
+        "time": "6:00 pm",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/12th-annual-mix-96-9-vbc-christmas-parade-presented-by-food-city/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Ali Siddiq: The Custom Fit Tour",
         "date": "December 5, 2026",
         "time": "7:00 pm",
@@ -3795,8 +3841,50 @@
         "source": "VBC"
     },
     {
+        "title": "Jazz in the Park • Nathan Mitchell",
+        "date": "Sep 6, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 7, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Jazz in the Park • Julian Vaughn",
+        "date": "Sep 13, 2026",
         "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
@@ -3837,8 +3925,50 @@
         "source": "DHI Time.ly Calendar"
     },
     {
+        "title": "Jazz in the Park • Eric Darius",
+        "date": "Sep 20, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Sep 21, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Jazz in the Park • Kim Scott",
+        "date": "Sep 27, 2026",
         "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
