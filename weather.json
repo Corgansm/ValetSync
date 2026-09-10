@@ -1,9 +1,4 @@
 {
-    "2026-09-09": {
-        "condition": "Sunny",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-09-10": {
         "condition": "Sunny",
         "is_raining": false,
@@ -15,22 +10,27 @@
         "is_storming": true
     },
     "2026-09-12": {
-        "condition": "Showers And Thunderstorms Likely",
+        "condition": "Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-09-13": {
-        "condition": "Chance Rain Showers then Chance Showers And Thunderstorms",
+        "condition": "Mostly Sunny then Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-09-14": {
-        "condition": "Chance Rain Showers",
+        "condition": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-09-15": {
-        "condition": "Chance Rain Showers",
+        "condition": "Chance Rain Showers then Chance Showers And Thunderstorms",
+        "is_raining": true,
+        "is_storming": true
+    },
+    "2026-09-16": {
+        "condition": "Sunny then Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     }
