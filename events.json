@@ -1,51 +1,5 @@
 [
     {
-        "title": "The Temptations & The Four Tops",
-        "date": "September 10, 2026",
-        "time": "7:00 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/the-temptations-the-four-tops-2026-09-10-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "The Fab Four: Tribute to the Beatles’ “Help!” and the Hits",
-        "date": "September 10, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/the-fab-four-tribute-to-the-beatles-help-and-the-hits-2026-09-10-1930/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/FabFour-Huntsville-091026-1920px1080-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
         "title": "NEACA Fall Craft Show",
         "date": "September 11, 2026",
         "time": "9:00 am",
@@ -3875,6 +3829,27 @@
             },
             "departure_rush": {
                 "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "45 Surprise Duo WIMW",
+        "date": "Sep 18, 2026",
+        "time": "10:30pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:00 PM - 10:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:30 PM - 12:30 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:30 AM - 01:30 AM",
                 "impact": 3
             }
         },
