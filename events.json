@@ -1,75 +1,6 @@
 [
     {
         "title": "NEACA Fall Craft Show",
-        "date": "September 11, 2026",
-        "time": "9:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:30 AM - 09:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "09:00 AM - 11:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "11:00 AM - 12:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/neaca-fall-craft-show/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "AllStar Pool & Spa Show",
-        "date": "September 11, 2026",
-        "time": "2:00 pm",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "12:30 PM - 02:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "02:00 PM - 04:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "04:00 PM - 05:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/allstar-pool-spa-show/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Jim Parkers Songwriters Series",
-        "date": "September 11, 2026",
-        "time": "6:30 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-09-11-1830/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-2-_22118EDA-916C-23E0-CEA3A3057D117545_22137c56-af82-cf96-92e499c5743534fe-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "NEACA Fall Craft Show",
         "date": "September 12, 2026",
         "time": "9:00 am",
         "venue": "VBC South Hall",
@@ -3934,6 +3865,27 @@
             },
             "departure_rush": {
                 "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Good Music & Arts Festival",
+        "date": "Oct 4, 2026",
+        "time": "7:30pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 11:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:30 PM - 12:30 AM",
                 "impact": 3
             }
         },
