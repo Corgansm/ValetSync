@@ -1,51 +1,5 @@
 [
     {
-        "title": "AllStar Pool & Spa Show",
-        "date": "September 13, 2026",
-        "time": "10:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 AM - 10:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "10:00 AM - 12:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "12:00 PM - 01:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/allstar-pool-spa-show-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "NEACA Fall Craft Show",
-        "date": "September 13, 2026",
-        "time": "12:00 pm",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:30 AM - 12:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "12:00 PM - 02:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "02:00 PM - 03:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/neaca-fall-craft-show-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Huntsville Music Industry Job Fair",
         "date": "September 14, 2026",
         "time": "5:00 pm",
@@ -66,6 +20,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-music-industry-job-fair/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Monday Night Football",
+        "date": "September 14, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/monday-night-football/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2205,6 +2182,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/come-from-away-3/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Menopause The Musical®",
+        "date": "January 24, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "02:00 PM - 04:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/menopause-the-musical/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
         "source": "VBC"
     },
     {
