@@ -1,51 +1,5 @@
 [
     {
-        "title": "Huntsville Music Industry Job Fair",
-        "date": "September 14, 2026",
-        "time": "5:00 pm",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "05:00 PM - 07:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/huntsville-music-industry-job-fair/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Monday Night Football",
-        "date": "September 14, 2026",
-        "time": "5:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "05:00 PM - 07:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/monday-night-football/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "NDIA-TVC MDA Small Business Conference",
         "date": "September 16, 2026",
         "time": "8:00 am",
@@ -3586,27 +3540,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Jazz in the Park • Julian Vaughn",
-        "date": "Sep 13, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
