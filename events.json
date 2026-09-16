@@ -253,6 +253,29 @@
         "source": "VBC"
     },
     {
+        "title": "Monday Night Football",
+        "date": "September 21, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/monday-night-football-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "National Cyber Summit",
         "date": "September 22, 2026",
         "time": "8:30 am",
@@ -713,6 +736,29 @@
         "source": "VBC"
     },
     {
+        "title": "NYC to HSV: Manhattan at Mars",
+        "date": "October 2, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/nyc-to-hsv-manhattan-at-mars/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-2-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Anime Town Huntsville",
         "date": "October 3, 2026",
         "time": "10:00 am",
@@ -828,7 +874,7 @@
         "source": "VBC"
     },
     {
-        "title": "Huntsville Havoc: Exhibition Game",
+        "title": "Huntsville Havoc vs. Pensacola Ice Flyers",
         "date": "October 9, 2026",
         "time": "7:00 pm",
         "venue": "VBC Propst Arena",
@@ -846,8 +892,8 @@
                 "impact": 10
             }
         },
-        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-exhibition-game/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-4-1024x576.png",
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-pensacola-ice-flyers-2026-10-09-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1081,6 +1127,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Pensacola Ice Flyers",
+        "date": "October 23, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-pensacola-ice-flyers-2026-10-23-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Cann Presents: Yacht Rock Revue – PRIMETIME",
         "date": "October 23, 2026",
         "time": "7:30 pm",
@@ -1196,6 +1265,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Macon Mayhem",
+        "date": "October 31, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-macon-mayhem-2026-10-31-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Alabama Bridal & Wedding Expo",
         "date": "November 1, 2026",
         "time": "1:30 pm",
@@ -1262,6 +1354,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-11-06-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-4-_2223C537-C444-83A8-1C8C860E4355C1F9_22255c00-cf63-7364-3c29f5adb9af31f6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Macon Mayhem",
+        "date": "November 6, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-macon-mayhem-2026-11-06-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-7-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1377,6 +1492,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Knoxville Ice Bears",
+        "date": "November 14, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-knoxville-ice-bears-2026-11-14-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-8-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1541,6 +1679,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Fayetteville Marksmen",
+        "date": "November 20, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-fayetteville-marksmen-2026-11-20-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-9-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "A Beautiful Noise",
         "date": "November 20, 2026",
         "time": "7:30 pm",
@@ -1630,6 +1791,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-6/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Fayetteville Marksmen",
+        "date": "November 21, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-fayetteville-marksmen-2026-11-21-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-10-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1817,6 +2001,52 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
+        "date": "November 26, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2026-11-26-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-11-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc vs. Pensacola Ice Flyers",
+        "date": "November 27, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-pensacola-ice-flyers-2026-11-27-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-12-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Mustache the Band",
         "date": "November 27, 2026",
         "time": "8:00 pm",
@@ -1863,6 +2093,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Evansville Thunderbolts",
+        "date": "December 4, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-evansville-thunderbolts-2026-12-04-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-13-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Ali Siddiq: The Custom Fit Tour",
         "date": "December 5, 2026",
         "time": "7:00 pm",
@@ -1886,6 +2139,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Quad City Storm",
+        "date": "December 11, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-quad-city-storm-2026-12-11-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Bingo Loco",
         "date": "December 12, 2026",
         "time": "7:00 pm",
@@ -1906,6 +2182,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/bingo-loco/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Quad City Storm",
+        "date": "December 12, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-quad-city-storm-2026-12-12-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1955,6 +2254,52 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Birmingham Bulls",
+        "date": "December 20, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-birmingham-bulls-2026-12-20-1700/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Macon Mayhem",
+        "date": "December 29, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-macon-mayhem-2026-12-29-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-17-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Champagne & Showtunes",
         "date": "December 31, 2026",
         "time": "7:30 pm",
@@ -1975,6 +2320,98 @@
         },
         "url": "https://www.vonbrauncenter.com/events/champagne-showtunes/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-7-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Evansville Thunderbolts",
+        "date": "January 8, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-evansville-thunderbolts-2027-01-08-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Evansville Thunderbolts",
+        "date": "January 9, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-evansville-thunderbolts-2027-01-09-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
+        "date": "January 15, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-01-15-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-20-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
+        "date": "January 16, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-01-16-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-21-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2024,6 +2461,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Pensacola Ice Flyers",
+        "date": "January 22, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-pensacola-ice-flyers-2027-01-22-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-22-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Come From Away",
         "date": "January 22, 2027",
         "time": "7:30 pm",
@@ -2067,6 +2527,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/harry-potter-and-the-goblet-of-firetm-in-concert-2027-01-22-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/HP4_HUNT_VENUE_1920x1080_3D37E7B0-C73A-C4A5-FB870930F68FAAD2_3d6232e3-f1e7-1540-732bca080e5702f1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Pee Dee Ice Cats",
+        "date": "January 23, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-pee-dee-ice-cats-2027-01-23-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-23-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2346,6 +2829,52 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Knoxville Ice Bears",
+        "date": "February 5, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-knoxville-ice-bears-2027-02-05-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-24-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Knoxville Ice Bears",
+        "date": "February 6, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-knoxville-ice-bears-2027-02-06-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-25-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Canadian Brass",
         "date": "February 6, 2027",
         "time": "7:30 pm",
@@ -2366,6 +2895,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/canadian-brass/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-11-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Amber Autry: Happy Holler Tour",
+        "date": "February 7, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/amber-autry-happy-holler-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2438,6 +2990,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Quad City Storm",
+        "date": "February 12, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-quad-city-storm-2027-02-12-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-26-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Wiz",
         "date": "February 12, 2027",
         "time": "7:30 pm",
@@ -2481,6 +3056,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-13-1300/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Quad City Storm",
+        "date": "February 13, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-quad-city-storm-2027-02-13-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-27-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2550,6 +3148,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-wiz-touring-2027-02-14-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Birmingham Bulls",
+        "date": "February 21, 2027",
+        "time": "5:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-birmingham-bulls-2027-02-21-1700/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-28-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2668,6 +3289,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
+        "date": "March 5, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-03-05-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-29-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Notebook",
         "date": "March 5, 2027",
         "time": "7:30 pm",
@@ -2711,6 +3355,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-06-1300/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
+        "date": "March 6, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-03-06-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-30-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2783,6 +3450,52 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Havoc Vs. Peoria Riverman",
+        "date": "March 19, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-peoria-riverman-2027-03-19-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-31-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Peoria Riverman",
+        "date": "March 20, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-peoria-riverman-2027-03-20-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-32-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Beauty and The Beast",
         "date": "March 24, 2027",
         "time": "7:00 pm",
@@ -2826,6 +3539,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/beauty-and-the-beast-2/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Evansville Thunderbolts",
+        "date": "March 25, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-evansville-thunderbolts-2027-03-25-1900/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-33-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2987,6 +3723,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/7th-annual-womens-expo-huntsville-conference-co-ed-legacy-edition-2/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Havoc Vs. Knoxville Ice Bears",
+        "date": "April 3, 2027",
+        "time": "5:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:30 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "07:30 PM - 08:30 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-knoxville-ice-bears-2027-04-03-1700/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-34-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3540,27 +4299,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Sep 14, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Food Truck Friday: Women in Music Week",
