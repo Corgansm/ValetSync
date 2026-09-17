@@ -1,29 +1,6 @@
 [
     {
         "title": "NDIA-TVC MDA Small Business Conference",
-        "date": "September 16, 2026",
-        "time": "8:00 am",
-        "venue": "South",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/ndia-tvc-mda-small-business-conference/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-20-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "NDIA-TVC MDA Small Business Conference",
         "date": "September 17, 2026",
         "time": "8:00 am",
         "venue": "VBC South Hall",
@@ -2527,6 +2504,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/harry-potter-and-the-goblet-of-firetm-in-concert-2027-01-22-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/03/HP4_HUNT_VENUE_1920x1080_3D37E7B0-C73A-C4A5-FB870930F68FAAD2_3d6232e3-f1e7-1540-732bca080e5702f1-1024x576.jpg",
+        "source": "VBC"
+    },
+    {
+        "title": "Rumours ATL: A Fleetwood Mac Tribute",
+        "date": "January 22, 2027",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/rumours-atl-a-fleetwood-mac-tribute/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-2-1024x576.png",
         "source": "VBC"
     },
     {
