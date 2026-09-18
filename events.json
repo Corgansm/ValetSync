@@ -1,51 +1,5 @@
 [
     {
-        "title": "NDIA-TVC MDA Small Business Conference",
-        "date": "September 17, 2026",
-        "time": "8:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/mdia-tvc-mda-small-business-conference/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-20-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Women Honoring Women",
-        "date": "September 17, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/women-honoring-women/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-22-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "2026 Huntsville Wish Night",
         "date": "September 18, 2026",
         "time": "6:00 pm",
