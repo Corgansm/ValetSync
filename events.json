@@ -1,97 +1,5 @@
 [
     {
-        "title": "2026 Huntsville Wish Night",
-        "date": "September 18, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/2026-huntsville-wish-night/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-23-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Electric Avenue – The 80’s MTV Experience",
-        "date": "September 18, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/electric-avenue-the-80s-mtv-experience/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Dracula: A Comedy of Terrors",
-        "date": "September 18, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Playhouse",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 10:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:30 PM - 11:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Southern Rock: The Symphony Sessions",
-        "date": "September 18, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/southern-rock-the-symphony-sessions/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Bollywood Night",
         "date": "September 19, 2026",
         "time": "6:00 pm",
@@ -713,6 +621,29 @@
         "source": "VBC"
     },
     {
+        "title": "Sparkman High School Homecoming",
+        "date": "October 3, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/sparkman-high-school-homecoming/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Brook & The Bluff: The Werewolf Tour",
         "date": "October 3, 2026",
         "time": "8:00 pm",
@@ -966,6 +897,29 @@
         "source": "VBC"
     },
     {
+        "title": "Journey Home Benefit",
+        "date": "October 15, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/journey-home-benefit/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Silver Screen Symphonists",
         "date": "October 16, 2026",
         "time": "7:30 pm",
@@ -1055,6 +1009,52 @@
         },
         "url": "https://www.vonbrauncenter.com/events/jo-koy-koy-meets-world-tour-2026-10-18-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Hypersonic Innovation Conference",
+        "date": "October 20, 2026",
+        "time": "8:45 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:15 PM - 08:45 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:45 PM - 10:45 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:45 PM - 11:45 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/hypersonic-innovation-conference/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Hypersonic Innovation Conference",
+        "date": "October 21, 2026",
+        "time": "8:45 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:15 PM - 08:45 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:45 PM - 10:45 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:45 PM - 11:45 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/hypersonic-innovation-conference-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-4-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -4270,27 +4270,6 @@
             },
             "departure_rush": {
                 "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "45 Surprise Duo WIMW",
-        "date": "Sep 18, 2026",
-        "time": "10:30pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "09:00 PM - 10:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:30 PM - 12:30 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:30 AM - 01:30 AM",
                 "impact": 3
             }
         },
