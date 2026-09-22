@@ -1,28 +1,5 @@
 [
     {
-        "title": "Monday Night Football",
-        "date": "September 21, 2026",
-        "time": "5:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "05:00 PM - 07:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/monday-night-football-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "National Cyber Summit",
         "date": "September 22, 2026",
         "time": "8:30 am",
@@ -388,6 +365,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/waitress-touring-2026-09-27-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Monday Night Football",
+        "date": "September 28, 2026",
+        "time": "7:15 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:45 PM - 07:15 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:15 PM - 09:15 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:15 PM - 10:15 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/monday-night-football-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1791,6 +1791,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/a-beautiful-noise-touring-2026-11-22-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Black Label Society",
+        "date": "November 22, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/black-label-society/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -4161,27 +4184,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Jazz in the Park • Eric Darius",
-        "date": "Sep 20, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
