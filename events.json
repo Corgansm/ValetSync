@@ -1,97 +1,5 @@
 [
     {
-        "title": "National Cyber Summit",
-        "date": "September 24, 2026",
-        "time": "8:15 am",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:45 AM - 08:15 AM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:15 AM - 10:15 AM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:15 AM - 11:15 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/national-cyber-summit-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-25-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Dracula: A Comedy of Terrors",
-        "date": "September 24, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Playhouse",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 10:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:30 PM - 11:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/dracula-a-comedy-of-terrors-4/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Gary Owen: No Hard Feelings Tour",
-        "date": "September 24, 2026",
-        "time": "8:00 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/gary-owen-no-hard-feelings-tour-2026-09-24-2000/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/IC_GaryOwen_0924_Huntsville_1920x1080-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
-        "title": "Morgan Wade: Love’s Insane Tour",
-        "date": "September 24, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/morgan-wade-loves-insane-tour/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Waitress",
         "date": "September 25, 2026",
         "time": "7:30 pm",
@@ -4222,6 +4130,27 @@
             },
             "departure_rush": {
                 "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Fall for All",
+        "date": "Oct 3, 2026",
+        "time": "3:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:30 PM - 03:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "03:00 PM - 05:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
                 "impact": 3
             }
         },
