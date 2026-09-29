@@ -1,28 +1,5 @@
 [
     {
-        "title": "Monday Night Football",
-        "date": "September 28, 2026",
-        "time": "7:15 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:45 PM - 07:15 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:15 PM - 09:15 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:15 PM - 10:15 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/monday-night-football-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-4-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "The Alfred Street Experience",
         "date": "October 1, 2026",
         "time": "7:00 pm",
@@ -227,6 +204,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/anime-town-huntsville-3/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-26-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Monday Night Football",
+        "date": "October 5, 2026",
+        "time": "7:15 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:45 PM - 07:15 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:15 PM - 09:15 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:15 PM - 10:15 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/monday-night-football-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-5-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1058,7 +1058,7 @@
         "source": "VBC"
     },
     {
-        "title": "Russ Taff & Steve Taylor: The (Almost) Farewell Tour",
+        "title": "CANCELLED: Russ Taff & Steve Taylor: The (Almost) Farewell Tour",
         "date": "November 16, 2026",
         "time": "7:30 pm",
         "venue": "VBC Mars Music Hall",
@@ -1077,7 +1077,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/russ-taff-steve-taylor-the-almost-farewell-tour/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1932,6 +1932,29 @@
         "source": "VBC"
     },
     {
+        "title": "Bored Teachers: “Is It Friday Yet?!” Comedy Tour",
+        "date": "January 10, 2027",
+        "time": "3:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:30 PM - 03:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "03:00 PM - 06:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "06:00 PM - 07:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/bored-teachers-is-it-friday-yet-comedy-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-2-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
         "date": "January 15, 2027",
         "time": "7:00 pm",
@@ -2438,6 +2461,29 @@
         "source": "VBC"
     },
     {
+        "title": "Chicago",
+        "date": "January 31, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/chicago/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-10-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Huntsville Havoc Vs. Knoxville Ice Bears",
         "date": "February 5, 2027",
         "time": "7:00 pm",
@@ -2849,6 +2895,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/elgar-tchaikovsky/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Roger Waters presents Legacy – A Pink Floyd Show",
+        "date": "February 28, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/roger-waters-presents-legacy-a-pink-floyd-show/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-11-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3908,27 +3977,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Jazz in the Park • Kim Scott",
-        "date": "Sep 27, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
