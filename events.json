@@ -966,6 +966,29 @@
         "source": "VBC"
     },
     {
+        "title": "October London",
+        "date": "November 9, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/october-london-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-13-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Georgiana & Kitty: Christmas at Pemberley",
         "date": "November 13, 2026",
         "time": "7:30 pm",
@@ -2067,6 +2090,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/harlem-globetrotters-rivalry-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-9-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Not On My Watch",
+        "date": "January 21, 2027",
+        "time": "6:00 pm",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/not-on-my-watch/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3977,27 +4023,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Sep 28, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Fall for All",
