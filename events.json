@@ -828,6 +828,29 @@
         "source": "VBC"
     },
     {
+        "title": "Tie the Ribbons",
+        "date": "November 5, 2026",
+        "time": "11:30 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:00 AM - 11:30 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "11:30 AM - 01:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "01:30 PM - 02:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/tie-the-ribbons/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Jim Parkers Songwriters Series",
         "date": "November 6, 2026",
         "time": "6:30 pm",
@@ -963,6 +986,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/october-london/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "COC 2026 State of the City Address",
+        "date": "November 9, 2026",
+        "time": "12:00 am",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 PM - 12:00 AM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "12:00 AM - 02:00 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "02:00 AM - 03:00 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/coc-2026-state-of-the-city-address/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1104,6 +1150,29 @@
         "source": "VBC"
     },
     {
+        "title": "COC 2026 State of the County Address",
+        "date": "November 17, 2026",
+        "time": "12:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 AM - 12:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "12:00 PM - 02:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "02:00 PM - 03:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/coc-2026-state-of-the-county-address/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Southern Lyricism: The New South Experience Featuring Akeem Ali",
         "date": "November 18, 2026",
         "time": "8:00 pm",
@@ -1124,6 +1193,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/southern-lyricism-the-new-south-experience-featuring-akeem-ali-2026-03-13-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "COC 2026 Small Business Awards Gala",
+        "date": "November 19, 2026",
+        "time": "6:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "06:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/coc-2026-small-business-awards-gala/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -4025,6 +4117,27 @@
         "source": "VBC"
     },
     {
+        "title": "Movies in the Park",
+        "date": "Oct 2, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Fall for All",
         "date": "Oct 3, 2026",
         "time": "3:00pm",
@@ -4088,8 +4201,50 @@
         "source": "DHI Time.ly Calendar"
     },
     {
+        "title": "Movies in the Park",
+        "date": "Oct 9, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 12, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Movies in the Park",
+        "date": "Oct 16, 2026",
         "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
@@ -4130,8 +4285,50 @@
         "source": "DHI Time.ly Calendar"
     },
     {
+        "title": "Movies in the Park",
+        "date": "Oct 23, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 26, 2026",
+        "time": "10:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 PM - 10:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "10:00 PM - 12:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "12:00 AM - 01:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Movies in the Park",
+        "date": "Oct 30, 2026",
         "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
