@@ -1,28 +1,5 @@
 [
     {
-        "title": "The Alfred Street Experience",
-        "date": "October 1, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/the-alfred-street-experience/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Anime Town Huntsville",
         "date": "October 2, 2026",
         "time": "3:00 pm",
@@ -502,7 +479,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/honor-thy-era-welcome-back-bulldog-party-2026-10-16-2000/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-8-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-14-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2618,7 +2595,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/chicago/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-10-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-15-1024x576.png",
         "source": "VBC"
     },
     {

@@ -1,16 +1,11 @@
 {
-    "2026-10-01": {
-        "condition": "Mostly Sunny",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-10-02": {
-        "condition": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+        "condition": "Partly Sunny then Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
     "2026-10-03": {
-        "condition": "Slight Chance Showers And Thunderstorms",
+        "condition": "Chance Showers And Thunderstorms",
         "is_raining": true,
         "is_storming": true
     },
@@ -20,8 +15,8 @@
         "is_storming": true
     },
     "2026-10-05": {
-        "condition": "Slight Chance Rain Showers then Mostly Sunny",
-        "is_raining": true,
+        "condition": "Mostly Sunny",
+        "is_raining": false,
         "is_storming": false
     },
     "2026-10-06": {
@@ -30,6 +25,11 @@
         "is_storming": false
     },
     "2026-10-07": {
+        "condition": "Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-10-08": {
         "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
