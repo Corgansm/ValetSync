@@ -1,98 +1,6 @@
 [
     {
         "title": "Anime Town Huntsville",
-        "date": "October 2, 2026",
-        "time": "3:00 pm",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "01:30 PM - 03:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "03:00 PM - 05:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "05:00 PM - 06:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/anime-town-huntsville/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-26-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Jim Parkers Songwriters Series",
-        "date": "October 2, 2026",
-        "time": "6:30 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-10-02-1830/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-3-_2218C24F-B286-3CD3-D6F0260B6A3D49C1_221a2220-f87c-739b-7846c31b9f4f2a6d-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Zach Williams With Cochren & Co. And Christian Hohn: Revival Nights",
-        "date": "October 2, 2026",
-        "time": "7:00 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/zach-williams-with-cochren-co-and-christian-hohn-revival-nights-2026-10-02-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/ZachWilliams_FA26_1920x1080_100226-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
-        "title": "NYC to HSV: Manhattan at Mars",
-        "date": "October 2, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/nyc-to-hsv-manhattan-at-mars/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/1920x1080-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Anime Town Huntsville",
         "date": "October 3, 2026",
         "time": "10:00 am",
         "venue": "VBC South Hall",
@@ -1122,7 +1030,7 @@
                 "impact": 3
             }
         },
-        "url": "https://www.vonbrauncenter.com/events/russ-taff-steve-taylor-the-almost-farewell-tour/",
+        "url": "https://www.vonbrauncenter.com/events/cancelled-russ-taff-steve-taylor-the-almost-farewell-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
@@ -1675,7 +1583,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-pensacola-ice-flyers-2026-11-27-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-12-2-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-2-5-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1974,7 +1882,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-03-06-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-30-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2066,7 +1974,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-01-15-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-20-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-5-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2871,7 +2779,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-quad-city-storm-2027-02-13-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-27-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-4-3-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3538,7 +3446,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-knoxville-ice-bears-2027-04-03-1700/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-34-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-7-1024x576.png",
         "source": "VBC"
     },
     {
