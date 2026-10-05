@@ -1,28 +1,5 @@
 [
     {
-        "title": "Anime Town Huntsville",
-        "date": "October 4, 2026",
-        "time": "11:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "09:30 AM - 11:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "11:00 AM - 01:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "01:00 PM - 02:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/anime-town-huntsville-3/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-26-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Monday Night Football",
         "date": "October 5, 2026",
         "time": "7:15 pm",
@@ -1308,6 +1285,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-7/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "30th Annual Huntsville Margarita Ball – Celebrating 30 Years!",
+        "date": "November 21, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/30th-annual-huntsville-margarita-ball-celebrating-30-years/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3079,6 +3079,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-07-1830/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "John Cleese: Still Not Dead (Yet): Celebrating the Holy Grail at 50",
+        "date": "March 7, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/john-cleese-still-not-dead-yet-celebrating-the-holy-grail-at-50/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
         "source": "VBC"
     },
     {
