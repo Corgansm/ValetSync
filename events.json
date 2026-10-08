@@ -233,19 +233,19 @@
         "title": "Journey Home Benefit",
         "date": "October 15, 2026",
         "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
+        "venue": "VBC South Hall",
         "impact_timeline": {
             "arrival_rush": {
                 "window": "04:30 PM - 06:00 PM",
-                "impact": 0
+                "impact": 1
             },
             "during_event": {
                 "window": "06:00 PM - 08:00 PM",
-                "impact": 1
+                "impact": 2
             },
             "departure_rush": {
                 "window": "08:00 PM - 09:00 PM",
-                "impact": 1
+                "impact": 2
             }
         },
         "url": "https://www.vonbrauncenter.com/events/journey-home-benefit/",
@@ -387,7 +387,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/hypersonic-innovation-conference/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-4-2-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -410,7 +410,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/hypersonic-innovation-conference-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-4-2-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1307,7 +1307,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/30th-annual-huntsville-margarita-ball-celebrating-30-years/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-3-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1860,6 +1860,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-evansville-thunderbolts-2027-01-09-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Orchestra Noir",
+        "date": "January 9, 2027",
+        "time": "8:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/orchestra-noir/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3124,7 +3147,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/john-cleese-still-not-dead-yet-celebrating-the-holy-grail-at-50/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
         "source": "VBC"
     },
     {
