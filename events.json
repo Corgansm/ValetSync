@@ -92,6 +92,29 @@
         "source": "VBC"
     },
     {
+        "title": "College Football Gameday: Alabama vs. Georgia",
+        "date": "October 10, 2026",
+        "time": "6:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/college-football-gameday-alabama-vs-georgia/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Regional Convention of Jehovah’s Witnesses",
         "date": "October 11, 2026",
         "time": "8:00 am",
@@ -115,7 +138,7 @@
         "source": "VBC"
     },
     {
-        "title": "Rodney Carrington",
+        "title": "POSTPONED: Rodney Carrington",
         "date": "October 11, 2026",
         "time": "7:00 pm",
         "venue": "VBC Mark C Smith Concert Hall",
@@ -134,7 +157,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/rodney-carrington-2026-10-11-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/RodneyCarrington_HUNTAL_1920x1080-1024x576.jpg",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -299,6 +322,29 @@
         "source": "VBC"
     },
     {
+        "title": "UCA Space Center Regional",
+        "date": "October 17, 2026",
+        "time": "9:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 AM - 09:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "09:00 AM - 11:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "11:00 AM - 12:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/uca-space-center-regional/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Symphony Ball",
         "date": "October 17, 2026",
         "time": "6:30 pm",
@@ -342,6 +388,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-billy-joel-legacy-a-tribute-experience/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Billy-Joel-Legacy-1920x1090-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "UCA Space Center Regional",
+        "date": "October 18, 2026",
+        "time": "8:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/uca-space-center-regional-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -690,7 +759,7 @@
         "source": "VBC"
     },
     {
-        "title": "Pictures for Yours Ears",
+        "title": "Pictures for Your Ears",
         "date": "November 6, 2026",
         "time": "7:30 pm",
         "venue": "VBC Mark C Smith Concert Hall",
