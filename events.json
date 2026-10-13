@@ -1,28 +1,5 @@
 [
     {
-        "title": "Monday Night Football",
-        "date": "October 12, 2026",
-        "time": "5:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "05:00 PM - 07:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "07:00 PM - 08:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/monday-night-football-5/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Havoc Meet the Team",
         "date": "October 13, 2026",
         "time": "5:00 pm",
@@ -414,6 +391,29 @@
         "source": "VBC"
     },
     {
+        "title": "The NPC Hunter Classic",
+        "date": "October 24, 2026",
+        "time": "8:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 AM - 08:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:00 AM - 10:00 AM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "10:00 AM - 11:00 AM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-npc-hunter-classic/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-8-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "CANCELLED: The 3rd Annual Rocket City Blues Festival",
         "date": "October 24, 2026",
         "time": "7:00 pm",
@@ -572,6 +572,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/tie-the-ribbons/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "VBC Tree Lighting",
+        "date": "November 6, 2026",
+        "time": "4:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "02:30 PM - 04:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "04:00 PM - 06:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "06:00 PM - 07:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/vbc-tree-lighting/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/ALSS-1920x1080-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3746,6 +3769,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/stayin-alive-one-night-of-the-bee-gees-2027-04-29-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Dusty Slay: The Neighborhood Guy Tour",
+        "date": "April 30, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/dusty-slay-the-neighborhood-guy-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
         "source": "VBC"
     },
     {
