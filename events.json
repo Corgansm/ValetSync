@@ -1,74 +1,5 @@
 [
     {
-        "title": "Havoc Meet the Team",
-        "date": "October 13, 2026",
-        "time": "5:00 pm",
-        "venue": "VBC Propst Arena",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "03:30 PM - 05:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "05:00 PM - 07:30 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "07:30 PM - 08:30 PM",
-                "impact": 10
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/havoc-meet-the-team/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-7-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Summit on Philanthropy",
-        "date": "October 13, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/summit-on-philanthropy/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-3-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "DAX – The Anger Management Tour",
-        "date": "October 13, 2026",
-        "time": "8:00 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/dax-the-anger-management-tour/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "REALTOR® Expo 2026",
         "date": "October 15, 2026",
         "time": "11:00 am",
@@ -1635,19 +1566,19 @@
     {
         "title": "Rocket City Classic presented by Akima",
         "date": "December 15, 2026",
-        "time": "12:00 am",
+        "time": "7:00 pm",
         "venue": "VBC Propst Arena",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:30 PM - 12:00 AM",
+                "window": "05:30 PM - 07:00 PM",
                 "impact": 8
             },
             "during_event": {
-                "window": "12:00 AM - 02:00 AM",
+                "window": "07:00 PM - 09:00 PM",
                 "impact": 10
             },
             "departure_rush": {
-                "window": "02:00 AM - 03:00 AM",
+                "window": "09:00 PM - 10:00 PM",
                 "impact": 10
             }
         },
@@ -1658,19 +1589,19 @@
     {
         "title": "Rocket City Classic presented by Akima",
         "date": "December 19, 2026",
-        "time": "12:00 am",
+        "time": "2:00 pm",
         "venue": "VBC Propst Arena",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:30 PM - 12:00 AM",
+                "window": "12:30 PM - 02:00 PM",
                 "impact": 8
             },
             "during_event": {
-                "window": "12:00 AM - 02:00 AM",
+                "window": "02:00 PM - 04:00 PM",
                 "impact": 10
             },
             "departure_rush": {
-                "window": "02:00 AM - 03:00 AM",
+                "window": "04:00 PM - 05:00 PM",
                 "impact": 10
             }
         },
@@ -1745,6 +1676,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/champagne-showtunes/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-7-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Mars Music Countdown – New Year’s Eve 2026",
+        "date": "December 31, 2026",
+        "time": "9:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 PM - 09:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/mars-music-countdown-new-years-eve-2026/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/MMC-For-Website-1024x576.png",
         "source": "VBC"
     },
     {
@@ -4069,27 +4023,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Oct 12, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Movies in the Park",
