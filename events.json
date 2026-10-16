@@ -1,51 +1,5 @@
 [
     {
-        "title": "REALTOR® Expo 2026",
-        "date": "October 15, 2026",
-        "time": "11:00 am",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "09:30 AM - 11:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "11:00 AM - 05:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "05:00 PM - 06:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/realtor-expo-2026/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Journey Home Benefit",
-        "date": "October 15, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/journey-home-benefit/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-3-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Silver Screen Symphonists",
         "date": "October 16, 2026",
         "time": "7:30 pm",
