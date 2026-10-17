@@ -1,51 +1,5 @@
 [
     {
-        "title": "Silver Screen Symphonists",
-        "date": "October 16, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/silver-screen-symphonists/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Honor Thy Era: Welcome Back Bulldog Party",
-        "date": "October 16, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/honor-thy-era-welcome-back-bulldog-party-2026-10-16-2000/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-14-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "UCA Space Center Regional",
         "date": "October 17, 2026",
         "time": "9:00 am",
@@ -1817,6 +1771,29 @@
         "source": "VBC"
     },
     {
+        "title": "Huntsville Boat Show",
+        "date": "January 15, 2027",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-boat-show/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
         "date": "January 15, 2027",
         "time": "7:00 pm",
@@ -1837,6 +1814,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-01-15-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Boat Show",
+        "date": "January 16, 2027",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-boat-show-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1906,6 +1906,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/beethoven-violin-concerto/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-10-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Huntsville Boat Show",
+        "date": "January 17, 2027",
+        "time": "11:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 AM - 11:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "11:00 AM - 01:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "01:00 PM - 02:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/huntsville-boat-show-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3125,6 +3148,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-peoria-riverman-2027-03-20-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-32-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "MercyMe",
+        "date": "March 21, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/mercyme/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-10-1024x576.png",
         "source": "VBC"
     },
     {

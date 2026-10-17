@@ -1,9 +1,4 @@
 {
-    "2026-10-16": {
-        "condition": "Partly Sunny",
-        "is_raining": true,
-        "is_storming": false
-    },
     "2026-10-17": {
         "condition": "Mostly Sunny",
         "is_raining": false,
@@ -30,6 +25,11 @@
         "is_storming": false
     },
     "2026-10-22": {
+        "condition": "Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-10-23": {
         "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
