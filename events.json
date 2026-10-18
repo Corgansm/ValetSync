@@ -1,75 +1,6 @@
 [
     {
         "title": "UCA Space Center Regional",
-        "date": "October 17, 2026",
-        "time": "9:00 am",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:30 AM - 09:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "09:00 AM - 11:00 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "11:00 AM - 12:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/uca-space-center-regional/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Symphony Ball",
-        "date": "October 17, 2026",
-        "time": "6:30 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/symphony-ball/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "The Billy Joel Legacy – A Tribute Experience",
-        "date": "October 17, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/the-billy-joel-legacy-a-tribute-experience/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Billy-Joel-Legacy-1920x1090-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "UCA Space Center Regional",
         "date": "October 18, 2026",
         "time": "8:00 am",
         "venue": "VBC East Hall",
@@ -4046,48 +3977,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Movies in the Park",
-        "date": "Oct 16, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Friday Food Truck Rally",
-        "date": "Oct 16, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 02:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "02:00 AM - 03:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Weekly Movement Arts Community Meetup",
