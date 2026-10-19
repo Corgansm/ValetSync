@@ -1,48 +1,25 @@
 [
     {
-        "title": "UCA Space Center Regional",
-        "date": "October 18, 2026",
-        "time": "8:00 am",
-        "venue": "VBC East Hall",
+        "title": "Monday Night Football",
+        "date": "October 19, 2026",
+        "time": "5:00 pm",
+        "venue": "VBC Mars Music Hall",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "06:30 AM - 08:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:00 AM - 10:00 AM",
+                "window": "03:30 PM - 05:00 PM",
                 "impact": 2
             },
-            "departure_rush": {
-                "window": "10:00 AM - 11:00 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/uca-space-center-regional-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Jo Koy: Koy Meets World Tour",
-        "date": "October 18, 2026",
-        "time": "7:30 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
             "during_event": {
-                "window": "07:30 PM - 10:30 PM",
-                "impact": 1
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 3
             },
             "departure_rush": {
-                "window": "10:30 PM - 11:30 PM",
-                "impact": 1
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 3
             }
         },
-        "url": "https://www.vonbrauncenter.com/events/jo-koy-koy-meets-world-tour-2026-10-18-1930/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "url": "https://www.vonbrauncenter.com/events/monday-night-football-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-3-2-1024x576.png",
         "source": "VBC"
     },
     {
