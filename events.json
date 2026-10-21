@@ -1,29 +1,6 @@
 [
     {
         "title": "Hypersonic Innovation Conference",
-        "date": "October 20, 2026",
-        "time": "8:45 am",
-        "venue": "VBC East Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "07:15 AM - 08:45 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "08:45 AM - 10:45 AM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "10:45 AM - 11:45 AM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/hypersonic-innovation-conference/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-2-6-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Hypersonic Innovation Conference",
         "date": "October 21, 2026",
         "time": "8:45 am",
         "venue": "VBC East Hall",
@@ -641,29 +618,6 @@
         },
         "url": "https://www.vonbrauncenter.com/events/cancelled-russ-taff-steve-taylor-the-almost-farewell-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "COC 2026 State of the County Address",
-        "date": "November 17, 2026",
-        "time": "12:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:30 AM - 12:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "12:00 PM - 02:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "02:00 PM - 03:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/coc-2026-state-of-the-county-address/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-3-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1840,6 +1794,29 @@
         "source": "VBC"
     },
     {
+        "title": "Mojo Brookzz: Outta Pocket Tour",
+        "date": "January 17, 2027",
+        "time": "6:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "04:30 PM - 06:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/mojo-brookzz-outta-pocket-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-7-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Not On My Watch",
         "date": "January 21, 2027",
         "time": "6:00 pm",
@@ -2849,6 +2826,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-03-05-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-29-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Derrick Stroup: Running Hot Tour",
+        "date": "March 5, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/derrick-stroup-running-hot-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-11-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3931,27 +3931,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Oct 19, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Movies in the Park",
