@@ -1,28 +1,5 @@
 [
     {
-        "title": "Chicka Chicka Boom Boom",
-        "date": "October 22, 2026",
-        "time": "9:30 am",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:00 AM - 09:30 AM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "09:30 AM - 11:30 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:30 AM - 12:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/chicka-chicka-boom-boom/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-9-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Huntsville Havoc Vs. Pensacola Ice Flyers",
         "date": "October 23, 2026",
         "time": "7:00 pm",
@@ -368,6 +345,29 @@
         "source": "VBC"
     },
     {
+        "title": "Plant Fest Expo",
+        "date": "November 7, 2026",
+        "time": "10:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 04:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/plant-fest-expo/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-12-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "A Celtic Christmas",
         "date": "November 7, 2026",
         "time": "7:30 pm",
@@ -411,6 +411,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/jim-hensons-labyrinth-in-concert-40th-anniversary-2026-11-07-2000/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Labyrinth-1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Plant Fest Expo",
+        "date": "November 8, 2026",
+        "time": "10:00 am",
+        "venue": "VBC East Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 04:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "04:00 PM - 05:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/plant-fest-expo-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-12-1024x576.png",
         "source": "VBC"
     },
     {
