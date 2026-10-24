@@ -1,74 +1,5 @@
 [
     {
-        "title": "Huntsville Havoc Vs. Pensacola Ice Flyers",
-        "date": "October 23, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Propst Arena",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:30 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 10
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-pensacola-ice-flyers-2026-10-23-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-4-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Cann Presents: Yacht Rock Revue – PRIMETIME",
-        "date": "October 23, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/cann-presents-yacht-rock-revue-primetime/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-2-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Sonic Live In Concert",
-        "date": "October 23, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 11:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "11:00 PM - 12:00 AM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/sonic-live-in-concert/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/05/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "The NPC Hunter Classic",
         "date": "October 24, 2026",
         "time": "8:00 am",
@@ -526,6 +457,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Caleb Mills",
+        "date": "November 13, 2026",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/caleb-mills-2026-11-13-2000/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-9-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1265,6 +1219,52 @@
         "source": "VBC"
     },
     {
+        "title": "FPCTA presents “A Christmas Carol”",
+        "date": "December 4, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FPCTA presents “A Christmas Carol”",
+        "date": "December 5, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Ali Siddiq: The Custom Fit Tour",
         "date": "December 5, 2026",
         "time": "7:00 pm",
@@ -1288,6 +1288,52 @@
         "source": "VBC"
     },
     {
+        "title": "FPCTA presents “A Christmas Carol”",
+        "date": "December 6, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FPCTA presents “A Christmas Carol”",
+        "date": "December 10, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Huntsville Havoc Vs. Quad City Storm",
         "date": "December 11, 2026",
         "time": "7:00 pm",
@@ -1308,6 +1354,52 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-quad-city-storm-2026-12-11-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FPCTA presents “A Christmas Carol”",
+        "date": "December 11, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FPCTA presents “A Christmas Carol”",
+        "date": "December 12, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1354,6 +1446,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-quad-city-storm-2026-12-12-1900/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-15-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FPCTA presents “A Christmas Carol”",
+        "date": "December 13, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Playhouse",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-7/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2898,6 +3013,29 @@
         "source": "VBC"
     },
     {
+        "title": "Derrick Stroup: Running Hot Tour",
+        "date": "March 5, 2027",
+        "time": "9:30 pm",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:00 PM - 09:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "09:30 PM - 12:30 AM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "12:30 AM - 01:30 AM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/derrick-stroup-running-hot-tour-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-13-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Notebook",
         "date": "March 6, 2027",
         "time": "1:00 pm",
@@ -3979,27 +4117,6 @@
     {
         "title": "Weekly Movement Arts Community Meetup",
         "date": "Oct 26, 2026",
-        "time": "10:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 PM - 10:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "10:00 PM - 12:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "12:00 AM - 01:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
-    },
-    {
-        "title": "Movies in the Park",
-        "date": "Oct 30, 2026",
         "time": "10:00pm",
         "venue": "Big Spring Park",
         "impact_timeline": {
