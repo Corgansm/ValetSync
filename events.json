@@ -2783,6 +2783,29 @@
         "source": "VBC"
     },
     {
+        "title": "Hairball",
+        "date": "February 26, 2027",
+        "time": "8:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:30 PM - 08:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "08:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/hairball/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-10-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Elgar & Tchaikovsky",
         "date": "February 27, 2027",
         "time": "7:30 pm",
