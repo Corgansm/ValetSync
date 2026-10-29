@@ -1,28 +1,5 @@
 [
     {
-        "title": "Lil Tracy",
-        "date": "October 28, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/lil-tracy/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/EC780986-33C0-43D5-A61B-2293B2017189-1024x578.png",
-        "source": "VBC"
-    },
-    {
         "title": "Nurse Blake: But Did You Die? Comedy Tour",
         "date": "October 29, 2026",
         "time": "7:00 pm",
@@ -1334,6 +1311,29 @@
         "source": "VBC"
     },
     {
+        "title": "The Nutcracker",
+        "date": "December 11, 2026",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-nutcracker/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-15-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "FPCTA presents “A Christmas Carol”",
         "date": "December 12, 2026",
         "time": "1:00 pm",
@@ -1354,6 +1354,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-6/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Nutcracker",
+        "date": "December 12, 2026",
+        "time": "2:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:00 PM - 02:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "02:30 PM - 04:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "04:30 PM - 05:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-nutcracker-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-15-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1423,6 +1446,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/fpcta-presents-a-christmas-carol-7/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "The Nutcracker",
+        "date": "December 13, 2026",
+        "time": "1:00 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/the-nutcracker-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-15-1024x576.png",
         "source": "VBC"
     },
     {
