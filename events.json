@@ -1,28 +1,5 @@
 [
     {
-        "title": "Nurse Blake: But Did You Die? Comedy Tour",
-        "date": "October 29, 2026",
-        "time": "7:00 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:00 PM - 10:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/nurse-blake-but-did-you-die-comedy-tour-2026-10-29-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/04/NurseBlake_HUNTAL_1920x1080-1-1024x576.jpg",
-        "source": "VBC"
-    },
-    {
         "title": "Huntsville Havoc Vs. Macon Mayhem",
         "date": "October 31, 2026",
         "time": "7:00 pm",
@@ -230,6 +207,29 @@
         "source": "VBC"
     },
     {
+        "title": "College Football Watch Party: Alabama vs. LSU",
+        "date": "November 7, 2026",
+        "time": "2:30 pm",
+        "venue": "Von Braun Center",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:00 PM - 02:30 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:30 PM - 04:30 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "04:30 PM - 05:30 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/college-football-watch-party-alabama-vs-lsu/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-3-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "A Celtic Christmas",
         "date": "November 7, 2026",
         "time": "7:30 pm",
@@ -433,7 +433,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-knoxville-ice-bears-2026-11-14-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-8-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -663,7 +663,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-fayetteville-marksmen-2026-11-20-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-9-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-11-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1219,6 +1219,29 @@
         "source": "VBC"
     },
     {
+        "title": "2nd Annual A Fly Christmas featuring Adia",
+        "date": "December 5, 2026",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/2nd-annual-a-fly-christmas-featuring-adia/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/1920x1080-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "FPCTA presents “A Christmas Carol”",
         "date": "December 6, 2026",
         "time": "1:00 pm",
@@ -1537,7 +1560,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-birmingham-bulls-2026-12-20-1700/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-2-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-7-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1652,7 +1675,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-evansville-thunderbolts-2027-01-08-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-18-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1836,7 +1859,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-01-16-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-21-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-5-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2802,7 +2825,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-birmingham-bulls-2027-02-21-1700/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-28-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-8-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3032,7 +3055,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-athens-rock-lobsters-2027-03-05-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-29-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3239,7 +3262,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-peoria-riverman-2027-03-19-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-31-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-10-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3538,7 +3561,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-knoxville-ice-bears-2027-04-03-1700/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-7-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-9-1024x576.png",
         "source": "VBC"
     },
     {
