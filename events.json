@@ -1,28 +1,5 @@
 [
     {
-        "title": "Huntsville Havoc Vs. Macon Mayhem",
-        "date": "October 31, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Propst Arena",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:30 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 10
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-macon-mayhem-2026-10-31-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Titos-White-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Alabama Bridal & Wedding Expo",
         "date": "November 1, 2026",
         "time": "1:30 pm",
