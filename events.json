@@ -1,51 +1,5 @@
 [
     {
-        "title": "Alabama Bridal & Wedding Expo",
-        "date": "November 1, 2026",
-        "time": "1:30 pm",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "12:00 PM - 01:30 PM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "01:30 PM - 07:30 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "07:30 PM - 08:30 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/alabama-bridal-wedding-expo-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/06/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "So Good! The Neil Diamond Experience starring Robert Neary",
-        "date": "November 1, 2026",
-        "time": "7:30 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/so-good-the-neil-diamond-experience-starring-robert-neary-2026-11-01-1930/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/02/Website-Posts-1920-×-1080-px-6-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Trivia Night",
         "date": "November 3, 2026",
         "time": "7:15 pm",
@@ -2898,6 +2852,52 @@
         "source": "VBC"
     },
     {
+        "title": "Disney On Ice presents Magic in the Stars",
+        "date": "February 25, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Disney On Ice presents Magic in the Stars",
+        "date": "February 26, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Hairball",
         "date": "February 26, 2027",
         "time": "8:00 pm",
@@ -2921,6 +2921,75 @@
         "source": "VBC"
     },
     {
+        "title": "Disney On Ice presents Magic in the Stars",
+        "date": "February 27, 2027",
+        "time": "11:00 am",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "09:30 AM - 11:00 AM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "11:00 AM - 01:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "01:00 PM - 02:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Disney On Ice presents Magic in the Stars",
+        "date": "February 27, 2027",
+        "time": "3:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "01:30 PM - 03:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "03:00 PM - 05:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "05:00 PM - 06:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars-4/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Disney On Ice presents Magic in the Stars",
+        "date": "February 27, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "07:00 PM - 09:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "09:00 PM - 10:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars-5/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Elgar & Tchaikovsky",
         "date": "February 27, 2027",
         "time": "7:30 pm",
@@ -2941,6 +3010,52 @@
         },
         "url": "https://www.vonbrauncenter.com/events/elgar-tchaikovsky/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-14-1-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Disney On Ice presents Magic in the Stars",
+        "date": "February 28, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars-6/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Disney On Ice presents Magic in the Stars",
+        "date": "February 28, 2027",
+        "time": "5:00 pm",
+        "venue": "VBC Propst Arena",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "03:30 PM - 05:00 PM",
+                "impact": 8
+            },
+            "during_event": {
+                "window": "05:00 PM - 07:00 PM",
+                "impact": 10
+            },
+            "departure_rush": {
+                "window": "07:00 PM - 08:00 PM",
+                "impact": 10
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars-7/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
         "source": "VBC"
     },
     {
@@ -3907,6 +4022,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/dusty-slay-the-neighborhood-guy-tour/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Jordan Jensen: The Wet Hug Tour",
+        "date": "May 1, 2027",
+        "time": "7:00 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:30 PM - 07:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:00 PM - 10:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "10:00 PM - 11:00 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/jordan-jensen-the-wet-hug-tour/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1-1024x576.png",
         "source": "VBC"
     },
     {
