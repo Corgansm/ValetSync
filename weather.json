@@ -1,16 +1,11 @@
 {
-    "2026-11-04": {
-        "condition": "Showers And Thunderstorms",
-        "is_raining": true,
-        "is_storming": true
-    },
     "2026-11-05": {
-        "condition": "Areas Of Fog then Mostly Sunny",
+        "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
     },
     "2026-11-06": {
-        "condition": "Patchy Fog then Sunny",
+        "condition": "Patchy Fog then Mostly Sunny",
         "is_raining": false,
         "is_storming": false
     },
@@ -30,7 +25,12 @@
         "is_storming": false
     },
     "2026-11-10": {
-        "condition": "Mostly Sunny",
+        "condition": "Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-11-11": {
+        "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
     }
