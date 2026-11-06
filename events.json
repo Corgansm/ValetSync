@@ -1,25 +1,25 @@
 [
     {
-        "title": "Tie the Ribbons",
-        "date": "November 5, 2026",
-        "time": "11:30 am",
-        "venue": "VBC Saturn Ballroom",
+        "title": "Randolph School’s Under the Christmas Tree",
+        "date": "November 6, 2026",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
         "impact_timeline": {
             "arrival_rush": {
-                "window": "10:00 AM - 11:30 AM",
-                "impact": 0
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
             },
             "during_event": {
-                "window": "11:30 AM - 01:30 PM",
-                "impact": 1
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
             },
             "departure_rush": {
-                "window": "01:30 PM - 02:30 PM",
-                "impact": 1
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
             }
         },
-        "url": "https://www.vonbrauncenter.com/events/tie-the-ribbons/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "url": "https://www.vonbrauncenter.com/events/randolph-schools-under-the-christmas-tree/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
         "source": "VBC"
     },
     {
@@ -138,6 +138,29 @@
         "source": "VBC"
     },
     {
+        "title": "Randolph School’s Under the Christmas Tree",
+        "date": "November 7, 2026",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/randolph-schools-under-the-christmas-tree-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "College Football Watch Party: Alabama vs. LSU",
         "date": "November 7, 2026",
         "time": "2:30 pm",
@@ -227,6 +250,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/plant-fest-expo-2/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-12-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Randolph School’s Under the Christmas Tree",
+        "date": "November 8, 2026",
+        "time": "12:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 AM - 12:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "12:00 PM - 02:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "02:00 PM - 03:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/randolph-schools-under-the-christmas-tree-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
         "source": "VBC"
     },
     {
@@ -1169,7 +1215,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/2nd-annual-a-fly-christmas-featuring-adia/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/1920x1080-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-4-2-1024x576.png",
         "source": "VBC"
     },
     {
@@ -4375,6 +4421,27 @@
             },
             "during_event": {
                 "window": "11:00 PM - 01:00 AM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "01:00 AM - 02:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Tinsel Trail Black Friday Market",
+        "date": "Nov 27, 2026",
+        "time": "9:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 PM - 09:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:00 PM - 01:00 AM",
                 "impact": 3
             },
             "departure_rush": {
