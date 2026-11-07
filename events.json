@@ -1,120 +1,5 @@
 [
     {
-        "title": "Randolph School’s Under the Christmas Tree",
-        "date": "November 6, 2026",
-        "time": "10:00 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "08:30 AM - 10:00 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "10:00 AM - 12:00 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "12:00 PM - 01:00 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/randolph-schools-under-the-christmas-tree/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "VBC Tree Lighting",
-        "date": "November 6, 2026",
-        "time": "4:00 pm",
-        "venue": "VBC Propst Arena",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "02:30 PM - 04:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "04:00 PM - 06:00 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "06:00 PM - 07:00 PM",
-                "impact": 10
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/vbc-tree-lighting/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/ALSS-1920x1080-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Jim Parkers Songwriters Series",
-        "date": "November 6, 2026",
-        "time": "6:30 pm",
-        "venue": "Von Braun Center",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:00 PM - 06:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:30 PM - 08:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:30 PM - 09:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/jim-parkers-songwriters-series-2026-11-06-1830/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-1080-px-4-_2223C537-C444-83A8-1C8C860E4355C1F9_22255c00-cf63-7364-3c29f5adb9af31f6-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Huntsville Havoc Vs. Macon Mayhem",
-        "date": "November 6, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Propst Arena",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:30 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 10
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/huntsville-havoc-vs-macon-mayhem-2026-11-06-1900/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-7-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Pictures for Your Ears",
-        "date": "November 6, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/pictures-for-yours-ears/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-5-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Plant Fest Expo",
         "date": "November 7, 2026",
         "time": "10:00 am",
@@ -3056,6 +2941,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/disney-on-ice-presents-magic-in-the-stars-6/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Alabama Women’s Health: Beauty & Bridal Expo",
+        "date": "February 28, 2027",
+        "time": "2:00 pm",
+        "venue": "VBC Saturn Ballroom",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "12:30 PM - 02:00 PM",
+                "impact": 0
+            },
+            "during_event": {
+                "window": "02:00 PM - 08:00 PM",
+                "impact": 1
+            },
+            "departure_rush": {
+                "window": "08:00 PM - 09:00 PM",
+                "impact": 1
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/alabama-womens-health-beauty-bridal-expo/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1-1024x576.png",
         "source": "VBC"
     },
     {
