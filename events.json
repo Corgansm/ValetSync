@@ -1,51 +1,5 @@
 [
     {
-        "title": "COC 2026 State of the City Address",
-        "date": "November 9, 2026",
-        "time": "12:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "10:30 AM - 12:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "12:00 PM - 02:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "02:00 PM - 03:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/coc-2026-state-of-the-city-address/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "CANCELLED: October London",
-        "date": "November 9, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/october-london-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Georgiana & Kitty: Christmas at Pemberley",
         "date": "November 13, 2026",
         "time": "7:30 pm",
@@ -3174,6 +3128,29 @@
         "source": "VBC"
     },
     {
+        "title": "Herb Alpert & The Tijuana Brass & Other Delights",
+        "date": "March 20, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/herb-alpert-the-tijuana-brass-other-delights/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-1-2-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "MercyMe",
         "date": "March 21, 2027",
         "time": "7:00 pm",
@@ -3515,7 +3492,7 @@
             }
         },
         "url": "https://www.vonbrauncenter.com/events/hannah-harper-behind-this-guitar/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-1-1-1024x576.png",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-1-3-1024x576.png",
         "source": "VBC"
     },
     {
