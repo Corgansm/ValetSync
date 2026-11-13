@@ -1,11 +1,6 @@
 {
-    "2026-11-12": {
-        "condition": "Sunny",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-11-13": {
-        "condition": "Widespread Frost then Mostly Sunny",
+        "condition": "Mostly Cloudy",
         "is_raining": false,
         "is_storming": false
     },
@@ -15,7 +10,7 @@
         "is_storming": false
     },
     "2026-11-15": {
-        "condition": "Sunny",
+        "condition": "Widespread Frost then Mostly Sunny",
         "is_raining": false,
         "is_storming": false
     },
@@ -31,6 +26,11 @@
     },
     "2026-11-18": {
         "condition": "Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-11-19": {
+        "condition": "Mostly Sunny",
         "is_raining": false,
         "is_storming": false
     }
