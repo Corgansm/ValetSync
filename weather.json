@@ -1,16 +1,11 @@
 {
-    "2026-11-17": {
-        "condition": "Sunny",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-11-18": {
         "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
     },
     "2026-11-19": {
-        "condition": "Mostly Sunny",
+        "condition": "Sunny",
         "is_raining": false,
         "is_storming": false
     },
@@ -20,8 +15,8 @@
         "is_storming": false
     },
     "2026-11-21": {
-        "condition": "Slight Chance Rain Showers then Mostly Sunny",
-        "is_raining": true,
+        "condition": "Mostly Sunny",
+        "is_raining": false,
         "is_storming": false
     },
     "2026-11-22": {
@@ -30,6 +25,11 @@
         "is_storming": false
     },
     "2026-11-23": {
+        "condition": "Partly Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-11-24": {
         "condition": "Mostly Sunny",
         "is_raining": false,
         "is_storming": false
