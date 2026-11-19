@@ -1,28 +1,5 @@
 [
     {
-        "title": "Southern Lyricism: The New South Experience Featuring Akeem Ali",
-        "date": "November 18, 2026",
-        "time": "8:00 pm",
-        "venue": "VBC Mars Music Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:30 PM - 08:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "08:00 PM - 10:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/southern-lyricism-the-new-south-experience-featuring-akeem-ali-2026-03-13-2000/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/01/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "COC 2026 Small Business Awards Gala",
         "date": "November 19, 2026",
         "time": "6:00 pm",
@@ -2415,6 +2392,75 @@
         "source": "VBC"
     },
     {
+        "title": "FACE and SOSA TIM & Expo",
+        "date": "February 22, 2027",
+        "time": "7:30 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 AM - 07:30 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "07:30 AM - 01:30 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "01:30 PM - 02:30 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/face-and-sosa-tim-expo/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FACE and SOSA TIM & Expo",
+        "date": "February 23, 2027",
+        "time": "7:15 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:45 AM - 07:15 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "07:15 AM - 01:15 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "01:15 PM - 02:15 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/face-and-sosa-tim-expo-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "FACE and SOSA TIM & Expo",
+        "date": "February 24, 2027",
+        "time": "8:30 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:00 AM - 08:30 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "08:30 AM - 02:30 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "02:30 PM - 03:30 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/face-and-sosa-tim-expo-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Story of BABAR",
         "date": "February 25, 2027",
         "time": "9:30 am",
@@ -2760,6 +2806,29 @@
         "source": "VBC"
     },
     {
+        "title": "Spring Home & Garden Show",
+        "date": "March 5, 2027",
+        "time": "1:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "11:30 AM - 01:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "01:00 PM - 03:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "03:00 PM - 04:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/spring-home-garden-show/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Huntsville Havoc Vs. Athens Rock Lobsters",
         "date": "March 5, 2027",
         "time": "7:00 pm",
@@ -2852,6 +2921,29 @@
         "source": "VBC"
     },
     {
+        "title": "Spring Home & Garden Show",
+        "date": "March 6, 2027",
+        "time": "10:00 am",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:30 AM - 10:00 AM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "10:00 AM - 12:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "12:00 PM - 01:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/spring-home-garden-show-2/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "The Notebook",
         "date": "March 6, 2027",
         "time": "1:00 pm",
@@ -2895,6 +2987,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/the-notebook-touring-2027-03-06-1930/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Spring Home & Garden Show",
+        "date": "March 7, 2027",
+        "time": "12:00 pm",
+        "venue": "VBC South Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "10:30 AM - 12:00 PM",
+                "impact": 1
+            },
+            "during_event": {
+                "window": "12:00 PM - 02:00 PM",
+                "impact": 2
+            },
+            "departure_rush": {
+                "window": "02:00 PM - 03:00 PM",
+                "impact": 2
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/spring-home-garden-show-3/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-1-6-1024x576.png",
         "source": "VBC"
     },
     {
@@ -2964,6 +3079,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/john-cleese-still-not-dead-yet-celebrating-the-holy-grail-at-50/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Ben Rector & Friends with Jon McLaughlin and Josh Jenkins",
+        "date": "March 12, 2027",
+        "time": "7:30 pm",
+        "venue": "VBC Mark C Smith Concert Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "06:00 PM - 07:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "07:30 PM - 09:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "09:30 PM - 10:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/ben-rector-friends-with-jon-mclaughlin-and-josh-jenkins-2027-03-12-1930/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-1-5-1024x576.png",
         "source": "VBC"
     },
     {
@@ -4038,6 +4176,38 @@
             },
             "departure_rush": {
                 "window": "01:00 AM - 02:00 AM",
+                "impact": 3
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Tinsel Trail - Open Daily",
+        "date": "Nov 27, 2026",
+        "time": "Time TBA",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "error": "Time TBA",
+            "static_impact": 3
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Tinsel Trail Opening Day",
+        "date": "Nov 27, 2026",
+        "time": "9:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 PM - 09:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
                 "impact": 3
             }
         },
