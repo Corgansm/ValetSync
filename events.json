@@ -1,97 +1,5 @@
 [
     {
-        "title": "COC 2026 Small Business Awards Gala",
-        "date": "November 19, 2026",
-        "time": "6:00 pm",
-        "venue": "VBC Saturn Ballroom",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "04:30 PM - 06:00 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "06:00 PM - 08:00 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "08:00 PM - 09:00 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/coc-2026-small-business-awards-gala/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/10/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Blackberry Smoke",
-        "date": "November 19, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/blackberry-smoke/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/07/Website-Posts-1920-×-1080-px-2-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "Georgiana & Kitty: Christmas at Pemberley",
-        "date": "November 19, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Playhouse",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 0
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 1
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 1
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/georgiana-kitty-christmas-at-pemberley-4/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-16-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "WWE Road to Survivor Series: Wargames",
-        "date": "November 19, 2026",
-        "time": "7:30 pm",
-        "venue": "VBC Propst Arena",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "06:00 PM - 07:30 PM",
-                "impact": 8
-            },
-            "during_event": {
-                "window": "07:30 PM - 09:30 PM",
-                "impact": 10
-            },
-            "departure_rush": {
-                "window": "09:30 PM - 10:30 PM",
-                "impact": 10
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/wwe-road-to-survivor-series-wargames/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-1-9-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Huntsville Havoc Vs. Fayetteville Marksmen",
         "date": "November 20, 2026",
         "time": "7:00 pm",
@@ -1886,6 +1794,29 @@
         "source": "VBC"
     },
     {
+        "title": "Rewind: 2000s Rave",
+        "date": "January 30, 2027",
+        "time": "9:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "08:00 PM - 09:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:30 PM - 11:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:30 PM - 12:30 AM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/rewind-2000s-rave/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-5-1024x576.png",
+        "source": "VBC"
+    },
+    {
         "title": "Come From Away",
         "date": "January 31, 2027",
         "time": "2:00 pm",
@@ -2392,7 +2323,7 @@
         "source": "VBC"
     },
     {
-        "title": "FACE and SOSA TIM & Expo",
+        "title": "FACE® and SOSA®",
         "date": "February 22, 2027",
         "time": "7:30 am",
         "venue": "VBC South Hall",
@@ -2402,11 +2333,11 @@
                 "impact": 1
             },
             "during_event": {
-                "window": "07:30 AM - 01:30 PM",
+                "window": "07:30 AM - 09:30 AM",
                 "impact": 2
             },
             "departure_rush": {
-                "window": "01:30 PM - 02:30 PM",
+                "window": "09:30 AM - 10:30 AM",
                 "impact": 2
             }
         },
@@ -2415,30 +2346,7 @@
         "source": "VBC"
     },
     {
-        "title": "FACE and SOSA TIM & Expo",
-        "date": "February 23, 2027",
-        "time": "7:15 am",
-        "venue": "VBC South Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:45 AM - 07:15 AM",
-                "impact": 1
-            },
-            "during_event": {
-                "window": "07:15 AM - 01:15 PM",
-                "impact": 2
-            },
-            "departure_rush": {
-                "window": "01:15 PM - 02:15 PM",
-                "impact": 2
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/face-and-sosa-tim-expo-2/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-3-1024x576.png",
-        "source": "VBC"
-    },
-    {
-        "title": "FACE and SOSA TIM & Expo",
+        "title": "FACE® and SOSA®",
         "date": "February 24, 2027",
         "time": "8:30 am",
         "venue": "VBC South Hall",
@@ -2448,11 +2356,11 @@
                 "impact": 1
             },
             "during_event": {
-                "window": "08:30 AM - 02:30 PM",
+                "window": "08:30 AM - 10:30 AM",
                 "impact": 2
             },
             "departure_rush": {
-                "window": "02:30 PM - 03:30 PM",
+                "window": "10:30 AM - 11:30 AM",
                 "impact": 2
             }
         },
@@ -2734,6 +2642,29 @@
         },
         "url": "https://www.vonbrauncenter.com/events/roger-waters-presents-legacy-a-pink-floyd-show/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/09/Website-Posts-1920-×-1080-px-3-1024x576.png",
+        "source": "VBC"
+    },
+    {
+        "title": "Rocket Chef Benefiting Merrimack",
+        "date": "March 1, 2027",
+        "time": "6:30 pm",
+        "venue": "VBC Mars Music Hall",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "05:00 PM - 06:30 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "06:30 PM - 08:30 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "08:30 PM - 09:30 PM",
+                "impact": 3
+            }
+        },
+        "url": "https://www.vonbrauncenter.com/events/rocket-chef-benefiting-merrimack/",
+        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/11/Website-Posts-1920-×-1080-px-4-3-1024x576.png",
         "source": "VBC"
     },
     {
