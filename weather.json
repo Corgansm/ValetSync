@@ -1,11 +1,6 @@
 {
-    "2026-11-20": {
-        "condition": "Partly Sunny",
-        "is_raining": false,
-        "is_storming": false
-    },
     "2026-11-21": {
-        "condition": "Mostly Sunny",
+        "condition": "Mostly Cloudy",
         "is_raining": false,
         "is_storming": false
     },
@@ -30,6 +25,11 @@
         "is_storming": false
     },
     "2026-11-26": {
+        "condition": "Mostly Sunny",
+        "is_raining": false,
+        "is_storming": false
+    },
+    "2026-11-27": {
         "condition": "Partly Sunny",
         "is_raining": false,
         "is_storming": false
