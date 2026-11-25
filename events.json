@@ -1,28 +1,5 @@
 [
     {
-        "title": "Lindsey Stirling – The Snow Waltz Tour",
-        "date": "November 24, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:00 PM - 10:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "10:00 PM - 11:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/lindsey-stirling-the-snow-waltz-tour/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-6-1-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Cirque Dreams Holidaze",
         "date": "November 25, 2026",
         "time": "7:00 pm",
@@ -3747,27 +3724,6 @@
         "url": "https://www.vonbrauncenter.com/events/sister-act-11/",
         "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-19-1024x576.png",
         "source": "VBC"
-    },
-    {
-        "title": "Weekly Movement Arts Community Meetup",
-        "date": "Nov 23, 2026",
-        "time": "11:00pm",
-        "venue": "Big Spring Park",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "09:30 PM - 11:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "11:00 PM - 01:00 AM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "01:00 AM - 02:00 AM",
-                "impact": 3
-            }
-        },
-        "source": "DHI Time.ly Calendar"
     },
     {
         "title": "Tinsel Trail - Open Daily",
