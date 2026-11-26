@@ -1,28 +1,5 @@
 [
     {
-        "title": "Cirque Dreams Holidaze",
-        "date": "November 25, 2026",
-        "time": "7:00 pm",
-        "venue": "VBC Mark C Smith Concert Hall",
-        "impact_timeline": {
-            "arrival_rush": {
-                "window": "05:30 PM - 07:00 PM",
-                "impact": 2
-            },
-            "during_event": {
-                "window": "07:00 PM - 09:00 PM",
-                "impact": 3
-            },
-            "departure_rush": {
-                "window": "09:00 PM - 10:00 PM",
-                "impact": 3
-            }
-        },
-        "url": "https://www.vonbrauncenter.com/events/cirque-dreams-holidaze/",
-        "image": "https://www.vonbrauncenter.com/wp-content/uploads/2026/08/Website-Posts-1920-×-1080-px-2-5-1024x576.png",
-        "source": "VBC"
-    },
-    {
         "title": "Thanksgiving Dinner",
         "date": "November 26, 2026",
         "time": "12:00 pm",
@@ -3816,6 +3793,27 @@
             "departure_rush": {
                 "window": "02:00 AM - 03:00 AM",
                 "impact": 10
+            }
+        },
+        "source": "DHI Time.ly Calendar"
+    },
+    {
+        "title": "Tinsel Trail .5K Trot",
+        "date": "Dec 6, 2026",
+        "time": "9:00pm",
+        "venue": "Big Spring Park",
+        "impact_timeline": {
+            "arrival_rush": {
+                "window": "07:30 PM - 09:00 PM",
+                "impact": 2
+            },
+            "during_event": {
+                "window": "09:00 PM - 11:00 PM",
+                "impact": 3
+            },
+            "departure_rush": {
+                "window": "11:00 PM - 12:00 AM",
+                "impact": 3
             }
         },
         "source": "DHI Time.ly Calendar"
